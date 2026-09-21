@@ -561,6 +561,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .good__pic{position:relative;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(160deg,#F7F7F5,#ECEEE9)}
 .good__pic svg{width:44%;height:44%;color:var(--green-d);opacity:.9}
+.good__pic img{width:100%;height:100%;object-fit:contain;padding:10px;background:#fff}
 .pic--instrument{background:linear-gradient(160deg,#F5F2EB,#E8E2D5)}
 .pic--blok{background:linear-gradient(160deg,#F6EFEA,#EADFD4)}
 .pic--gkl{background:linear-gradient(160deg,#F2F3F4,#E2E5E8)}
@@ -1076,7 +1077,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="head rv">
       <p class="eyebrow">Магазин</p>
       <h2>Собрать заявку</h2>
-      <p class="lead">Весь склад с ценами: добавьте нужные позиции в список и отправьте — перезвоним, подтвердим наличие и сумму. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
+      <p class="lead">Весь склад с ценами: добавьте нужные позиции в корзину и отправьте заявку — перезвоним, подтвердим наличие и сумму. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
     </div>
 
     <div class="shop__bar rv">
@@ -2107,7 +2108,8 @@ var REVIEWS_CONFIG = {
     }
     goodsBox.innerHTML = rows.map(function(g){
       return '<article class="good">' +
-        '<div class="good__pic pic--' + g.c + '">' + icon(g.c) +
+        '<div class="good__pic pic--' + g.c + '">' +
+          (g.img ? '<img src="' + esc(g.img) + '" alt="" loading="lazy" decoding="async">' : icon(g.c)) +
           (g.t ? '<span class="good__tag' + (g.t === 'под заказ' ? ' slow' : '') + '">' + g.t + '</span>' : '') +
         '</div>' +
         '<div class="good__b">' +
@@ -2118,7 +2120,7 @@ var REVIEWS_CONFIG = {
               ? '<div class="good__p">' + nf.format(g.p) + ' ₽</div>'
               : '<div class="good__p good__p--ask">Цена по запросу</div>') +
             (cart[g.id] ? stepper(g)
-              : '<button class="btn btn--primary" type="button" data-add="' + g.id + '">В список</button>') +
+              : '<button class="btn btn--primary" type="button" data-add="' + g.id + '">В корзину</button>') +
           '</div>' +
         '</div></article>';
     }).join('');
