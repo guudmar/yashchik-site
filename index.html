@@ -223,7 +223,35 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .car__dots{display:flex;gap:8px;justify-content:center;margin-top:18px}
 .car__dots button{width:10px;height:10px;border-radius:50%;border:0;background:var(--line-2);cursor:pointer;padding:0;transition:background-color .15s ease,transform .15s ease}
 .car__dots button[aria-selected="true"]{background:var(--green);transform:scale(1.25)}
+.car__item{cursor:zoom-in}
 @media (max-width:900px){ .car__item{height:min(64vw,420px)} .car__btn{display:none} }
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;z-index:170;display:flex;align-items:center;justify-content:center;
+  opacity:0;transition:opacity .22s ease}
+.lb.open{opacity:1}
+.lb__back{position:absolute;inset:0;background:rgba(10,11,12,.92);backdrop-filter:blur(4px)}
+.lb__fig{position:relative;z-index:1;margin:0;max-width:min(1400px,100vw);max-height:100vh;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 72px 56px;pointer-events:none}
+.lb__img{display:block;max-width:100%;max-height:calc(100vh - 130px);width:auto;height:auto;border-radius:10px;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.9);pointer-events:auto;user-select:none}
+.lb__cap{margin-top:14px;color:rgba(255,255,255,.8);font-size:15px;text-align:center;min-height:1.4em}
+.lb__btn{position:absolute;z-index:2;width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.08);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:background-color .15s ease,border-color .15s ease}
+.lb__btn:hover{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.5)}
+.lb__btn--close{top:16px;right:16px}
+.lb__btn--prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb__btn--next{right:16px;top:50%;transform:translateY(-50%)}
+.lb__count{position:absolute;left:0;right:0;bottom:16px;z-index:2;text-align:center;font-family:"Oswald",sans-serif;
+  font-size:13px;letter-spacing:.12em;color:rgba(255,255,255,.5)}
+@media (max-width:560px){
+  .lb__fig{padding:56px 12px 64px}
+  .lb__img{max-height:calc(100vh - 140px);border-radius:8px}
+  .lb__btn{width:44px;height:44px}
+  .lb__btn--prev{left:8px;top:auto;bottom:10px;transform:none}
+  .lb__btn--next{right:8px;top:auto;bottom:10px;transform:none}
+}
 
 /* ---------- b2b ---------- */
 .b2b{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:40px}
@@ -1098,6 +1126,25 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   </div>
 </section>
 
+<!-- просмотр фото на весь экран -->
+<div class="lb" id="lb" hidden>
+  <div class="lb__back" data-lb-close></div>
+  <figure class="lb__fig" role="dialog" aria-modal="true" aria-label="Просмотр фото">
+    <img class="lb__img" id="lbImg" src="" alt="">
+    <figcaption class="lb__cap" id="lbCap"></figcaption>
+  </figure>
+  <button class="lb__btn lb__btn--close" type="button" data-lb-close aria-label="Закрыть">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="lb__btn lb__btn--prev" type="button" id="lbPrev" aria-label="Предыдущее фото">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="lb__btn lb__btn--next" type="button" id="lbNext" aria-label="Следующее фото">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <div class="lb__count" id="lbCount"></div>
+</div>
+
 <script>
 /* ====== Фото базы ======
    Положите файлы в assets/photos/ и перечислите здесь. alt — подпись для незрячих и поисковиков,
@@ -1146,9 +1193,58 @@ var PHOTOS = [
   next.addEventListener('click', function(){ go(cur + 1); });
   dots.addEventListener('click', function(e){ var b = e.target.closest('[data-go]'); if (b) go(+b.getAttribute('data-go')); });
   track.addEventListener('keydown', function(e){
+    if (!document.getElementById('lb').hidden) return;   /* открыт просмотрщик — стрелки листают его, а не карусель */
     if (e.key === 'ArrowRight'){ e.preventDefault(); go(cur + 1); }
     if (e.key === 'ArrowLeft'){ e.preventDefault(); go(cur - 1); }
   });
+
+  /* ---------- просмотр на весь экран ---------- */
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap'),
+      lbCount = document.getElementById('lbCount'), lbIdx = 0, lbLast = null, tx = null;
+  function lbShow(i){
+    lbIdx = (i + PHOTOS.length) % PHOTOS.length;
+    var f = PHOTOS[lbIdx];
+    lbImg.src = f.src; lbImg.alt = f.alt || '';
+    lbCap.textContent = f.cap || '';
+    lbCount.textContent = (lbIdx + 1) + ' / ' + PHOTOS.length;
+    /* подгружаем соседние заранее */
+    [lbIdx + 1, lbIdx - 1].forEach(function(k){ var n = new Image(); n.src = PHOTOS[(k + PHOTOS.length) % PHOTOS.length].src; });
+  }
+  function lbOpen(i){
+    lbLast = document.activeElement;
+    lbShow(i);
+    lb.hidden = false;
+    requestAnimationFrame(function(){ lb.classList.add('open'); });
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', lbKey);
+    document.getElementById('lbNext').focus();
+  }
+  function lbClose(){
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', lbKey);
+    setTimeout(function(){ lb.hidden = true; }, 220);
+    if (lbLast && lbLast.focus) lbLast.focus();
+    go(lbIdx, false); mark(lbIdx); /* карусель следует за просмотром */
+  }
+  function lbKey(e){
+    if (e.key === 'Escape') lbClose();
+    else if (e.key === 'ArrowRight') lbShow(lbIdx + 1);
+    else if (e.key === 'ArrowLeft') lbShow(lbIdx - 1);
+  }
+  track.addEventListener('click', function(e){
+    var it = e.target.closest('.car__item'); if (!it) return;
+    lbOpen(+it.getAttribute('data-i'));
+  });
+  lb.addEventListener('click', function(e){ if (e.target.closest('[data-lb-close]')) lbClose(); });
+  document.getElementById('lbPrev').addEventListener('click', function(){ lbShow(lbIdx - 1); });
+  document.getElementById('lbNext').addEventListener('click', function(){ lbShow(lbIdx + 1); });
+  lb.addEventListener('touchstart', function(e){ tx = e.changedTouches[0].clientX; }, {passive:true});
+  lb.addEventListener('touchend', function(e){
+    if (tx === null) return;
+    var dx = e.changedTouches[0].clientX - tx; tx = null;
+    if (Math.abs(dx) > 50) lbShow(lbIdx + (dx < 0 ? 1 : -1));
+  }, {passive:true});
 })();
 </script>
 
