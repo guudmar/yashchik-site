@@ -329,6 +329,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .callbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:#fff;
   border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));gap:10px}
 .callbar .btn{flex:1}
+.callbar{transition:transform .28s ease}
+.callbar--away{transform:translateY(110%)}
 
 /* ---------- reveal ---------- */
 .rv{opacity:0;transform:translateY(18px)}
@@ -468,6 +470,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   .stage__head{top:clamp(58px,7vh,96px)}
   .stage__head h1{font-size:32px}
   .stage__head .lead{font-size:15px;line-height:1.45;margin-top:14px;max-width:30ch}
+  .stage__head .lead-more{display:none}   /* на узком экране вторая фраза не помещается над ящиком */
   .stage__head .hero__cta{margin-top:20px}
   .stage__head .hero__cta .btn--ghost{display:none}
   .pg__b{padding:10px 10px 12px}
@@ -782,7 +785,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="stage__head wrap" id="stageHead">
       <p class="eyebrow eyebrow--light">Строймаркет · Ростов-на-Дону · ул. Шоссейная, 2н</p>
       <h1>Всё нужное&nbsp;— уже <span class="mark-box">в ящике</span></h1>
-      <p class="lead">Сухие смеси и штукатурка, гипсокартон, утеплитель, крепёж, инструмент и краска. Держим на складе, отгружаем в день заказа: самовывоз из магазина на Шоссейной или доставка по городу и области.</p>
+      <p class="lead">Сухие смеси и штукатурка, гипсокартон, утеплитель, крепёж, инструмент и краска. <span class="lead-more">Держим на складе, отгружаем в день заказа: самовывоз из магазина на Шоссейной или доставка по городу и области.</span></p>
       <div class="hero__cta">
         <a class="btn btn--primary" href="#catalog">Смотреть каталог</a>
         <a class="btn btn--ghost" href="#order">Прислать список — посчитаем</a>
@@ -1711,7 +1714,8 @@ var REVIEWS_CONFIG = {
       front = document.getElementById('crateFront'),
       lid   = document.getElementById('crateLid'),
       cards = [].slice.call(scene.querySelectorAll('.pg')),
-      sparks = [].slice.call(scene.querySelectorAll('.spark'));
+      sparks = [].slice.call(scene.querySelectorAll('.spark')),
+      callbar = document.querySelector('.callbar');
 
   stage.classList.add('anim');
 
@@ -1768,7 +1772,7 @@ var REVIEWS_CONFIG = {
     /* высота сцены — по содержимому, а не во весь экран: в конце должны поместиться карточки,
        ящик и кнопка; в начале — заголовок и закрытый ящик под ним. Снизу место под мобильную панель звонка. */
     var bar = document.querySelector('.callbar'),
-        barH = bar && getComputedStyle(bar).display !== 'none' ? bar.offsetHeight : 0,
+        barH = 0,   /* на первом экране мобильная панель звонка спрятана, место под неё не резервируем */
         endBottom   = crateTop + crateH * SF + 22 + outro.offsetHeight + 36,
         startBottom = head.offsetTop + head.offsetHeight + 28 + crateH + 24;
     H = Math.max(560, Math.min(VH, Math.max(endBottom, startBottom) + barH));
@@ -1793,6 +1797,13 @@ var REVIEWS_CONFIG = {
           crateBottom = statsTop0 - 22;
       S0 = Math.max(0.55, Math.min(1, (crateBottom - headBottom - 26) / crateH));
       crateY = crateBottom - crateH;
+    }
+    /* ящик не должен наезжать на заголовок и кнопки: если места мало — уменьшаем его (масштаб от нижней кромки) */
+    var headBottom = head.offsetTop + head.offsetHeight + 24,
+        crateBot = crateY + crateH;
+    /* видимый верх — это крышка: на 15% высоты выше корпуса */
+    if (crateY + crateH * (1 - S0) - crateH * 0.15 * S0 < headBottom){
+      S0 = Math.max(0.4, Math.min(S0, (crateBot - headBottom) / (crateH * 1.15)));
     }
     mouthW = crateW * 0.9;
     mouthH = crateH * 0.44;
@@ -1882,6 +1893,7 @@ var REVIEWS_CONFIG = {
     }
 
     var op = e(cl((p - 0.74) / 0.16));
+    if (callbar) callbar.classList.toggle('callbar--away', r.bottom > window.innerHeight * 0.55);
     outro.style.opacity = op;
     statsIn.style.opacity = ii;   /* цифры внизу сцены видны всё время, появляются вместе с ящиком */
     /* до закрепления сцены цифры держатся у нижнего края окна, затем становятся на своё место */
@@ -1919,6 +1931,7 @@ var REVIEWS_CONFIG = {
   function fallbackIfNoScroll(){
     if (document.documentElement.scrollHeight > window.innerHeight + 40) return false;
     stage.classList.remove('anim', 'stats-in');
+    if (callbar) callbar.classList.remove('callbar--away');
     stage.style.height = ''; sticky.style.height = '';
     [front, back, outro, head].forEach(function(el){ el.style.cssText = ''; });
     cards.forEach(function(c){ c.style.cssText = ''; });
