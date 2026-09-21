@@ -136,6 +136,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .stat{background:var(--ink);padding:24px 22px}
 .stat__n{font-family:"Oswald",sans-serif;font-weight:600;font-size:34px;line-height:1;color:var(--green-l)}
 .stat__t{margin-top:8px;font-size:14.5px;color:rgba(255,255,255,.6);line-height:1.4}
+.stat__t b{color:#fff;font-weight:700;white-space:nowrap}
 
 /* ---------- facade illustration ---------- */
 .facade{border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 80px -40px rgba(0,0,0,.8)}
@@ -569,6 +570,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .pic--potolki{background:linear-gradient(160deg,#F1F4F6,#E0E7EB)}
 .pic--kraska{background:linear-gradient(160deg,#F3F0F4,#E5E0E8)}
 .pic--rashod{background:linear-gradient(160deg,#F2F3F1,#E3E5E0)}
+.pic--santeh{background:linear-gradient(160deg,#EEF4F6,#DCE7EC)}
+.pic--elektrika{background:linear-gradient(160deg,#F6F4EC,#EBE6D3)}
+.pic--other{background:linear-gradient(160deg,#F3F3F3,#E4E4E4)}
 .good__tag{position:absolute;left:12px;top:12px;padding:5px 10px;border-radius:99px;background:var(--green);
   color:#fff;font-family:"Oswald",sans-serif;font-weight:500;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase}
 .good__tag.slow{background:var(--ink-3)}
@@ -598,6 +602,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .goods__empty{margin-top:34px;padding:40px;text-align:center;border:1.5px dashed var(--line-2);border-radius:14px;color:var(--muted)}
 .goods__empty b{display:block;color:var(--text);font-size:18px;margin-bottom:6px}
 .shop__note{margin-top:22px;font-size:13.5px;color:var(--muted)}
+.goods__more{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:30px}
+.goods__more span{font-size:13.5px;color:var(--muted)}
 
 .cartbtn{position:relative;display:inline-flex;align-items:center;gap:9px;padding:11px 16px;border-radius:var(--r);
   border:1px solid var(--line-2);background:#fff;font-weight:700;font-size:15px;cursor:pointer;
@@ -711,6 +717,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .topbar .wrap{display:flex;align-items:center;flex-wrap:wrap;gap:8px 26px;padding-top:9px;padding-bottom:9px}
 .topbar span,.topbar a{display:inline-flex;align-items:center;gap:7px}
 .topbar svg{color:var(--green-d);flex:none}
+.topbar .hrs{display:inline}
+.topbar b{font-weight:700;color:var(--text)}
 .topbar a{transition:color .15s ease}
 .topbar a:hover{color:var(--green-d)}
 @media (max-width:640px){
@@ -753,7 +761,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 <div class="topbar">
   <div class="wrap">
     <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>г. Ростов-на-Дону, ул. Шоссейная, 2н</span>
-    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>Пн–Пт 8:00–17:00 · Сб 8:00–13:00 · Вс выходной</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg><span class="hrs"><b>Пн–Пт 8:00–17:00</b> · <b>Сб 8:00–13:00</b> · Вс выходной</span></span>
     <a href="mailto:rndbox@yandex.ru"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>rndbox@yandex.ru</a>
   </div>
 </div>
@@ -779,7 +787,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     </nav>
 
     <a class="hdr__phone" href="tel:+79185913033">
-      <small>Пн–Пт 8–17 · Сб до 13</small>
+      <small>Пн–Пт 8–17 · Сб 8–13</small>
       +7 (918) 591-30-33
     </a>
     <button class="cartbtn" type="button" id="cartOpen" aria-haspopup="dialog">
@@ -909,7 +917,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           <div class="stat"><div class="stat__n">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
           <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
           <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-          <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
+          <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t"><b>Пн–Пт 8:00–17:00,</b> <b>Сб 8:00–13:00,</b> воскресенье — выходной</div></div>
         </div>
       </div>
     </div>
@@ -926,7 +934,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="stat"><div class="stat__n" data-count="2500" data-suffix="+">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
       <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
       <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-      <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
+      <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t"><b>Пн–Пт 8:00–17:00,</b> <b>Сб 8:00–13:00,</b> воскресенье — выходной</div></div>
     </div>
   </div>
 </section>
@@ -1057,6 +1065,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   <symbol id="ic-potolki" viewBox="0 0 24 24"><path d="M12 3v3"/><path d="M4 6h16v12H4z"/><path d="M4 12h16M12 6v12"/></symbol>
   <symbol id="ic-kraska" viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/></symbol>
   <symbol id="ic-rashod" viewBox="0 0 24 24"><path d="M4 9h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M4 9 6 4h12l2 5M12 4v5M9 13h6"/></symbol>
+  <symbol id="ic-santeh" viewBox="0 0 24 24"><path d="M4 10h6a3 3 0 0 1 3 3v7"/><path d="M4 7v6M10 4v6M13 13h7v4h-7"/><circle cx="17" cy="20" r="1.2"/></symbol>
+  <symbol id="ic-elektrika" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="ic-other" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7M12 11v10"/></symbol>
 </defs></svg>
 
 <!-- ========== МАГАЗИН ========== -->
@@ -1065,7 +1076,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="head rv">
       <p class="eyebrow">Магазин</p>
       <h2>Собрать заявку</h2>
-      <p class="lead">Добавьте нужные позиции в список и отправьте — перезвоним, назовём цену и наличие. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
+      <p class="lead">Весь склад с ценами: добавьте нужные позиции в список и отправьте — перезвоним, подтвердим наличие и сумму. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
     </div>
 
     <div class="shop__bar rv">
@@ -1077,8 +1088,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="sort">
         <label for="sort">Сортировка</label>
         <select id="sort">
-          <option value="pop">Сначала популярные</option>
+          <option value="pop">По разделам</option>
           <option value="az">По названию</option>
+          <option value="cheap">Сначала дешевле</option>
+          <option value="dear">Сначала дороже</option>
         </select>
       </div>
     </div>
@@ -1087,12 +1100,17 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
     <div class="goods" id="goods"></div>
 
+    <div class="goods__more" id="goodsMore" hidden>
+      <button class="btn btn--dark" type="button" id="moreBtn">Показать ещё</button>
+      <span id="moreInfo"></span>
+    </div>
+
     <p class="goods__empty" id="goodsEmpty" hidden>
       <b>Ничего не нашли по этому запросу</b>
-      Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 2 500 позиций, в витрине только часть.
+      Попробуйте другое слово или позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — подберём и привезём под заказ.
     </p>
 
-    <p class="shop__note">В витрине только ходовые позиции, на складе больше 2 500 наименований. Цены сообщаем при подтверждении заявки. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
+    <p class="shop__note">Цены розничные, за единицу, по прайсу от 21 сентября 2026 г. и могут меняться; наличие и итоговую сумму подтверждаем при обработке заявки. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем и привезём под заказ.</p>
   </div>
 </section>
 
@@ -1455,7 +1473,7 @@ var REVIEWS_CONFIG = {
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
-          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Пт 8:00–17:00<span>Суббота 8:00–13:00 · воскресенье — выходной</span></div></div>
+          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Пт 8:00–17:00 · Сб 8:00–13:00<span>Воскресенье — выходной</span></div></div>
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>
@@ -1530,7 +1548,7 @@ var REVIEWS_CONFIG = {
         <ul>
           <li><a href="tel:+79185913033">+7 (918) 591-30-33</a></li>
           <li><a href="mailto:rndbox@yandex.ru">rndbox@yandex.ru</a></li>
-          <li>Пн–Пт 8:00–17:00, Сб до 13:00</li>
+          <li><b>Пн–Пт 8:00–17:00</b><br><b>Сб 8:00–13:00</b></li>
           <li>Вс — выходной</li>
           <li>г. Ростов-на-Дону, ул. Шоссейная, 2н</li>
         </ul>
@@ -1991,12 +2009,13 @@ var REVIEWS_CONFIG = {
 })();
 </script>
 
+<script src="assets/goods.js"></script>
 <script>
 /* ====== Магазин и корзина ====== */
 (function(){
-  var GOODS = [
-    /* Витрина: 8 позиций. Цены не показываем — их называет менеджер при подтверждении заявки.
-       Если появится прайс, добавьте p:<цена> — карточка и корзина покажут сумму сами. */
+  /* Основной каталог — assets/goods.js (GOODS_DATA, выгрузка из 1С). Список ниже — запасная витрина,
+     если файл прайса не загрузился. Без p: карточка показывает «цена по запросу». */
+  var FALLBACK = [
     {id:'ce500',   c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг', u:'мешок', t:'хит'},
     {id:'shtg',    c:'smesi',      n:'Штукатурка гипсовая, 30 кг', u:'мешок', t:'хит'},
     {id:'gb500',   c:'blok',       n:'Газоблок D500, 600×300×200 мм', u:'шт', t:'хит'},
@@ -2006,12 +2025,15 @@ var REVIEWS_CONFIG = {
     {id:'perf',    c:'instrument', n:'Перфоратор SDS-plus, 900 Вт', u:'шт'},
     {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг', u:'ведро'}
   ];
+  var GOODS = (typeof GOODS_DATA !== 'undefined' && GOODS_DATA.length) ? GOODS_DATA : FALLBACK;
+  GOODS.forEach(function(g, i){ g._i = i; g._s = g.n.toLowerCase().replace(/ё/g, 'е'); });
 
-  var CATS = [['all','Все товары'],['instrument','Инструмент'],['blok','Газоблок и кирпич'],
-              ['gkl','Гипсокартон'],['krepezh','Крепёж'],['uteplitel','Утеплитель'],
-              ['smesi','Сухие смеси и штукатурка'],['potolki','Потолки'],['kraska','Краска'],
-              ['rashod','Расходный материал']]
+  var CATS = [['all','Все товары'],['instrument','Инструмент'],['smesi','Сухие смеси и штукатурка'],
+              ['gkl','Гипсокартон и профиль'],['krepezh','Крепёж'],['uteplitel','Утеплитель и изоляция'],
+              ['blok','Газоблок и кирпич'],['potolki','Потолки'],['kraska','Краска'],
+              ['santeh','Сантехника'],['elektrika','Электрика'],['rashod','Расходный материал'],['other','Разное']]
     .filter(function(c){ return c[0] === 'all' || GOODS.some(function(g){ return g.c === c[0]; }); });
+  var PAGE = 24;   /* карточек на страницу витрины; дальше — «Показать ещё» */
 
   var KEY = 'yashchik-cart-v2';
   var PRICED = GOODS.every(function(g){ return typeof g.p === 'number'; });   /* показывать ли суммы */
@@ -2025,7 +2047,8 @@ var REVIEWS_CONFIG = {
       paneCart = $('paneCart'), paneCheckout = $('paneCheckout'), paneDone = $('paneDone');
   if (!goodsBox || !drawer) return;
 
-  var cart = read(), state = {cat:'all', q:'', sort:'pop'}, lastFocus = null, toastTimer = null;
+  var cart = read(), state = {cat:'all', q:'', sort:'pop', page:1}, lastFocus = null, toastTimer = null;
+  var moreBox = $('goodsMore'), moreBtn = $('moreBtn'), moreInfo = $('moreInfo');
 
   function read(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){ return {}; } }
   function write(){ try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch(e){} }
@@ -2059,18 +2082,29 @@ var REVIEWS_CONFIG = {
   }
 
   function list(){
-    var q = state.q.trim().toLowerCase();
+    var words = state.q.trim().toLowerCase().replace(/ё/g, 'е').split(/\s+/).filter(Boolean);
     var out = GOODS.filter(function(g){
       if (state.cat !== 'all' && g.c !== state.cat) return false;
-      return !q || g.n.toLowerCase().indexOf(q) >= 0;
+      for (var i = 0; i < words.length; i++) if (g._s.indexOf(words[i]) < 0) return false;
+      return true;
     });
-    if (state.sort === 'az')    out.sort(function(a,b){ return a.n.localeCompare(b.n, 'ru'); });
+    var price = function(g){ return typeof g.p === 'number' ? g.p : Infinity; };
+    if (state.sort === 'az')         out.sort(function(a,b){ return a.n.localeCompare(b.n, 'ru'); });
+    else if (state.sort === 'cheap') out.sort(function(a,b){ return price(a) - price(b) || a._i - b._i; });
+    else if (state.sort === 'dear')  out.sort(function(a,b){ return price(b) - price(a) || a._i - b._i; });
+    else                             out.sort(function(a,b){ return a._i - b._i; });
     return out;
   }
 
   function renderGoods(){
-    var rows = list();
-    emptyBox.hidden = rows.length > 0;
+    var all = list(), shown = Math.min(all.length, PAGE * state.page), rows = all.slice(0, shown);
+    emptyBox.hidden = all.length > 0;
+    moreBox.hidden = shown >= all.length;
+    if (!moreBox.hidden){
+      var left = all.length - shown;
+      moreBtn.textContent = 'Показать ещё ' + Math.min(left, PAGE);
+      moreInfo.textContent = 'Показано ' + shown + ' из ' + all.length;
+    }
     goodsBox.innerHTML = rows.map(function(g){
       return '<article class="good">' +
         '<div class="good__pic pic--' + g.c + '">' + icon(g.c) +
@@ -2081,7 +2115,7 @@ var REVIEWS_CONFIG = {
           '<div class="good__u">за ' + g.u + '</div>' +
           '<div class="good__row">' +
             (typeof g.p === 'number'
-              ? '<div class="good__p">' + nf.format(g.p) + ' ₽<span>/' + g.u + '</span></div>'
+              ? '<div class="good__p">' + nf.format(g.p) + ' ₽</div>'
               : '<div class="good__p good__p--ask">Цена по запросу</div>') +
             (cart[g.id] ? stepper(g)
               : '<button class="btn btn--primary" type="button" data-add="' + g.id + '">В список</button>') +
@@ -2200,17 +2234,23 @@ var REVIEWS_CONFIG = {
   });
   chipsBox.addEventListener('click', function(e){
     var c = e.target.closest('[data-chip]'); if (!c) return;
-    state.cat = c.getAttribute('data-chip');
+    state.cat = c.getAttribute('data-chip'); state.page = 1;
     renderChips(); renderGoods();
   });
-  $('q').addEventListener('input', function(e){ state.q = e.target.value; renderGoods(); });
-  $('sort').addEventListener('change', function(e){ state.sort = e.target.value; renderGoods(); });
+  $('q').addEventListener('input', function(e){ state.q = e.target.value; state.page = 1; renderGoods(); });
+  $('sort').addEventListener('change', function(e){ state.sort = e.target.value; state.page = 1; renderGoods(); });
+  moreBtn.addEventListener('click', function(){
+    var first = goodsBox.children.length;
+    state.page++; renderGoods();
+    var card = goodsBox.children[first];
+    if (card){ var h = card.querySelector('.good__t'); if (h){ h.setAttribute('tabindex','-1'); h.focus({preventScroll:true}); } }
+  });
 
   document.querySelectorAll('.cat[data-cat]').forEach(function(a){
     a.addEventListener('click', function(){
       var cat = a.getAttribute('data-cat');
       state.cat = GOODS.some(function(g){ return g.c === cat; }) ? cat : 'all';
-      state.q = ''; $('q').value = '';
+      state.q = ''; $('q').value = ''; state.page = 1;
       renderChips(); renderGoods();
     });
   });
