@@ -687,12 +687,6 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   .toast.on{transform:none}
 }
 
-/* если виджет в iframe заблокирован (например, в предпросмотре) — показываем понятную карточку */
-.frame-fb{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;padding:44px 28px}
-.frame-fb svg{color:var(--green)}
-.frame-fb b{font-weight:700;font-size:17px}
-.frame-fb span{font-size:14.5px;color:var(--muted);max-width:44ch;line-height:1.5}
-
 /* верхняя строка: адрес, часы, почта */
 .topbar{background:var(--bg-2);color:var(--muted);font-size:13.5px;border-bottom:1px solid var(--line)}
 .topbar .wrap{display:flex;align-items:center;flex-wrap:wrap;gap:8px 26px;padding-top:9px;padding-bottom:9px}
@@ -2204,38 +2198,6 @@ var REVIEWS_CONFIG = {
 
   /* ---------- старт ---------- */
   renderChips(); renderGoods(); renderCart();
-})();
-</script>
-
-
-
-<script>
-/* Виджеты Яндекса в iframe: если фрейм не загрузился (политика встраивания в предпросмотре),
-   показываем карточку с адресом и ссылками вместо пустого места. */
-(function(){
-  /* заблокированный фрейм остаётся about:blank и доступен как свой же документ;
-     успешно загруженный чужой сайт бросает ошибку на contentDocument — по этому и отличаем */
-  function blocked(frame){
-    try { var d = frame.contentDocument; return !!d && (!d.location || d.location.href === 'about:blank'); }
-    catch (e) { return false; }
-  }
-  function guard(frame, html){
-    if (!frame) return;
-    setTimeout(function(){
-      if (!frame.parentNode || !blocked(frame)) return;
-      frame.hidden = true;
-      frame.insertAdjacentHTML('afterend', html);
-    }, 3000);
-  }
-  guard(document.querySelector('.map__frame'),
-    '<div class="frame-fb">' +
-    '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>' +
-    '<b>г. Ростов-на-Дону, ул. Шоссейная, 2н</b>' +
-    '<span>Карта Яндекса не открывается в этом предпросмотре — на рабочем домене виджет встанет сюда. Кнопки ниже работают.</span></div>');
-  guard(document.getElementById('yFrame'),
-    '<div class="frame-fb">' +
-    '<b>Отзывы с Яндекс Карт</b>' +
-    '<span>Виджет не открывается в этом предпросмотре — на рабочем домене он показывает живые отзывы. Кнопки ниже ведут прямо к ним.</span></div>');
 })();
 </script>
 
