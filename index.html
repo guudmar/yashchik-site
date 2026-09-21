@@ -324,6 +324,16 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .ftr li+li{margin-top:9px}
 .ftr__bot{border-top:1px solid rgba(255,255,255,.12);padding:22px 0 30px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13.5px;color:rgba(255,255,255,.42)}
 .ftr__desc{margin-top:16px;line-height:1.55;max-width:34ch}
+.ftr__req{border-top:1px solid rgba(255,255,255,.12);padding:18px 0 4px;display:flex;flex-direction:column;gap:5px;font-size:13px;line-height:1.5;color:rgba(255,255,255,.5)}
+.ftr__req a{color:rgba(255,255,255,.7)}
+
+/* ---------- cookie notice ---------- */
+.cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:165;margin:0 auto;max-width:720px;display:flex;gap:16px;align-items:center;
+  background:var(--ink);color:rgba(255,255,255,.85);border-radius:12px;padding:14px 18px;font-size:14px;line-height:1.45;
+  box-shadow:0 26px 50px -22px rgba(0,0,0,.85)}
+.cookie a{color:var(--green-l);text-decoration:underline;text-underline-offset:2px}
+.cookie .btn{flex:none}
+@media (max-width:900px){ .cookie{bottom:86px;flex-direction:column;align-items:stretch;text-align:center;font-size:13.5px} }
 
 /* ---------- mobile call bar ---------- */
 .callbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:#fff;
@@ -569,6 +579,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .good__p{font-family:"Oswald",sans-serif;font-weight:600;font-size:23px;line-height:1;white-space:nowrap;
   font-variant-numeric:tabular-nums}
 .good__p span{font-family:"Manrope",sans-serif;font-weight:600;font-size:12.5px;color:var(--muted);margin-left:2px}
+.good__p--ask{font-family:"Manrope",sans-serif;font-weight:700;font-size:14px;color:var(--muted);line-height:1.3;white-space:normal}
 .good .btn{padding:11px 16px;font-size:14.5px}
 
 .qty{display:flex;align-items:center;gap:2px;border:1px solid var(--green);border-radius:var(--r);overflow:hidden}
@@ -579,6 +590,11 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .qty span{min-width:36px;text-align:center;font-weight:800;font-size:15.5px;font-variant-numeric:tabular-nums}
 .field.bad input,.field.bad textarea{border-color:#C0392B;box-shadow:0 0 0 3px rgba(192,57,43,.14)}
 .errmsg{color:#C0392B;font-size:13px;margin-top:6px;font-weight:600}
+.consent{display:flex;gap:10px;align-items:flex-start;margin:4px 0 14px;font-size:13.5px;line-height:1.45;color:var(--muted);cursor:pointer}
+.consent input{margin:3px 0 0;width:18px;height:18px;flex:none;accent-color:var(--green)}
+.consent a{color:var(--green-d);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.section--dark .consent{color:rgba(255,255,255,.6)}
+.section--dark .consent a{color:var(--green-l)}
 .goods__empty{margin-top:34px;padding:40px;text-align:center;border:1.5px dashed var(--line-2);border-radius:14px;color:var(--muted)}
 .goods__empty b{display:block;color:var(--text);font-size:18px;margin-bottom:6px}
 .shop__note{margin-top:22px;font-size:13.5px;color:var(--muted)}
@@ -758,7 +774,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <a href="#shop">Магазин</a>
       <a href="#delivery">Доставка</a>
       <a href="#b2b">Оптом</a>
-      <a href="#partners">Партнёры</a>
+      <a href="#partners">Бренды</a>
       <a href="#contacts">Контакты</a>
     </nav>
 
@@ -891,7 +907,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="wrap">
         <div class="stats">
           <div class="stat"><div class="stat__n">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
-          <div class="stat"><div class="stat__n">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
+          <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
           <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
           <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
         </div>
@@ -908,7 +924,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   <div class="wrap">
     <div class="stats rv">
       <div class="stat"><div class="stat__n" data-count="2500" data-suffix="+">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
-      <div class="stat"><div class="stat__n" data-prefix="от " data-count="2" data-suffix=" ч">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
+      <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
       <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
       <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
     </div>
@@ -932,8 +948,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
         <p class="lead">Не нужно искать каждую позицию по каталогу. Скиньте список как есть — хоть текстом, хоть фото листа из блокнота. Посчитаем, скажем, чего нет, и предложим замену.</p>
         <div class="steps">
           <div class="step"><div class="step__n">1</div><div><div class="step__t">Присылаете список</div><div class="step__d">Через форму, в WhatsApp или диктуете по телефону.</div></div></div>
-          <div class="step"><div class="step__n">2</div><div><div class="step__t">Считаем и проверяем наличие</div><div class="step__d">В рабочее время — в течение 15 минут. Цену фиксируем на 3 дня.</div></div></div>
-          <div class="step"><div class="step__n">3</div><div><div class="step__t">Собираем к вашему приезду</div><div class="step__d">Или везём на объект — своей машиной, по Ростову и области.</div></div></div>
+          <div class="step"><div class="step__n">2</div><div><div class="step__t">Считаем и проверяем наличие</div><div class="step__d">В рабочее время перезвоним, назовём цену и срок. Цена действует, пока товар в резерве.</div></div></div>
+          <div class="step"><div class="step__n">3</div><div><div class="step__t">Собираем к вашему приезду</div><div class="step__d">Или везём на объект своей машиной по Ростову и области, стоимость доставки согласуем заранее.</div></div></div>
         </div>
       </div>
 
@@ -952,9 +968,12 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
             <input id="f-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel">
           </div>
         </div>
+        <label class="consent"><input type="checkbox" name="consent" id="f-consent" required>
+          <span>Согласен(на) на обработку персональных данных в соответствии с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a></span></label>
+        <p class="errmsg" id="f-consent-err" hidden>Поставьте галочку согласия — без неё мы не имеем права обработать заявку.</p>
         <button class="btn btn--primary btn--full" type="submit">Отправить список — получить расчёт</button>
-        <p class="form__note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных. Перезвоним только по этой заявке — рассылок не будет.</p>
-        <p class="form__ok" id="formOk" role="status">Спасибо! Список получили. Перезвоним в рабочее время, обычно в течение 15 минут.</p>
+        <p class="form__note">Перезвоним только по этой заявке — рассылок не будет.</p>
+        <p class="form__ok" id="formOk" role="status">Спасибо! Список получили. Перезвоним в рабочее время.</p>
       </form>
     </div>
   </div>
@@ -1045,8 +1064,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   <div class="wrap">
     <div class="head rv">
       <p class="eyebrow">Магазин</p>
-      <h2>Купить онлайн</h2>
-      <p class="lead">Соберите заказ в корзину — перезвоним, подтвердим наличие и привезём. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
+      <h2>Собрать заявку</h2>
+      <p class="lead">Добавьте нужные позиции в список и отправьте — перезвоним, назовём цену и наличие. Оплата при получении: наличными, картой или по счёту для юрлиц.</p>
     </div>
 
     <div class="shop__bar rv">
@@ -1059,8 +1078,6 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
         <label for="sort">Сортировка</label>
         <select id="sort">
           <option value="pop">Сначала популярные</option>
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="rich">Сначала дорогие</option>
           <option value="az">По названию</option>
         </select>
       </div>
@@ -1075,7 +1092,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 2 500 позиций, в витрине только часть.
     </p>
 
-    <p class="shop__note">В витрине только ходовые позиции, цены уточняйте при заказе — на складе больше 2 500 наименований. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
+    <p class="shop__note">В витрине только ходовые позиции, на складе больше 2 500 наименований. Цены сообщаем при подтверждении заявки. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
   </div>
 </section>
 
@@ -1091,20 +1108,20 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="card">
         <div class="card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-7h6v7"/></svg></div>
         <h3>Самовывоз из магазина</h3>
-        <p>Приезжайте в рабочие часы без предзаказа: товар на месте, можно посмотреть и потрогать. Заезд для легковой и для газели, грузим сами.</p>
-        <div class="card__meta">Бесплатно · соберём за 30 минут</div>
+        <p>Приезжайте в рабочие часы без предзаказа: товар на месте, можно посмотреть и потрогать. Заезд для легковой и для газели, поможем погрузить.</p>
+        <div class="card__meta">Бесплатно · соберём к вашему приезду</div>
       </div>
       <div class="card">
         <div class="card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="1" y="6" width="13" height="11" rx="1.5"/><path d="M14 9h4l3 4v4h-7z"/><circle cx="6" cy="19" r="2"/><circle cx="17.5" cy="19" r="2"/></svg></div>
         <h3>Доставка по Ростову</h3>
-        <p>Своим транспортом в день заказа, если оформили до 15:00. Привезём к подъезду, на дачу или прямо на объект к бригаде.</p>
-        <div class="card__meta">От 2 часов · стоимость по зоне</div>
+        <p>Своим транспортом по согласованному времени. Привезём к подъезду, на дачу или прямо на объект к бригаде.</p>
+        <div class="card__meta">Стоимость и срок согласуем при подтверждении заказа</div>
       </div>
       <div class="card">
         <div class="card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9S14.5 18.3 12 21c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></div>
         <h3>Область и районы</h3>
-        <p>Аксай, Батайск, Новочеркасск, Азов и дальше по области — по согласованию и по накопленному объёму. Крупный заказ везём отдельным рейсом.</p>
-        <div class="card__meta">Считаем по километражу</div>
+        <p>Аксай, Батайск, Новочеркасск, Азов и дальше по области — по согласованию. Крупный заказ везём отдельным рейсом.</p>
+        <div class="card__meta">Стоимость зависит от расстояния и объёма</div>
       </div>
     </div>
   </div>
@@ -1120,7 +1137,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="ticks">
         <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Наличие подтверждаем сразу, а не «уточним у поставщика»</span></div>
         <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Подскажем расход и что вместо чего можно взять дешевле</span></div>
-        <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Излишки принимаем обратно — в упаковке и с чеком</span></div>
+        <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Возврат и обмен — по закону о защите прав потребителей, <a href="terms.html" style="color:var(--green-d);font-weight:600">условия</a></span></div>
         <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Наличные, карта, перевод и безнал для юрлиц</span></div>
       </div>
     </div>
@@ -1183,7 +1200,7 @@ var PHOTOS = [
   { src:'assets/photos/02-zal.webp',      small:'assets/photos/02-zal@s.webp',      w:1200, h:1600, alt:'Торговый зал: валики, кисти, шпатели, монтажная пена и крепёж на стеллажах', cap:'Торговый зал: инструмент и расходники' },
   { src:'assets/photos/03-pogruzka.webp', small:'assets/photos/03-pogruzka@s.webp', w:1600, h:1200, alt:'Грузовик «Ящик» на площадке рядом с паллетами штукатурки Knauf', cap:'Погрузка: смеси Knauf едут на объект' },
   { src:'assets/photos/04-sklad.webp',    small:'assets/photos/04-sklad@s.webp',    w:1600, h:1200, alt:'Паллеты газобетона MASIX под навесом склада, на фоне здание магазина с вывеской', cap:'Склад: газоблок под навесом' },
-  { src:'assets/photos/05-zal-2.webp',    small:'assets/photos/05-zal-2@s.webp',    w:1500, h:1125, alt:'Стеллажи с товарами Knauf, Технониколь, Основит и малярным инструментом', cap:'Официальные бренды: Knauf, Технониколь, Основит' }
+  { src:'assets/photos/05-zal-2.webp',    small:'assets/photos/05-zal-2@s.webp',    w:1500, h:1125, alt:'Стеллажи с товарами Knauf, Технониколь, Основит и малярным инструментом', cap:'На полках: Knauf, Технониколь, Основит' }
 ];
 (function(){
   var sec = document.getElementById('photos'), track = document.getElementById('carTrack'),
@@ -1286,12 +1303,12 @@ var PHOTOS = [
       <p class="lead">Работаем с ИП и ООО: счёт, договор, закрывающие документы. Постоянным бригадам — своя цена и отсрочка.</p>
     </div>
     <ul class="b2b stagger">
-      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Счёт за 15 минут</b> — по списку или по номенклатуре из сметы</span></li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Счёт в день обращения</b> — по списку или по номенклатуре из сметы</span></li>
       <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>УПД и все закрывающие</b> — отдаём вместе с грузом</span></li>
       <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Отсрочка платежа</b> — для постоянных клиентов по договору</span></li>
       <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Свой менеджер</b> — один человек ведёт объект от заявки до отгрузки</span></li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Догруз в течение дня</b> — если на объекте чего-то не хватило</span></li>
-      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Резерв под график работ</b> — придержим объём под ваш этап</span></li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Догруз по согласованию</b> — если на объекте чего-то не хватило</span></li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span><b>Резерв под график работ</b> — по договорённости придержим объём под ваш этап</span></li>
     </ul>
     <div class="rv" style="margin-top:34px"><a class="btn btn--primary" href="#order">Запросить оптовый прайс</a></div>
   </div>
@@ -1301,9 +1318,9 @@ var PHOTOS = [
 <section class="section" id="partners">
   <div class="wrap">
     <div class="head rv">
-      <p class="eyebrow">Официальные партнёры</p>
-      <h2>Бренды, которые везём напрямую</h2>
-      <p class="lead">Работаем с производителями и официальными дистрибьюторами, поэтому держим заводскую цену и не продаём подделки.</p>
+      <p class="eyebrow">Бренды в наличии</p>
+      <h2>Что есть на полках</h2>
+      <p class="lead">Продукция производителей и их дистрибьюторов. Товарные знаки принадлежат правообладателям и приведены для обозначения товаров в наличии.</p>
     </div>
     <ul class="partners stagger" id="partnersList"></ul>
   </div>
@@ -1442,7 +1459,11 @@ var REVIEWS_CONFIG = {
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>
-          <div><div class="cont__k">Почта для счетов и смет</div><div class="cont__v">rndbox@yandex.ru<span>Счета, сметы и списки материалов</span></div></div>
+          <div><div class="cont__k">Почта для счетов и смет</div><div class="cont__v"><a href="mailto:rndbox@yandex.ru">rndbox@yandex.ru</a><span>Счета, сметы и списки материалов</span></div></div>
+        </div>
+        <div class="cont__i">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 3h14v18H5z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>
+          <div><div class="cont__k">Продавец</div><div class="cont__v">ООО «ЯЩИК»<span>ИНН 6164142823 · КПП 616401001 · ОГРН 1236100029417<br>Юридический адрес: 344002, Ростовская область, г. Ростов-на-Дону, ул. Пушкинская, д. 103, кв. 6<br>Директор Шетов Тимур Ахмедович · тел. для документов <a href="tel:+79885642462">8 (988) 564-24-62</a></span></div></div>
         </div>
       </div>
 
@@ -1463,7 +1484,7 @@ var REVIEWS_CONFIG = {
   <div class="wrap band__in">
     <div>
       <h2>Не нашли позицию в каталоге?</h2>
-      <p>Скорее всего, она есть на складе. Позвоните или пришлите список — ответим за 15 минут.</p>
+      <p>Скорее всего, она есть на складе. Позвоните или пришлите список — ответим в рабочее время.</p>
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap">
       <a class="btn btn--dark" href="tel:+79185913033">+7 (918) 591-30-33</a>
@@ -1494,12 +1515,14 @@ var REVIEWS_CONFIG = {
       <div>
         <h4>Покупателям</h4>
         <ul>
-          <li><a href="#shop">Магазин</a></li>
+          <li><a href="#shop">Собрать заявку</a></li>
           <li><a href="#order">Заказ по списку</a></li>
           <li><a href="#delivery">Доставка и самовывоз</a></li>
           <li><a href="#b2b">Оптом и юрлицам</a></li>
-          <li><a href="#partners">Партнёры</a></li>
+          <li><a href="#partners">Бренды</a></li>
           <li><a href="#about">О магазине</a></li>
+          <li><a href="terms.html">Условия продажи и возврата</a></li>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
         </ul>
       </div>
       <div>
@@ -1513,9 +1536,14 @@ var REVIEWS_CONFIG = {
         </ul>
       </div>
     </div>
+    <div class="ftr__req">
+      <span>ООО «ЯЩИК» · ИНН 6164142823 · КПП 616401001 · ОГРН 1236100029417 · ОКПО 83709658</span>
+      <span>Юридический адрес: 344002, Ростовская область, г. Ростов-на-Дону, ул. Пушкинская, д. 103, кв. 6 · Магазин: ул. Шоссейная, 2н</span>
+      <span>Директор Шетов Т. А. · <a href="mailto:rndbox@yandex.ru">rndbox@yandex.ru</a> · <a href="tel:+79885642462">8 (988) 564-24-62</a></span>
+    </div>
     <div class="ftr__bot">
-      <span>© 2026 «Ящик» · строймаркет в Ростове-на-Дону</span>
-      <span>г. Ростов-на-Дону, ул. Шоссейная, 2н · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
+      <span>© 2026 ООО «ЯЩИК» · строймаркет в Ростове-на-Дону</span>
+      <span><a href="privacy.html">Политика конфиденциальности</a> · <a href="terms.html">Условия продажи и возврата</a> · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
     </div>
   </div>
 </footer>
@@ -1548,7 +1576,7 @@ var REVIEWS_CONFIG = {
           <div><span class="muted">Доставка</span><span id="sumShip"></span></div>
           <div class="total"><span>Итого</span><b id="sumTotal"></b></div>
         </div>
-        <button class="btn btn--primary btn--full" type="button" id="toCheckout">Оформить заказ</button>
+        <button class="btn btn--primary btn--full" type="button" id="toCheckout">Отправить заявку</button>
       </div>
     </div>
 
@@ -1568,12 +1596,12 @@ var REVIEWS_CONFIG = {
           <label>
             <input type="radio" name="ship" value="pickup" checked>
             <span><span class="pay__t">Самовывоз из магазина — бесплатно</span>
-            <span class="pay__d">Соберём за 30 минут, заберёте на Шоссейной, 2н в рабочие часы</span></span>
+            <span class="pay__d">Соберём к вашему приезду, заберёте на Шоссейной, 2н в рабочие часы</span></span>
           </label>
           <label>
             <input type="radio" name="ship" value="delivery">
-            <span><span class="pay__t">Доставка по Ростову — 600 ₽</span>
-            <span class="pay__d">В день заказа, если оформили до 15:00. От 15 000 ₽ — бесплатно</span></span>
+            <span><span class="pay__t">Доставка по Ростову и области</span>
+            <span class="pay__d">Стоимость и время согласуем при подтверждении заявки</span></span>
           </label>
         </div>
 
@@ -1585,6 +1613,9 @@ var REVIEWS_CONFIG = {
           <label for="c-note">Комментарий</label>
           <textarea id="c-note" name="note" style="min-height:84px" placeholder="Во сколько удобно, нужна ли разгрузка, номер объекта"></textarea>
         </div>
+        <label class="consent"><input type="checkbox" name="consent" id="c-consent" required>
+          <span>Согласен(на) на обработку персональных данных в соответствии с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> и <a href="terms.html" target="_blank" rel="noopener">условиями продажи</a></span></label>
+        <p class="errmsg" id="c-consent-err" hidden>Поставьте галочку согласия — без неё мы не имеем права обработать заявку.</p>
         <p class="form__note">Оплата при получении: наличными, картой или по счёту для ИП и ООО. Предоплату не берём.</p>
       </div>
       <div class="drawer__foot">
@@ -1593,7 +1624,7 @@ var REVIEWS_CONFIG = {
           <div><span class="muted">Доставка</span><span id="sumShip2"></span></div>
           <div class="total"><span>Итого</span><b id="sumTotal2"></b></div>
         </div>
-        <button class="btn btn--primary btn--full" type="submit">Подтвердить заказ</button>
+        <button class="btn btn--primary btn--full" type="submit">Отправить заявку</button>
         <button class="btn btn--full" type="button" id="backToCart" style="margin-top:9px;border-color:var(--line-2)">Вернуться в корзину</button>
       </div>
     </form>
@@ -1602,11 +1633,11 @@ var REVIEWS_CONFIG = {
       <div class="drawer__body">
         <div class="done">
           <div class="done__ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg></div>
-          <h3>Заказ принят</h3>
+          <h3>Заявка отправлена</h3>
           <div class="done__no" id="orderNo"></div>
           <p id="doneSum"></p>
-          <p>Перезвоним в течение 15 минут в рабочее время, подтвердим наличие и сроки.</p>
-          <p style="color:var(--green-d);font-weight:600;margin-top:16px">Наличие и итоговую сумму подтвердим по телефону перед сборкой заказа.</p>
+          <p>Перезвоним в рабочее время, подтвердим наличие, цену и сроки.</p>
+          <p style="color:var(--green-d);font-weight:600;margin-top:16px">Заявка не является оплатой: цену, наличие и сумму подтвердим по телефону, после этого заказ считается принятым.</p>
           <button class="btn btn--primary" type="button" data-close style="margin-top:20px">Продолжить покупки</button>
         </div>
       </div>
@@ -1618,6 +1649,12 @@ var REVIEWS_CONFIG = {
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
   <span id="toastText"></span>
   <button type="button" id="toastOpen">Открыть корзину</button>
+</div>
+
+<!-- уведомление о куки (виджеты Яндекса ставят свои куки) -->
+<div class="cookie" id="cookie" hidden role="region" aria-label="Уведомление об использовании куки">
+  <span>Сайт использует куки-файлы виджетов Яндекс Карт для показа карты и отзывов. Продолжая пользоваться сайтом, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</span>
+  <button class="btn btn--primary btn--sm" type="button" id="cookieOk">Понятно</button>
 </div>
 
 <!-- мобильная панель звонка -->
@@ -1640,6 +1677,9 @@ var REVIEWS_CONFIG = {
   var form = document.getElementById('orderForm'), ok = document.getElementById('formOk');
   form.addEventListener('submit', function(e){
     e.preventDefault();
+    var c = document.getElementById('f-consent'), err = document.getElementById('f-consent-err');
+    err.hidden = c.checked;
+    if (!c.checked){ c.focus(); return; }
     ok.classList.add('on');
   });
 
@@ -1678,6 +1718,11 @@ var REVIEWS_CONFIG = {
     }, {rootMargin:'0px 0px -8% 0px', threshold:0.05});
     els.forEach(function(el){ io.observe(el); });
   }
+
+  /* уведомление о куки — показываем один раз */
+  var ck = document.getElementById('cookie'), ckOk = document.getElementById('cookieOk'), CK = 'yashchik-cookie-ok';
+  try { if (!localStorage.getItem(CK)) ck.hidden = false; } catch (err) { ck.hidden = false; }
+  ckOk.addEventListener('click', function(){ ck.hidden = true; try { localStorage.setItem(CK, '1'); } catch (err) {} });
 
   /* полоса прочитанного и тень у шапки */
   var bar = document.getElementById('progress'), hdr = document.querySelector('.hdr'), waiting = false;
@@ -1950,15 +1995,16 @@ var REVIEWS_CONFIG = {
 /* ====== Магазин и корзина ====== */
 (function(){
   var GOODS = [
-    /* Витрина-пример: 8 позиций, два ряда на десктопе. Реальный прайс подставится сюда же. */
-    {id:'ce500',   c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг',                     p:560,  u:'мешок', t:'хит'},
-    {id:'shtg',    c:'smesi',      n:'Штукатурка гипсовая, 30 кг',                   p:480,  u:'мешок', t:'хит'},
-    {id:'gb500',   c:'blok',       n:'Газоблок D500, 600×300×200 мм',                p:180,  u:'шт', t:'хит'},
-    {id:'gkl125',  c:'gkl',        n:'Гипсокартон стеновой 2500×1200×12,5 мм',       p:640,  u:'лист'},
-    {id:'minv100', c:'uteplitel',  n:'Минвата в плитах 100 мм, 0,3 м³',              p:1180, u:'упаковка'},
-    {id:'samm',    c:'krepezh',    n:'Саморез по металлу 3,5×25, 1000 шт',           p:490,  u:'упаковка'},
-    {id:'perf',    c:'instrument', n:'Перфоратор SDS-plus, 900 Вт',                  p:7900, u:'шт'},
-    {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг',           p:1890, u:'ведро'}
+    /* Витрина: 8 позиций. Цены не показываем — их называет менеджер при подтверждении заявки.
+       Если появится прайс, добавьте p:<цена> — карточка и корзина покажут сумму сами. */
+    {id:'ce500',   c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг', u:'мешок', t:'хит'},
+    {id:'shtg',    c:'smesi',      n:'Штукатурка гипсовая, 30 кг', u:'мешок', t:'хит'},
+    {id:'gb500',   c:'blok',       n:'Газоблок D500, 600×300×200 мм', u:'шт', t:'хит'},
+    {id:'gkl125',  c:'gkl',        n:'Гипсокартон стеновой 2500×1200×12,5 мм', u:'лист'},
+    {id:'minv100', c:'uteplitel',  n:'Минвата в плитах 100 мм, 0,3 м³', u:'упаковка'},
+    {id:'samm',    c:'krepezh',    n:'Саморез по металлу 3,5×25, 1000 шт', u:'упаковка'},
+    {id:'perf',    c:'instrument', n:'Перфоратор SDS-plus, 900 Вт', u:'шт'},
+    {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг', u:'ведро'}
   ];
 
   var CATS = [['all','Все товары'],['instrument','Инструмент'],['blok','Газоблок и кирпич'],
@@ -1967,7 +2013,8 @@ var REVIEWS_CONFIG = {
               ['rashod','Расходный материал']]
     .filter(function(c){ return c[0] === 'all' || GOODS.some(function(g){ return g.c === c[0]; }); });
 
-  var KEY = 'yashchik-cart-v1', FREE = 15000, SHIP = 600;
+  var KEY = 'yashchik-cart-v2';
+  var PRICED = GOODS.every(function(g){ return typeof g.p === 'number'; });   /* показывать ли суммы */
   var money = new Intl.NumberFormat('ru-RU', {style:'currency', currency:'RUB', maximumFractionDigits:0});
   var nf = new Intl.NumberFormat('ru-RU');
 
@@ -1986,9 +2033,9 @@ var REVIEWS_CONFIG = {
   function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
   function ids(){ return Object.keys(cart).filter(function(k){ return cart[k] > 0 && byId(k); }); }
   function count(){ return ids().reduce(function(s,k){ return s + cart[k]; }, 0); }
-  function goodsSum(){ return ids().reduce(function(s,k){ return s + byId(k).p * cart[k]; }, 0); }
+  function goodsSum(){ return ids().reduce(function(s,k){ return s + (byId(k).p || 0) * cart[k]; }, 0); }
   function method(){ var r = document.querySelector('input[name="ship"]:checked'); return r ? r.value : 'pickup'; }
-  function shipCost(){ var g = goodsSum(); return (method() === 'pickup' || g === 0 || g >= FREE) ? 0 : SHIP; }
+  function shipCost(){ return 0; }   /* стоимость доставки согласуется при подтверждении */
   function plural(n, a, b, c){ var m = n % 100; if (m > 4 && m < 21) return c; m = n % 10;
     return m === 1 ? a : (m > 1 && m < 5 ? b : c); }
 
@@ -2017,8 +2064,6 @@ var REVIEWS_CONFIG = {
       if (state.cat !== 'all' && g.c !== state.cat) return false;
       return !q || g.n.toLowerCase().indexOf(q) >= 0;
     });
-    if (state.sort === 'cheap') out.sort(function(a,b){ return a.p - b.p; });
-    if (state.sort === 'rich')  out.sort(function(a,b){ return b.p - a.p; });
     if (state.sort === 'az')    out.sort(function(a,b){ return a.n.localeCompare(b.n, 'ru'); });
     return out;
   }
@@ -2035,9 +2080,11 @@ var REVIEWS_CONFIG = {
           '<h3 class="good__t">' + esc(g.n) + '</h3>' +
           '<div class="good__u">за ' + g.u + '</div>' +
           '<div class="good__row">' +
-            '<div class="good__p">' + nf.format(g.p) + ' ₽<span>/' + g.u + '</span></div>' +
+            (typeof g.p === 'number'
+              ? '<div class="good__p">' + nf.format(g.p) + ' ₽<span>/' + g.u + '</span></div>'
+              : '<div class="good__p good__p--ask">Цена по запросу</div>') +
             (cart[g.id] ? stepper(g)
-              : '<button class="btn btn--primary" type="button" data-add="' + g.id + '">В корзину</button>') +
+              : '<button class="btn btn--primary" type="button" data-add="' + g.id + '">В список</button>') +
           '</div>' +
         '</div></article>';
     }).join('');
@@ -2054,9 +2101,9 @@ var REVIEWS_CONFIG = {
         '<div class="citem__pic">' + icon(g.c) + '</div>' +
         '<div><div class="citem__t">' + esc(g.n) +
           '<button class="citem__x" type="button" data-del="' + g.id + '" aria-label="Убрать из корзины">×</button></div>' +
-          '<div class="citem__u">' + nf.format(g.p) + ' ₽ за ' + g.u + '</div>' +
+          '<div class="citem__u">' + (typeof g.p === 'number' ? nf.format(g.p) + ' ₽ за ' + g.u : 'за ' + g.u + ' · цена по запросу') + '</div>' +
           '<div class="citem__row">' + stepper(g) +
-            '<div class="citem__s">' + nf.format(g.p * cart[k]) + ' ₽</div></div>' +
+            (typeof g.p === 'number' ? '<div class="citem__s">' + nf.format(g.p * cart[k]) + ' ₽</div>' : '') + '</div>' +
         '</div></div>';
     }).join('');
     renderSums();
@@ -2065,20 +2112,16 @@ var REVIEWS_CONFIG = {
   function renderSums(){
     var n = count(), g = goodsSum(), s = shipCost(), free = $('freeline');
     var label = n + ' ' + plural(n, 'позиция', 'позиции', 'позиций');
-    var shipText = method() === 'pickup' ? 'Самовывоз — 0 ₽' : (s === 0 ? 'Бесплатно' : nf.format(s) + ' ₽');
+    var shipText = method() === 'pickup' ? 'Самовывоз — бесплатно' : 'согласуем при подтверждении';
     [['sumCount','sumGoods','sumShip','sumTotal'], ['sumCount2','sumGoods2','sumShip2','sumTotal2']]
       .forEach(function(k){
         if (!$(k[0])) return;
         $(k[0]).textContent = '· ' + label;
-        $(k[1]).textContent = nf.format(g) + ' ₽';
+        $(k[1]).textContent = PRICED ? nf.format(g) + ' ₽' : 'по запросу';
         $(k[2]).textContent = shipText;
-        $(k[3]).textContent = nf.format(g + s) + ' ₽';
+        $(k[3]).textContent = PRICED ? nf.format(g + s) + ' ₽' : 'сообщим по телефону';
       });
-    if (free){
-      var left = FREE - g;
-      free.hidden = !(g > 0 && left > 0);
-      free.textContent = 'До бесплатной доставки по Ростову — ещё ' + nf.format(left) + ' ₽';
-    }
+    if (free){ free.hidden = true; }
     badge.textContent = n;
     badge.hidden = n === 0;
   }
@@ -2187,6 +2230,9 @@ var REVIEWS_CONFIG = {
 
   paneCheckout.addEventListener('submit', function(e){
     e.preventDefault();
+    var consent = $('c-consent'), cerr = $('c-consent-err');
+    cerr.hidden = consent.checked;
+    if (!consent.checked){ consent.focus(); return; }
     var phone = $('c-phone'), wrap = phone.closest('.field');
     var old = wrap.querySelector('.errmsg'); if (old) old.remove();
     wrap.classList.remove('bad');
@@ -2203,7 +2249,7 @@ var REVIEWS_CONFIG = {
     var no = 'Я-' + ('0' + d.getDate()).slice(-2) + ('0' + (d.getMonth() + 1)).slice(-2) +
              '-' + String(1000 + Math.floor(Math.random() * 9000));
     $('orderNo').textContent = no;
-    $('doneSum').textContent = 'Сумма заказа — ' + nf.format(total) + ' ₽, ' +
+    $('doneSum').textContent = (PRICED ? 'Сумма заказа — ' + nf.format(total) + ' ₽, ' : 'Позиций в заявке — ' + count() + ', ') +
       (method() === 'pickup' ? 'самовывоз из магазина.' : 'доставка по Ростову.');
     cart = {}; sync();
     pane('done');
