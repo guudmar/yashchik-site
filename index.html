@@ -1015,7 +1015,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
     <p class="goods__empty" id="goodsEmpty" hidden>
       <b>Ничего не нашли по этому запросу</b>
-      Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 5 000 позиций, в витрине только ходовые.
+      Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 5 000 позиций, в витрине только часть.
     </p>
 
     <p class="shop__note">В витрине только ходовые позиции, цены уточняйте при заказе — на складе больше 5 000 наименований. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
@@ -1810,61 +1810,21 @@ var REVIEWS_CONFIG = {
 /* ====== Магазин и корзина ====== */
 (function(){
   var GOODS = [
+    /* Витрина-пример: 8 позиций, два ряда на десктопе. Реальный прайс подставится сюда же. */
     {id:'ce500',  c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг',                 p:560,  u:'мешок', t:'хит'},
-    {id:'pb300',  c:'smesi',      n:'Пескобетон М300, 40 кг',                   p:320,  u:'мешок'},
     {id:'shtg',   c:'smesi',      n:'Штукатурка гипсовая, 30 кг',               p:480,  u:'мешок'},
-    {id:'plkl',   c:'smesi',      n:'Клей плиточный усиленный, 25 кг',          p:410,  u:'мешок'},
-    {id:'nalp',   c:'smesi',      n:'Наливной пол самовыравнивающийся, 20 кг',  p:560,  u:'мешок'},
-    {id:'pesok',  c:'smesi',      n:'Песок карьерный, 25 кг',                   p:150,  u:'мешок'},
-
     {id:'prof8',  c:'krovlya',    n:'Профнастил С8, 1,15×2 м, оцинкованный',    p:1290, u:'лист', t:'хит'},
-    {id:'mchr',   c:'krovlya',    n:'Металлочерепица «Монтеррей», 1,18×2,25 м', p:2180, u:'лист'},
-    {id:'samkr',  c:'krovlya',    n:'Саморез кровельный 4,8×35, 250 шт',        p:690,  u:'упаковка'},
-    {id:'zhelob', c:'krovlya',    n:'Жёлоб водосточный ПВХ, 3 м',               p:980,  u:'шт'},
-
     {id:'samd',   c:'krepezh',    n:'Саморез по дереву 3,5×45, 200 шт',         p:240,  u:'упаковка', t:'хит'},
-    {id:'ankr',   c:'krepezh',    n:'Анкер клиновой 10×100, 50 шт',             p:690,  u:'упаковка'},
-    {id:'dybgv',  c:'krepezh',    n:'Дюбель-гвоздь 6×40, 100 шт',               p:180,  u:'упаковка'},
-    {id:'gvozd',  c:'krepezh',    n:'Гвозди строительные 100 мм, 5 кг',         p:620,  u:'коробка'},
-    {id:'ugol',   c:'krepezh',    n:'Уголок крепёжный 90×90×40, 20 шт',         p:390,  u:'упаковка'},
-
     {id:'perf',   c:'instrument', n:'Перфоратор SDS-plus, 900 Вт',              p:7900, u:'шт'},
-    {id:'disk',   c:'instrument', n:'Диск отрезной по металлу 125×1,2, 10 шт',  p:390,  u:'упаковка'},
-    {id:'urov',   c:'instrument', n:'Уровень пузырьковый, 1200 мм',             p:1150, u:'шт'},
-    {id:'bur',    c:'instrument', n:'Бур SDS-plus 8×210 мм',                    p:190,  u:'шт'},
-    {id:'rulet',  c:'instrument', n:'Рулетка 5 м с фиксатором',                 p:290,  u:'шт'},
-
-    {id:'kabel',  c:'elektrika',  n:'Кабель ВВГнг-LS 3×2,5, бухта 100 м',       p:9400, u:'бухта'},
-    {id:'avtom',  c:'elektrika',  n:'Автоматический выключатель C16, 1P',       p:320,  u:'шт'},
-    {id:'rozet',  c:'elektrika',  n:'Розетка с заземлением, белая',             p:190,  u:'шт'},
-    {id:'lampa',  c:'elektrika',  n:'Лампа LED E27, 11 Вт, 4000K',              p:110,  u:'шт'},
-
-    {id:'ppr25',  c:'santeh',     n:'Труба PPR 25 мм, 4 м',                     p:240,  u:'шт'},
-    {id:'mufta',  c:'santeh',     n:'Муфта PPR 25 мм',                          p:45,   u:'шт'},
-    {id:'smes',   c:'santeh',     n:'Смеситель для кухни, хром',                p:2490, u:'шт', t:'под заказ'},
-
-    {id:'pf115',  c:'lkm',        n:'Эмаль ПФ-115 белая, 2,7 кг',               p:640,  u:'банка'},
     {id:'grunt',  c:'lkm',        n:'Грунтовка глубокого проникновения, 10 л',  p:590,  u:'канистра', t:'хит'},
-    {id:'valik',  c:'lkm',        n:'Валик велюровый 180 мм с ручкой',          p:290,  u:'набор'},
-
-    {id:'doska',  c:'pilomat',    n:'Доска обрезная 25×100×6000, хвоя',         p:480,  u:'шт'},
-    {id:'brus',   c:'pilomat',    n:'Брус 50×50×3000 мм',                       p:290,  u:'шт'},
-    {id:'fanera', c:'pilomat',    n:'Фанера ФК 1525×1525×9 мм',                 p:1180, u:'лист'},
     {id:'osp',    c:'pilomat',    n:'ОСП-3 2500×1250×9 мм',                     p:1090, u:'лист'},
-
-    {id:'shlang', c:'sad',        n:'Шланг поливочный 1/2", 25 м',              p:1290, u:'бухта'},
-    {id:'gruntu', c:'sad',        n:'Грунт универсальный, 50 л',                p:340,  u:'мешок'},
-    {id:'lopata', c:'sad',        n:'Лопата штыковая с черенком',               p:590,  u:'шт'},
-
-    {id:'plenka', c:'hoz',        n:'Плёнка армированная 2×10 м',               p:890,  u:'рулон'},
-    {id:'meshki', c:'hoz',        n:'Мешки для мусора 120 л, 10 шт',            p:190,  u:'упаковка'},
-    {id:'perch',  c:'hoz',        n:'Перчатки х/б с ПВХ, 10 пар',               p:250,  u:'упаковка'},
-    {id:'strem',  c:'hoz',        n:'Стремянка стальная, 5 ступеней',           p:3490, u:'шт', t:'под заказ'}
+    {id:'shlang', c:'sad',        n:'Шланг поливочный 1/2", 25 м',              p:1290, u:'бухта'}
   ];
 
   var CATS = [['all','Все товары'],['smesi','Сухие смеси'],['krovlya','Кровля'],['krepezh','Крепёж'],
               ['instrument','Инструмент'],['elektrika','Электрика'],['santeh','Сантехника'],
-              ['lkm','Краски и ЛКМ'],['pilomat','Пиломатериалы'],['sad','Сад и полив'],['hoz','Хозтовары']];
+              ['lkm','Краски и ЛКМ'],['pilomat','Пиломатериалы'],['sad','Сад и полив'],['hoz','Хозтовары']]
+    .filter(function(c){ return c[0] === 'all' || GOODS.some(function(g){ return g.c === c[0]; }); });
 
   var KEY = 'yashchik-cart-v1', FREE = 15000, SHIP = 600;
   var money = new Intl.NumberFormat('ru-RU', {style:'currency', currency:'RUB', maximumFractionDigits:0});
@@ -2064,7 +2024,8 @@ var REVIEWS_CONFIG = {
 
   document.querySelectorAll('.cat[data-cat]').forEach(function(a){
     a.addEventListener('click', function(){
-      state.cat = a.getAttribute('data-cat');
+      var cat = a.getAttribute('data-cat');
+      state.cat = GOODS.some(function(g){ return g.c === cat; }) ? cat : 'all';
       state.q = ''; $('q').value = '';
       renderChips(); renderGoods();
     });
