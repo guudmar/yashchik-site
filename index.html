@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Строймаркет «Ящик» — стройматериалы, инструмент и хозтовары в Ростове-на-Дону, ул. Шоссейная, 2Н. Самовывоз и доставка по городу и области.">
+<meta name="description" content="Строймаркет «Ящик» в Ростове-на-Дону, ул. Шоссейная, 2н: сухие смеси и штукатурка, гипсокартон, утеплитель, крепёж, инструмент, краска. Самовывоз из магазина и доставка по городу и области.">
 <title>Строймаркет Ящик</title>
 <link rel="preload" href="assets/fonts/manrope-800-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/manrope-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
@@ -70,14 +70,6 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           mask-image:linear-gradient(180deg,rgba(0,0,0,.55),#000 30%,#000 70%,rgba(0,0,0,.55));
 }
 .corrugate > *{position:relative;z-index:1}
-/* та же подложка на светлых секциях: зелёные иконки на белом, едва заметно */
-.patterned{position:relative;overflow:hidden}
-.patterned::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
-  background:url("assets/bg-tile-light.svg") center top/620px 620px repeat;opacity:.09;
-  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.5),#000 30%,#000 70%,rgba(0,0,0,.5));
-          mask-image:linear-gradient(180deg,rgba(0,0,0,.5),#000 30%,#000 70%,rgba(0,0,0,.5))}
-.patterned > *{position:relative;z-index:1}
-@media (max-width:560px){ .patterned::before{background-size:420px 420px} }
 .ftr{position:relative;overflow:hidden}
 .ftr.corrugate::before{opacity:.10}
 @media (max-width:560px){ .corrugate::before{background-size:420px 420px} }
@@ -119,8 +111,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .nav{display:flex;gap:26px;margin-left:auto;font-weight:600;font-size:15.5px}
 .nav a{padding:6px 0;border-bottom:2px solid transparent;transition:color .15s ease,border-color .15s ease}
 .nav a:hover{color:var(--green-d);border-color:var(--green)}
-.hdr__phone{font-weight:800;font-size:17px;letter-spacing:-.01em;white-space:nowrap;line-height:1.15;text-align:right}
-.hdr__phone small{display:block;font-family:"Oswald",sans-serif;font-weight:500;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hdr__phone{font-weight:800;font-size:18px;letter-spacing:-.01em;white-space:nowrap}
+.hdr__phone small{display:block;font-family:"Oswald",sans-serif;font-weight:500;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .burger{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--line-2);border-radius:var(--r);background:#fff;align-items:center;justify-content:center;cursor:pointer}
 .burger span{display:block;width:20px;height:2px;background:var(--ink);position:relative}
 .burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--ink)}
@@ -555,16 +547,15 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .good__pic{position:relative;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(160deg,#F7F7F5,#ECEEE9)}
 .good__pic svg{width:44%;height:44%;color:var(--green-d);opacity:.9}
-.pic--smesi{background:linear-gradient(160deg,#F3F2ED,#E5E4DC)}
-.pic--krovlya{background:linear-gradient(160deg,#EEF2F5,#DDE4EA)}
-.pic--krepezh{background:linear-gradient(160deg,#F1F2F3,#E1E3E5)}
 .pic--instrument{background:linear-gradient(160deg,#F5F2EB,#E8E2D5)}
-.pic--elektrika{background:linear-gradient(160deg,#F6F3E7,#ECE7D2)}
-.pic--santeh{background:linear-gradient(160deg,#EDF3F5,#DBE7EC)}
-.pic--lkm{background:linear-gradient(160deg,#F3F0F4,#E5E0E8)}
-.pic--pilomat{background:linear-gradient(160deg,#F6F0E6,#EADFCE)}
-.pic--sad{background:linear-gradient(160deg,#EFF4EA,#E0EAD8)}
-.pic--hoz{background:linear-gradient(160deg,#F2F3F1,#E3E5E0)}
+.pic--blok{background:linear-gradient(160deg,#F6EFEA,#EADFD4)}
+.pic--gkl{background:linear-gradient(160deg,#F2F3F4,#E2E5E8)}
+.pic--krepezh{background:linear-gradient(160deg,#F1F2F3,#E1E3E5)}
+.pic--uteplitel{background:linear-gradient(160deg,#F6F3E9,#ECE5D2)}
+.pic--smesi{background:linear-gradient(160deg,#F3F2ED,#E5E4DC)}
+.pic--potolki{background:linear-gradient(160deg,#F1F4F6,#E0E7EB)}
+.pic--kraska{background:linear-gradient(160deg,#F3F0F4,#E5E0E8)}
+.pic--rashod{background:linear-gradient(160deg,#F2F3F1,#E3E5E0)}
 .good__tag{position:absolute;left:12px;top:12px;padding:5px 10px;border-radius:99px;background:var(--green);
   color:#fff;font-family:"Oswald",sans-serif;font-weight:500;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase}
 .good__tag.slow{background:var(--ink-3)}
@@ -696,13 +687,42 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   .toast.on{transform:none}
 }
 
+/* если виджет в iframe заблокирован (например, в предпросмотре) — показываем понятную карточку */
+.frame-fb{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;padding:44px 28px}
+.frame-fb svg{color:var(--green)}
+.frame-fb b{font-weight:700;font-size:17px}
+.frame-fb span{font-size:14.5px;color:var(--muted);max-width:44ch;line-height:1.5}
+
+/* верхняя строка: адрес, часы, почта */
+.topbar{background:var(--bg-2);color:var(--muted);font-size:13.5px;border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;flex-wrap:wrap;gap:8px 26px;padding-top:9px;padding-bottom:9px}
+.topbar span,.topbar a{display:inline-flex;align-items:center;gap:7px}
+.topbar svg{color:var(--green-d);flex:none}
+.topbar a{transition:color .15s ease}
+.topbar a:hover{color:var(--green-d)}
+@media (max-width:640px){
+  .topbar{font-size:12.5px}
+  .topbar .wrap{justify-content:center;text-align:center;gap:5px 16px;padding-top:8px;padding-bottom:8px}
+}
+
+/* подложка каталога — тот же фирменный паттерн, что на тёмных секциях, только по белому */
+.corrugate--light{position:relative;background:#fff;overflow:hidden}
+.corrugate--light::before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:url("assets/bg-tile-light.svg") center top/620px 620px repeat;
+  opacity:.22;
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.3),#000 28%,#000 72%,rgba(0,0,0,.3));
+          mask-image:linear-gradient(180deg,rgba(0,0,0,.3),#000 28%,#000 72%,rgba(0,0,0,.3));
+}
+.corrugate--light > *{position:relative;z-index:1}
+@media (max-width:560px){ .corrugate--light::before{background-size:420px 420px} }
+
 /* ---------- header fit ---------- */
 .logo__tag,.nav a{white-space:nowrap}
 @media (max-width:1200px){
-  .hdr__in{gap:18px}
-  .nav{gap:18px;font-size:15px}
-  .hdr__phone{font-size:16px}
-  .hdr__phone small:first-child{display:none}
+  .hdr__in{gap:20px}
+  .nav{gap:20px;font-size:15px}
+  .hdr__phone{font-size:16.5px}
 }
 @media (max-width:1080px){
   .hdr__in > .btn{display:none}
@@ -716,6 +736,14 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
 <a class="skip" href="#catalog">Перейти к каталогу</a>
 <div class="progress" id="progress" aria-hidden="true"></div>
+
+<div class="topbar">
+  <div class="wrap">
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>г. Ростов-на-Дону, ул. Шоссейная, 2н</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>Пн–Пт 8:00–17:00 · Сб 8:00–13:00 · Вс выходной</span>
+    <a href="mailto:rndbox@yandex.ru"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>rndbox@yandex.ru</a>
+  </div>
+</div>
 
 <!-- ========== ШАПКА ========== -->
 <header class="hdr">
@@ -738,9 +766,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     </nav>
 
     <a class="hdr__phone" href="tel:+79185913033">
-      <small>Ростов-на-Дону, ул. Шоссейная, 2Н</small>
+      <small>Пн–Пт 8–17 · Сб до 13</small>
       +7 (918) 591-30-33
-      <small>Пн–Пт 8:00–17:00 · Сб до 13:00</small>
     </a>
     <button class="cartbtn" type="button" id="cartOpen" aria-haspopup="dialog">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16l-1.5 12.5a1 1 0 0 1-1 .9H6.5a1 1 0 0 1-1-.9z"/><path d="M8.5 7V5.5a3.5 3.5 0 0 1 7 0V7"/></svg>
@@ -759,9 +786,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="stage__glow" id="glow"></div>
 
     <div class="stage__head wrap" id="stageHead">
-      <p class="eyebrow eyebrow--light">Строймаркет · Ростов-на-Дону, ул. Шоссейная, 2Н</p>
+      <p class="eyebrow eyebrow--light">Строймаркет · Ростов-на-Дону · ул. Шоссейная, 2н</p>
       <h1>Всё нужное&nbsp;— уже <span class="mark-box">в ящике</span></h1>
-      <p class="lead">Стройматериалы, крепёж, инструмент, хозтовары и всё для сада. Держим на складе, отгружаем в день заказа: самовывоз с базы или доставка по городу и области.</p>
+      <p class="lead">Сухие смеси и штукатурка, гипсокартон, утеплитель, крепёж, инструмент и краска. Держим на складе, отгружаем в день заказа: самовывоз из магазина на Шоссейной или доставка по городу и области.</p>
       <div class="hero__cta">
         <a class="btn btn--primary" href="#catalog">Смотреть каталог</a>
         <a class="btn btn--ghost" href="#order">Прислать список — посчитаем</a>
@@ -781,7 +808,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
             <div class="pg__t">Сухие смеси</div>
-            <div class="pg__s">цемент, штукатурки</div>
+            <div class="pg__s">цемент, штукатурка</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
@@ -796,8 +823,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
         <article class="pg" data-i="3" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Кровля</div>
-            <div class="pg__s">профлист, водостоки</div>
+            <div class="pg__t">Гипсокартон</div>
+            <div class="pg__s">листы, профиль</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
@@ -812,8 +839,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
         <article class="pg" data-i="5" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Сад и полив</div>
-            <div class="pg__s">шланги, грунты</div>
+            <div class="pg__t">Утеплитель</div>
+            <div class="pg__s">минвата, ЭППС</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
@@ -859,7 +886,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     </div>
 
     <div class="stage__outro" id="stageOutro">
-      <p>Всё это лежит на базе в Ростове — приезжайте или пришлите список.</p>
+      <p>Всё это есть в магазине на Шоссейной, 2н — приезжайте или пришлите список.</p>
       <a class="btn btn--primary" href="#order">Собрать заказ по списку</a>
     </div>
 
@@ -869,7 +896,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           <div class="stat"><div class="stat__n">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
           <div class="stat"><div class="stat__n">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
           <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-          <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье выходной</div></div>
+          <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
         </div>
       </div>
     </div>
@@ -886,7 +913,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="stat"><div class="stat__n" data-count="2500" data-suffix="+">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
       <div class="stat"><div class="stat__n" data-prefix="от " data-count="2" data-suffix=" ч">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
       <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-      <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье выходной</div></div>
+      <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье — выходной</div></div>
     </div>
   </div>
 </section>
@@ -916,7 +943,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <form class="form rv" id="orderForm" novalidate>
         <div class="field">
           <label for="f-list">Список материалов</label>
-          <textarea id="f-list" name="list" placeholder="Например:&#10;Цемент М500 — 20 мешков&#10;Штукатурка гипсовая 30 кг — 10 мешков&#10;Саморезы 3,5×45 — 500 шт"></textarea>
+          <textarea id="f-list" name="list" placeholder="Например:&#10;Цемент М500 — 20 мешков&#10;Гипсокартон 12,5 мм — 24 листа&#10;Саморез по металлу 3,5×25 — 2 упаковки"></textarea>
         </div>
         <div class="form__row">
           <div class="field">
@@ -937,73 +964,67 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 </section>
 
 <!-- ========== КАТАЛОГ ========== -->
-<section class="section patterned" id="catalog">
+<section class="section corrugate--light" id="catalog">
   <div class="wrap">
     <div class="head rv">
-      <p class="eyebrow">Что есть на базе</p>
+      <p class="eyebrow">Что есть в магазине</p>
       <h2>Каталог</h2>
       <p class="lead">Основные группы товаров. Если позиции нет в списке — позвоните: почти всё есть на складе или привезём под заказ за 1–2 дня.</p>
     </div>
 
     <div class="grid-cat stagger">
-      <a class="cat" href="#shop" data-cat="smesi">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 4h10l2 4v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8z"/><path d="M5 8h14M10 4v4M14 4v4"/></svg>
-        <span class="cat__t">Сухие смеси и ЦПС</span>
-        <span class="cat__n">Цемент, штукатурки, наливной пол, плиточный клей</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="cat" href="#shop" data-cat="krovlya">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 13 12 5l10 8"/><path d="M4 15.5 12 9l8 6.5M6 18 12 13l6 5"/></svg>
-        <span class="cat__t">Кровля и профнастил</span>
-        <span class="cat__n">Профлист, металлочерепица, водостоки, саморезы</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="cat" href="#shop" data-cat="krepezh">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 3h6v3l-2 2v11l-1 3-1-3V8L9 6z"/><path d="M9.5 9h5M9.5 12h5M9.5 15h5"/></svg>
-        <span class="cat__t">Крепёж и метизы</span>
-        <span class="cat__n">Саморезы, анкеры, дюбели, гвозди, метизы на вес</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
       <a class="cat" href="#shop" data-cat="instrument">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0 5 5L15 16l-4 4-3-3 4-4z"/><path d="m5 5 4 4"/></svg>
-        <span class="cat__t">Инструмент и оснастка</span>
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-instrument"></use></svg>
+        <span class="cat__t">Инструмент</span>
         <span class="cat__n">Ручной и электро, диски, буры, расходники</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="elektrika">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M13 2 5 13h6l-1 9 8-11h-6z"/></svg>
-        <span class="cat__t">Электрика</span>
-        <span class="cat__n">Кабель, автоматы, розетки, лампы, удлинители</span>
+      <a class="cat" href="#shop" data-cat="blok">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-blok"></use></svg>
+        <span class="cat__t">Газоблок и кирпич</span>
+        <span class="cat__n">Газоблок D500 и D600, кирпич рядовой и облицовочный</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="santeh">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3s5 5.5 5 9a5 5 0 0 1-10 0c0-3.5 5-9 5-9z"/></svg>
-        <span class="cat__t">Сантехника</span>
-        <span class="cat__n">Трубы, фитинги, смесители, фильтры, изоляция</span>
+      <a class="cat" href="#shop" data-cat="gkl">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-gkl"></use></svg>
+        <span class="cat__t">Гипсокартон</span>
+        <span class="cat__n">Листы ГКЛ и ГКЛВ, профиль, подвесы, серпянка</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="lkm">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/></svg>
-        <span class="cat__t">Краски и ЛКМ</span>
-        <span class="cat__n">Эмали, грунты, лаки, колеровка, кисти и валики</span>
+      <a class="cat" href="#shop" data-cat="krepezh">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-krepezh"></use></svg>
+        <span class="cat__t">Крепёж</span>
+        <span class="cat__n">Саморезы, анкеры, дюбели, гвозди, уголки</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="pilomat">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 17 15 5l6 2-12 12z"/><path d="M3 20h18M7 13l6 2"/></svg>
-        <span class="cat__t">Пиломатериалы</span>
-        <span class="cat__n">Доска, брус, фанера, ОСП, рейка, поддоны</span>
+      <a class="cat" href="#shop" data-cat="uteplitel">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-uteplitel"></use></svg>
+        <span class="cat__t">Утеплитель</span>
+        <span class="cat__n">Минвата, ЭППС, шумоизоляция, плёнки</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="sad">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 21c-5 0-8-3-8-8 5 0 8 2 8 6 0-5 3-8 8-8 0 6-3 10-8 10z"/><path d="M12 21v-6"/></svg>
-        <span class="cat__t">Сад и полив</span>
-        <span class="cat__n">Шланги, лопаты, грунты, удобрения, укрывной</span>
+      <a class="cat" href="#shop" data-cat="smesi">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-smesi"></use></svg>
+        <span class="cat__t">Сухие смеси и штукатурка</span>
+        <span class="cat__n">Цемент, штукатурка, шпаклёвка, наливной пол</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="hoz">
-        <svg class="cat__ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 9h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M4 9 6 4h12l2 5M12 4v5M9 13h6"/></svg>
-        <span class="cat__t">Хозтовары и спецодежда</span>
-        <span class="cat__n">Плёнка, мешки, перчатки, вёдра, стремянки</span>
+      <a class="cat" href="#shop" data-cat="potolki">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-potolki"></use></svg>
+        <span class="cat__t">Потолки</span>
+        <span class="cat__n">Армстронг, подвесные системы, плинтус, светильники</span>
+        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cat" href="#shop" data-cat="kraska">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-kraska"></use></svg>
+        <span class="cat__t">Краска</span>
+        <span class="cat__n">Интерьерная, фасадная, эмали, грунты, валики</span>
+        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cat" href="#shop" data-cat="rashod">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-rashod"></use></svg>
+        <span class="cat__t">Расходный материал</span>
+        <span class="cat__n">Плёнка, скотч, мешки, перчатки, кисти</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -1011,16 +1032,15 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 </section>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
-  <symbol id="ic-smesi" viewBox="0 0 24 24"><path d="M7 4h10l2 4v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8z"/><path d="M5 8h14M10 4v4M14 4v4"/></symbol>
-  <symbol id="ic-krovlya" viewBox="0 0 24 24"><path d="M2 13 12 5l10 8"/><path d="M4 15.5 12 9l8 6.5M6 18 12 13l6 5"/></symbol>
-  <symbol id="ic-krepezh" viewBox="0 0 24 24"><path d="M9 3h6v3l-2 2v11l-1 3-1-3V8L9 6z"/><path d="M9.5 9h5M9.5 12h5M9.5 15h5"/></symbol>
   <symbol id="ic-instrument" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0 5 5L15 16l-4 4-3-3 4-4z"/><path d="m5 5 4 4"/></symbol>
-  <symbol id="ic-elektrika" viewBox="0 0 24 24"><path d="M13 2 5 13h6l-1 9 8-11h-6z"/></symbol>
-  <symbol id="ic-santeh" viewBox="0 0 24 24"><path d="M12 3s5 5.5 5 9a5 5 0 0 1-10 0c0-3.5 5-9 5-9z"/></symbol>
-  <symbol id="ic-lkm" viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/></symbol>
-  <symbol id="ic-pilomat" viewBox="0 0 24 24"><path d="M3 17 15 5l6 2-12 12z"/><path d="M3 20h18M7 13l6 2"/></symbol>
-  <symbol id="ic-sad" viewBox="0 0 24 24"><path d="M12 21c-5 0-8-3-8-8 5 0 8 2 8 6 0-5 3-8 8-8 0 6-3 10-8 10z"/><path d="M12 21v-6"/></symbol>
-  <symbol id="ic-hoz" viewBox="0 0 24 24"><path d="M4 9h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M4 9 6 4h12l2 5M12 4v5M9 13h6"/></symbol>
+  <symbol id="ic-blok" viewBox="0 0 24 24"><path d="M3 6h18v5H3zM3 13h18v5H3z"/><path d="M10 6v5M17 6v5M6.5 13v5M13.5 13v5"/></symbol>
+  <symbol id="ic-gkl" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="ic-krepezh" viewBox="0 0 24 24"><path d="M9 3h6v3l-2 2v11l-1 3-1-3V8L9 6z"/><path d="M9.5 9h5M9.5 12h5M9.5 15h5"/></symbol>
+  <symbol id="ic-uteplitel" viewBox="0 0 24 24"><path d="M3 8c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 13c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 18c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/></symbol>
+  <symbol id="ic-smesi" viewBox="0 0 24 24"><path d="M7 4h10l2 4v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8z"/><path d="M5 8h14M10 4v4M14 4v4"/></symbol>
+  <symbol id="ic-potolki" viewBox="0 0 24 24"><path d="M12 3v3"/><path d="M4 6h16v12H4z"/><path d="M4 12h16M12 6v12"/></symbol>
+  <symbol id="ic-kraska" viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/></symbol>
+  <symbol id="ic-rashod" viewBox="0 0 24 24"><path d="M4 9h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M4 9 6 4h12l2 5M12 4v5M9 13h6"/></symbol>
 </defs></svg>
 
 <!-- ========== МАГАЗИН ========== -->
@@ -1036,7 +1056,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <label class="skip" for="q">Поиск по товарам</label>
-        <input id="q" type="search" name="search" autocomplete="off" spellcheck="false" placeholder="Цемент, саморезы, профлист…">
+        <input id="q" type="search" name="search" autocomplete="off" spellcheck="false" placeholder="Цемент, саморезы, гипсокартон…">
       </div>
       <div class="sort">
         <label for="sort">Сортировка</label>
@@ -1068,12 +1088,12 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="head rv">
       <p class="eyebrow">Как забрать</p>
       <h2>Самовывоз и доставка</h2>
-      <p class="lead">Своя машина и своя база — не ждём поставку неделю и не пересылаем вас в другой пункт выдачи.</p>
+      <p class="lead">Свой магазин и своя машина — не ждём поставку неделю и не пересылаем вас в другой пункт выдачи.</p>
     </div>
     <div class="grid-3 stagger">
       <div class="card">
         <div class="card__ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-7h6v7"/></svg></div>
-        <h3>Самовывоз с базы</h3>
+        <h3>Самовывоз из магазина</h3>
         <p>Приезжайте в рабочие часы без предзаказа: товар на месте, можно посмотреть и потрогать. Заезд для легковой и для газели, грузим сами.</p>
         <div class="card__meta">Бесплатно · соберём за 30 минут</div>
       </div>
@@ -1097,9 +1117,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 <section class="section" id="about">
   <div class="wrap about">
     <div class="rv">
-      <p class="eyebrow">О базе</p>
+      <p class="eyebrow">О магазине</p>
       <h2>Мы — не интернет-витрина</h2>
-      <p class="lead">«Ящик» — реальная база в Ростове-на-Дону: склад, зал, погрузка и люди, которые каждый день отгружают материалы частникам и бригадам. Поэтому не бывает «в наличии на сайте, а по факту нет».</p>
+      <p class="lead">«Ящик» — реальный строймаркет на Шоссейной, 2н: торговый зал, склад, погрузка и люди, которые каждый день отгружают материалы частникам и бригадам. Поэтому не бывает «в наличии на сайте, а по факту нет».</p>
       <div class="ticks">
         <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Наличие подтверждаем сразу, а не «уточним у поставщика»</span></div>
         <div class="tick"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg><span>Подскажем расход и что вместо чего можно взять дешевле</span></div>
@@ -1110,9 +1130,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="rv about__pic">
       <div class="facade facade--photo">
         <img src="assets/photos/01-fasad.webp" srcset="assets/photos/01-fasad@s.webp 675w, assets/photos/01-fasad.webp 1200w" sizes="(max-width: 900px) 92vw, 560px"
-             width="1200" height="1600" alt="Фасад базы «Ящик» с вывеской и грузовик доставки у входа" loading="lazy" decoding="async">
+             width="1200" height="1600" alt="Фасад строймаркета «Ящик» с вывеской и грузовик доставки у входа" loading="lazy" decoding="async">
       </div>
-      <p class="about__cap">База на Шоссейной, 2Н: свой склад, зал и машина доставки. <a href="#photos" style="color:var(--green-d);font-weight:600">Ещё фото</a></p>
+      <p class="about__cap">Магазин на Шоссейной, 2н: свой склад, зал и машина доставки. <a href="#photos" style="color:var(--green-d);font-weight:600">Ещё фото</a></p>
     </div>
   </div>
 </section>
@@ -1121,7 +1141,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 <section class="section section--alt" id="photos" hidden>
   <div class="wrap">
     <div class="head rv">
-      <p class="eyebrow">Как у нас на базе</p>
+      <p class="eyebrow">Как у нас в магазине</p>
       <h2>Фото</h2>
       <p class="lead">Склад, зал, погрузка и машина на выезде — всё как есть, без стоковых картинок.</p>
     </div>
@@ -1162,10 +1182,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
    Положите файлы в assets/photos/ и перечислите здесь. alt — подпись для незрячих и поисковиков,
    cap — подпись под фото (необязательно). Пустой список — секция скрыта. */
 var PHOTOS = [
-  { src:'assets/photos/01-fasad.webp',    small:'assets/photos/01-fasad@s.webp',    w:1200, h:1600, alt:'Фасад базы «Ящик»: вывеска с логотипом и грузовик у входа', cap:'Вход на базу, Шоссейная 2Н' },
+  { src:'assets/photos/01-fasad.webp',    small:'assets/photos/01-fasad@s.webp',    w:1200, h:1600, alt:'Фасад строймаркета «Ящик»: вывеска с логотипом и грузовик у входа', cap:'Вход, Шоссейная 2н' },
   { src:'assets/photos/02-zal.webp',      small:'assets/photos/02-zal@s.webp',      w:1200, h:1600, alt:'Торговый зал: валики, кисти, шпатели, монтажная пена и крепёж на стеллажах', cap:'Торговый зал: инструмент и расходники' },
   { src:'assets/photos/03-pogruzka.webp', small:'assets/photos/03-pogruzka@s.webp', w:1600, h:1200, alt:'Грузовик «Ящик» на площадке рядом с паллетами штукатурки Knauf', cap:'Погрузка: смеси Knauf едут на объект' },
-  { src:'assets/photos/04-sklad.webp',    small:'assets/photos/04-sklad@s.webp',    w:1600, h:1200, alt:'Паллеты газобетона MASIX под навесом склада, на фоне здание базы с вывеской', cap:'Склад: газоблок под навесом' },
+  { src:'assets/photos/04-sklad.webp',    small:'assets/photos/04-sklad@s.webp',    w:1600, h:1200, alt:'Паллеты газобетона MASIX под навесом склада, на фоне здание магазина с вывеской', cap:'Склад: газоблок под навесом' },
   { src:'assets/photos/05-zal-2.webp',    small:'assets/photos/05-zal-2@s.webp',    w:1500, h:1125, alt:'Стеллажи с товарами Knauf, Технониколь, Основит и малярным инструментом', cap:'Официальные бренды: Knauf, Технониколь, Основит' }
 ];
 (function(){
@@ -1406,7 +1426,7 @@ var REVIEWS_CONFIG = {
       <div class="cont__list rv">
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>
-          <div><div class="cont__k">Адрес</div><div class="cont__v">г. Ростов-на-Дону, ул. Шоссейная, 2Н<span>микрорайон Заречная</span></div></div>
+          <div><div class="cont__k">Адрес магазина</div><div class="cont__v">г. Ростов-на-Дону, ул. Шоссейная, 2н<span>микрорайон Заречная · заезд для легковой и для газели</span></div></div>
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 5c0 8.3 6.7 15 15 15l1.5-3.4-4.2-1.9-2 2a13 13 0 0 1-6-6l2-2-1.9-4.2L5 3z"/></svg>
@@ -1421,7 +1441,7 @@ var REVIEWS_CONFIG = {
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
-          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Пт 8:00–17:00<span>Сб 8:00–13:00 · Вс выходной</span></div></div>
+          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Пт 8:00–17:00<span>Суббота 8:00–13:00 · воскресенье — выходной</span></div></div>
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>
@@ -1430,7 +1450,7 @@ var REVIEWS_CONFIG = {
       </div>
 
       <div class="map map--live rv">
-        <iframe class="map__frame" title="Строймаркет Ящик на Яндекс Картах" loading="lazy" allowfullscreen
+        <iframe class="map__frame" title="Строймаркет «Ящик» на Яндекс Картах" loading="lazy" allowfullscreen
           src="https://yandex.ru/map-widget/v1/?ol=biz&amp;oid=168184477881&amp;z=16"></iframe>
         <div class="map__links">
           <a class="btn btn--dark btn--sm" href="https://yandex.ru/maps/org/yashchik/168184477881/" target="_blank" rel="noopener">Открыть на Яндекс Картах</a>
@@ -1462,16 +1482,16 @@ var REVIEWS_CONFIG = {
     <div class="ftr__top">
       <div>
         <a href="#top" class="logo logo--light" aria-label="Ящик — на главную"><img class="logo__full" src="assets/logo-full-white.png" width="450" height="409" alt="Ящик — все нужное уже в ящике"></a>
-        <p class="ftr__desc">Строймаркет: стройматериалы, инструмент и хозтовары в Ростове-на-Дону. Самовывоз и доставка по городу и области.</p>
+        <p class="ftr__desc">Строймаркет в Ростове-на-Дону, ул. Шоссейная, 2н: сухие смеси, гипсокартон, утеплитель, крепёж, инструмент и краска. Самовывоз и доставка по городу и области.</p>
       </div>
       <div>
         <h4>Каталог</h4>
         <ul>
-          <li><a href="#catalog">Сухие смеси</a></li>
-          <li><a href="#catalog">Крепёж и метизы</a></li>
-          <li><a href="#catalog">Кровля</a></li>
+          <li><a href="#catalog">Сухие смеси и штукатурка</a></li>
+          <li><a href="#catalog">Гипсокартон</a></li>
+          <li><a href="#catalog">Утеплитель</a></li>
+          <li><a href="#catalog">Крепёж</a></li>
           <li><a href="#catalog">Инструмент</a></li>
-          <li><a href="#catalog">Сад и полив</a></li>
         </ul>
       </div>
       <div>
@@ -1482,7 +1502,7 @@ var REVIEWS_CONFIG = {
           <li><a href="#delivery">Доставка и самовывоз</a></li>
           <li><a href="#b2b">Оптом и юрлицам</a></li>
           <li><a href="#partners">Партнёры</a></li>
-          <li><a href="#about">О базе</a></li>
+          <li><a href="#about">О магазине</a></li>
         </ul>
       </div>
       <div>
@@ -1490,14 +1510,15 @@ var REVIEWS_CONFIG = {
         <ul>
           <li><a href="tel:+79185913033">+7 (918) 591-30-33</a></li>
           <li><a href="mailto:rndbox@yandex.ru">rndbox@yandex.ru</a></li>
-          <li>Пн–Пт 8:00–17:00, Сб до 13:00, Вс выходной</li>
-          <li>г. Ростов-на-Дону, ул. Шоссейная, 2Н, мкр. Заречная</li>
+          <li>Пн–Пт 8:00–17:00, Сб до 13:00</li>
+          <li>Вс — выходной</li>
+          <li>г. Ростов-на-Дону, ул. Шоссейная, 2н</li>
         </ul>
       </div>
     </div>
     <div class="ftr__bot">
-      <span>© 2026 «Ящик» · строймаркет</span>
-      <span>г. Ростов-на-Дону, ул. Шоссейная, 2Н · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
+      <span>© 2026 «Ящик» · строймаркет в Ростове-на-Дону</span>
+      <span>г. Ростов-на-Дону, ул. Шоссейная, 2н · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
     </div>
   </div>
 </footer>
@@ -1549,8 +1570,8 @@ var REVIEWS_CONFIG = {
         <div class="pay">
           <label>
             <input type="radio" name="ship" value="pickup" checked>
-            <span><span class="pay__t">Самовывоз с базы — бесплатно</span>
-            <span class="pay__d">Соберём за 30 минут, заберёте в рабочие часы</span></span>
+            <span><span class="pay__t">Самовывоз из магазина — бесплатно</span>
+            <span class="pay__d">Соберём за 30 минут, заберёте на Шоссейной, 2н в рабочие часы</span></span>
           </label>
           <label>
             <input type="radio" name="ship" value="delivery">
@@ -1923,19 +1944,20 @@ var REVIEWS_CONFIG = {
 (function(){
   var GOODS = [
     /* Витрина-пример: 8 позиций, два ряда на десктопе. Реальный прайс подставится сюда же. */
-    {id:'ce500',  c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг',                 p:560,  u:'мешок', t:'хит'},
-    {id:'shtg',   c:'smesi',      n:'Штукатурка гипсовая, 30 кг',               p:480,  u:'мешок'},
-    {id:'prof8',  c:'krovlya',    n:'Профнастил С8, 1,15×2 м, оцинкованный',    p:1290, u:'лист', t:'хит'},
-    {id:'samd',   c:'krepezh',    n:'Саморез по дереву 3,5×45, 200 шт',         p:240,  u:'упаковка', t:'хит'},
-    {id:'perf',   c:'instrument', n:'Перфоратор SDS-plus, 900 Вт',              p:7900, u:'шт'},
-    {id:'grunt',  c:'lkm',        n:'Грунтовка глубокого проникновения, 10 л',  p:590,  u:'канистра', t:'хит'},
-    {id:'osp',    c:'pilomat',    n:'ОСП-3 2500×1250×9 мм',                     p:1090, u:'лист'},
-    {id:'shlang', c:'sad',        n:'Шланг поливочный 1/2", 25 м',              p:1290, u:'бухта'}
+    {id:'ce500',   c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг',                     p:560,  u:'мешок', t:'хит'},
+    {id:'shtg',    c:'smesi',      n:'Штукатурка гипсовая, 30 кг',                   p:480,  u:'мешок', t:'хит'},
+    {id:'gb500',   c:'blok',       n:'Газоблок D500, 600×300×200 мм',                p:180,  u:'шт', t:'хит'},
+    {id:'gkl125',  c:'gkl',        n:'Гипсокартон стеновой 2500×1200×12,5 мм',       p:640,  u:'лист'},
+    {id:'minv100', c:'uteplitel',  n:'Минвата в плитах 100 мм, 0,3 м³',              p:1180, u:'упаковка'},
+    {id:'samm',    c:'krepezh',    n:'Саморез по металлу 3,5×25, 1000 шт',           p:490,  u:'упаковка'},
+    {id:'perf',    c:'instrument', n:'Перфоратор SDS-plus, 900 Вт',                  p:7900, u:'шт'},
+    {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг',           p:1890, u:'ведро'}
   ];
 
-  var CATS = [['all','Все товары'],['smesi','Сухие смеси'],['krovlya','Кровля'],['krepezh','Крепёж'],
-              ['instrument','Инструмент'],['elektrika','Электрика'],['santeh','Сантехника'],
-              ['lkm','Краски и ЛКМ'],['pilomat','Пиломатериалы'],['sad','Сад и полив'],['hoz','Хозтовары']]
+  var CATS = [['all','Все товары'],['instrument','Инструмент'],['blok','Газоблок и кирпич'],
+              ['gkl','Гипсокартон'],['krepezh','Крепёж'],['uteplitel','Утеплитель'],
+              ['smesi','Сухие смеси и штукатурка'],['potolki','Потолки'],['kraska','Краска'],
+              ['rashod','Расходный материал']]
     .filter(function(c){ return c[0] === 'all' || GOODS.some(function(g){ return g.c === c[0]; }); });
 
   var KEY = 'yashchik-cart-v1', FREE = 15000, SHIP = 600;
@@ -2175,7 +2197,7 @@ var REVIEWS_CONFIG = {
              '-' + String(1000 + Math.floor(Math.random() * 9000));
     $('orderNo').textContent = no;
     $('doneSum').textContent = 'Сумма заказа — ' + nf.format(total) + ' ₽, ' +
-      (method() === 'pickup' ? 'самовывоз с базы.' : 'доставка по Ростову.');
+      (method() === 'pickup' ? 'самовывоз из магазина.' : 'доставка по Ростову.');
     cart = {}; sync();
     pane('done');
   });
@@ -2185,5 +2207,36 @@ var REVIEWS_CONFIG = {
 })();
 </script>
 
+
+
+<script>
+/* Виджеты Яндекса в iframe: если фрейм не загрузился (политика встраивания в предпросмотре),
+   показываем карточку с адресом и ссылками вместо пустого места. */
+(function(){
+  /* заблокированный фрейм остаётся about:blank и доступен как свой же документ;
+     успешно загруженный чужой сайт бросает ошибку на contentDocument — по этому и отличаем */
+  function blocked(frame){
+    try { var d = frame.contentDocument; return !!d && (!d.location || d.location.href === 'about:blank'); }
+    catch (e) { return false; }
+  }
+  function guard(frame, html){
+    if (!frame) return;
+    setTimeout(function(){
+      if (!frame.parentNode || !blocked(frame)) return;
+      frame.hidden = true;
+      frame.insertAdjacentHTML('afterend', html);
+    }, 3000);
+  }
+  guard(document.querySelector('.map__frame'),
+    '<div class="frame-fb">' +
+    '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>' +
+    '<b>г. Ростов-на-Дону, ул. Шоссейная, 2н</b>' +
+    '<span>Карта Яндекса не открывается в этом предпросмотре — на рабочем домене виджет встанет сюда. Кнопки ниже работают.</span></div>');
+  guard(document.getElementById('yFrame'),
+    '<div class="frame-fb">' +
+    '<b>Отзывы с Яндекс Карт</b>' +
+    '<span>Виджет не открывается в этом предпросмотре — на рабочем домене он показывает живые отзывы. Кнопки ниже ведут прямо к ним.</span></div>');
+})();
+</script>
 
 </body></html>
