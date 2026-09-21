@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Стройбаза «Ящик» — база строительных материалов, инструмента и хозтоваров в Ростове-на-Дону. Самовывоз и доставка по городу и области.">
-<title>Стройбаза Ящик</title>
+<meta name="description" content="Строймаркет «Ящик» — стройматериалы, инструмент и хозтовары в Ростове-на-Дону, ул. Шоссейная, 2Н. Самовывоз и доставка по городу и области.">
+<title>Строймаркет Ящик</title>
 <link rel="preload" href="assets/fonts/manrope-800-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/manrope-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css">
@@ -70,6 +70,14 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           mask-image:linear-gradient(180deg,rgba(0,0,0,.55),#000 30%,#000 70%,rgba(0,0,0,.55));
 }
 .corrugate > *{position:relative;z-index:1}
+/* та же подложка на светлых секциях: зелёные иконки на белом, едва заметно */
+.patterned{position:relative;overflow:hidden}
+.patterned::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:url("assets/bg-tile-light.svg") center top/620px 620px repeat;opacity:.09;
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.5),#000 30%,#000 70%,rgba(0,0,0,.5));
+          mask-image:linear-gradient(180deg,rgba(0,0,0,.5),#000 30%,#000 70%,rgba(0,0,0,.5))}
+.patterned > *{position:relative;z-index:1}
+@media (max-width:560px){ .patterned::before{background-size:420px 420px} }
 .ftr{position:relative;overflow:hidden}
 .ftr.corrugate::before{opacity:.10}
 @media (max-width:560px){ .corrugate::before{background-size:420px 420px} }
@@ -111,8 +119,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .nav{display:flex;gap:26px;margin-left:auto;font-weight:600;font-size:15.5px}
 .nav a{padding:6px 0;border-bottom:2px solid transparent;transition:color .15s ease,border-color .15s ease}
 .nav a:hover{color:var(--green-d);border-color:var(--green)}
-.hdr__phone{font-weight:800;font-size:18px;letter-spacing:-.01em;white-space:nowrap}
-.hdr__phone small{display:block;font-family:"Oswald",sans-serif;font-weight:500;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.hdr__phone{font-weight:800;font-size:17px;letter-spacing:-.01em;white-space:nowrap;line-height:1.15;text-align:right}
+.hdr__phone small{display:block;font-family:"Oswald",sans-serif;font-weight:500;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .burger{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--line-2);border-radius:var(--r);background:#fff;align-items:center;justify-content:center;cursor:pointer}
 .burger span{display:block;width:20px;height:2px;background:var(--ink);position:relative}
 .burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--ink)}
@@ -691,9 +699,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 /* ---------- header fit ---------- */
 .logo__tag,.nav a{white-space:nowrap}
 @media (max-width:1200px){
-  .hdr__in{gap:20px}
-  .nav{gap:20px;font-size:15px}
-  .hdr__phone{font-size:16.5px}
+  .hdr__in{gap:18px}
+  .nav{gap:18px;font-size:15px}
+  .hdr__phone{font-size:16px}
+  .hdr__phone small:first-child{display:none}
 }
 @media (max-width:1080px){
   .hdr__in > .btn{display:none}
@@ -729,8 +738,9 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     </nav>
 
     <a class="hdr__phone" href="tel:+79185913033">
-      <small>Пн–Сб 8:00–18:00</small>
+      <small>Ростов-на-Дону, ул. Шоссейная, 2Н</small>
       +7 (918) 591-30-33
+      <small>Пн–Пт 8:00–17:00 · Сб до 13:00</small>
     </a>
     <button class="cartbtn" type="button" id="cartOpen" aria-haspopup="dialog">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16l-1.5 12.5a1 1 0 0 1-1 .9H6.5a1 1 0 0 1-1-.9z"/><path d="M8.5 7V5.5a3.5 3.5 0 0 1 7 0V7"/></svg>
@@ -749,7 +759,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="stage__glow" id="glow"></div>
 
     <div class="stage__head wrap" id="stageHead">
-      <p class="eyebrow eyebrow--light">База строительных материалов · Ростов-на-Дону</p>
+      <p class="eyebrow eyebrow--light">Строймаркет · Ростов-на-Дону, ул. Шоссейная, 2Н</p>
       <h1>Всё нужное&nbsp;— уже <span class="mark-box">в ящике</span></h1>
       <p class="lead">Стройматериалы, крепёж, инструмент, хозтовары и всё для сада. Держим на складе, отгружаем в день заказа: самовывоз с базы или доставка по городу и области.</p>
       <div class="hero__cta">
@@ -763,7 +773,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
             <div class="pg__t">Каталог</div>
-            <div class="pg__s">5 000+ позиций</div>
+            <div class="pg__s">2 500+ позиций</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
@@ -856,10 +866,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="stage__stats" id="stageStats" aria-hidden="true">
       <div class="wrap">
         <div class="stats">
-          <div class="stat"><div class="stat__n">5 000+</div><div class="stat__t">позиций на складе — от саморезов до профнастила</div></div>
+          <div class="stat"><div class="stat__n">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
           <div class="stat"><div class="stat__n">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
           <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-          <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t">8:00–18:00, самовывоз без предзаказа</div></div>
+          <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье выходной</div></div>
         </div>
       </div>
     </div>
@@ -873,18 +883,18 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 <section class="statband">
   <div class="wrap">
     <div class="stats rv">
-      <div class="stat"><div class="stat__n" data-count="5000" data-suffix="+">5 000+</div><div class="stat__t">позиций на складе — от саморезов до профнастила</div></div>
+      <div class="stat"><div class="stat__n" data-count="2500" data-suffix="+">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
       <div class="stat"><div class="stat__n" data-prefix="от " data-count="2" data-suffix=" ч">от 2 ч</div><div class="stat__t">доставка по Ростову в день заказа</div></div>
       <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
-      <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t">8:00–18:00, самовывоз без предзаказа</div></div>
+      <div class="stat"><div class="stat__n">Пн–Пт</div><div class="stat__t">8:00–17:00, суббота до 13:00, воскресенье выходной</div></div>
     </div>
   </div>
 </section>
 
 <div class="ticker" aria-hidden="true">
   <div class="ticker__track">
-    <div class="ticker__half"><span>Цемент</span><i>◆</i><span>Профнастил</span><i>◆</i><span>Саморезы</span><i>◆</i><span>Гипсокартон</span><i>◆</i><span>Утеплитель</span><i>◆</i><span>Песок</span><i>◆</i><span>Щебень</span><i>◆</i><span>Краска</span><i>◆</i><span>Фанера</span><i>◆</i><span>Трубы</span><i>◆</i><span>Кабель</span><i>◆</i><span>Перчатки</span><i>◆</i><span>Мешки</span><i>◆</i><span>Лопаты</span><i>◆</i><span>Шланги</span><i>◆</i><span>Дюбели</span><i>◆</i></div>
-    <div class="ticker__half"><span>Цемент</span><i>◆</i><span>Профнастил</span><i>◆</i><span>Саморезы</span><i>◆</i><span>Гипсокартон</span><i>◆</i><span>Утеплитель</span><i>◆</i><span>Песок</span><i>◆</i><span>Щебень</span><i>◆</i><span>Краска</span><i>◆</i><span>Фанера</span><i>◆</i><span>Трубы</span><i>◆</i><span>Кабель</span><i>◆</i><span>Перчатки</span><i>◆</i><span>Мешки</span><i>◆</i><span>Лопаты</span><i>◆</i><span>Шланги</span><i>◆</i><span>Дюбели</span><i>◆</i></div>
+    <div class="ticker__half"><span>Цемент</span><i>◆</i><span>Штукатурка</span><i>◆</i><span>Саморезы</span><i>◆</i><span>Гипсокартон</span><i>◆</i><span>Утеплитель</span><i>◆</i><span>Песок</span><i>◆</i><span>Инструменты</span><i>◆</i><span>Краска</span><i>◆</i><span>Фанера</span><i>◆</i><span>Кабель</span><i>◆</i><span>Перчатки</span><i>◆</i><span>Мешки</span><i>◆</i><span>Лопаты</span><i>◆</i><span>Шланги</span><i>◆</i><span>Дюбели</span><i>◆</i></div>
+    <div class="ticker__half"><span>Цемент</span><i>◆</i><span>Штукатурка</span><i>◆</i><span>Саморезы</span><i>◆</i><span>Гипсокартон</span><i>◆</i><span>Утеплитель</span><i>◆</i><span>Песок</span><i>◆</i><span>Инструменты</span><i>◆</i><span>Краска</span><i>◆</i><span>Фанера</span><i>◆</i><span>Кабель</span><i>◆</i><span>Перчатки</span><i>◆</i><span>Мешки</span><i>◆</i><span>Лопаты</span><i>◆</i><span>Шланги</span><i>◆</i><span>Дюбели</span><i>◆</i></div>
   </div>
 </div>
 
@@ -906,7 +916,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <form class="form rv" id="orderForm" novalidate>
         <div class="field">
           <label for="f-list">Список материалов</label>
-          <textarea id="f-list" name="list" placeholder="Например:&#10;Цемент М500 — 20 мешков&#10;Профлист С8, 2 м — 14 листов&#10;Саморезы кровельные 4,8×35 — 500 шт"></textarea>
+          <textarea id="f-list" name="list" placeholder="Например:&#10;Цемент М500 — 20 мешков&#10;Штукатурка гипсовая 30 кг — 10 мешков&#10;Саморезы 3,5×45 — 500 шт"></textarea>
         </div>
         <div class="form__row">
           <div class="field">
@@ -927,7 +937,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 </section>
 
 <!-- ========== КАТАЛОГ ========== -->
-<section class="section" id="catalog">
+<section class="section patterned" id="catalog">
   <div class="wrap">
     <div class="head rv">
       <p class="eyebrow">Что есть на базе</p>
@@ -1045,10 +1055,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
     <p class="goods__empty" id="goodsEmpty" hidden>
       <b>Ничего не нашли по этому запросу</b>
-      Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 5 000 позиций, в витрине только часть.
+      Позвоните <a href="tel:+79185913033" style="color:var(--green-d);font-weight:700">+7 (918) 591-30-33</a> — на складе больше 2 500 позиций, в витрине только часть.
     </p>
 
-    <p class="shop__note">В витрине только ходовые позиции, цены уточняйте при заказе — на складе больше 5 000 наименований. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
+    <p class="shop__note">В витрине только ходовые позиции, цены уточняйте при заказе — на складе больше 2 500 наименований. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем.</p>
   </div>
 </section>
 
@@ -1396,7 +1406,7 @@ var REVIEWS_CONFIG = {
       <div class="cont__list rv">
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 22s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="11" r="2.6"/></svg>
-          <div><div class="cont__k">Адрес базы</div><div class="cont__v">Шоссейная ул., 2Н<span>микрорайон Заречная, Ростов-на-Дону</span></div></div>
+          <div><div class="cont__k">Адрес</div><div class="cont__v">г. Ростов-на-Дону, ул. Шоссейная, 2Н<span>микрорайон Заречная</span></div></div>
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 5c0 8.3 6.7 15 15 15l1.5-3.4-4.2-1.9-2 2a13 13 0 0 1-6-6l2-2-1.9-4.2L5 3z"/></svg>
@@ -1411,7 +1421,7 @@ var REVIEWS_CONFIG = {
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></svg>
-          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Сб 8:00–18:00<span>Вс — по договорённости · режим уточняется</span></div></div>
+          <div><div class="cont__k">Режим работы</div><div class="cont__v">Пн–Пт 8:00–17:00<span>Сб 8:00–13:00 · Вс выходной</span></div></div>
         </div>
         <div class="cont__i">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 7h18v12H3z"/><path d="m3 8 9 6 9-6"/></svg>
@@ -1420,7 +1430,7 @@ var REVIEWS_CONFIG = {
       </div>
 
       <div class="map map--live rv">
-        <iframe class="map__frame" title="Стройбаза Ящик на Яндекс Картах" loading="lazy" allowfullscreen
+        <iframe class="map__frame" title="Строймаркет Ящик на Яндекс Картах" loading="lazy" allowfullscreen
           src="https://yandex.ru/map-widget/v1/?ol=biz&amp;oid=168184477881&amp;z=16"></iframe>
         <div class="map__links">
           <a class="btn btn--dark btn--sm" href="https://yandex.ru/maps/org/yashchik/168184477881/" target="_blank" rel="noopener">Открыть на Яндекс Картах</a>
@@ -1452,7 +1462,7 @@ var REVIEWS_CONFIG = {
     <div class="ftr__top">
       <div>
         <a href="#top" class="logo logo--light" aria-label="Ящик — на главную"><img class="logo__full" src="assets/logo-full-white.png" width="450" height="409" alt="Ящик — все нужное уже в ящике"></a>
-        <p class="ftr__desc">База строительных материалов, инструмента и хозтоваров в Ростове-на-Дону. Самовывоз и доставка по городу и области.</p>
+        <p class="ftr__desc">Строймаркет: стройматериалы, инструмент и хозтовары в Ростове-на-Дону. Самовывоз и доставка по городу и области.</p>
       </div>
       <div>
         <h4>Каталог</h4>
@@ -1480,14 +1490,14 @@ var REVIEWS_CONFIG = {
         <ul>
           <li><a href="tel:+79185913033">+7 (918) 591-30-33</a></li>
           <li><a href="mailto:rndbox@yandex.ru">rndbox@yandex.ru</a></li>
-          <li>Пн–Сб 8:00–18:00</li>
-          <li>Шоссейная ул., 2Н, Ростов-на-Дону</li>
+          <li>Пн–Пт 8:00–17:00, Сб до 13:00, Вс выходной</li>
+          <li>г. Ростов-на-Дону, ул. Шоссейная, 2Н, мкр. Заречная</li>
         </ul>
       </div>
     </div>
     <div class="ftr__bot">
-      <span>© 2026 «Ящик» · база строительных материалов</span>
-      <span>Шоссейная ул., 2Н, микрорайон Заречная · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
+      <span>© 2026 «Ящик» · строймаркет</span>
+      <span>г. Ростов-на-Дону, ул. Шоссейная, 2Н · <a href="tel:+79185913033">+7 (918) 591-30-33</a></span>
     </div>
   </div>
 </footer>
