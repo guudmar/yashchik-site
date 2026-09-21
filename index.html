@@ -260,9 +260,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .b2b svg{flex:none;margin-top:3px;color:var(--green-l)}
 
 /* ---------- partners ---------- */
-.partners{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.partners{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:40px}
+@media (max-width:1080px){ .partners{grid-template-columns:repeat(3,1fr)} }
 @media (max-width:900px){ .partners{grid-template-columns:repeat(2,1fr)} }
-.partner__in{display:flex;align-items:center;justify-content:center;height:110px;padding:20px 28px;background:#fff;
+.partner__in{display:flex;align-items:center;justify-content:center;height:104px;padding:20px 24px;background:#fff;
   border:1px solid var(--line);border-radius:14px;transition:border-color .18s ease,transform .18s ease,box-shadow .18s ease}
 .partner__in:hover{border-color:var(--green);transform:translateY(-2px);box-shadow:var(--shadow)}
 .partner__in img{max-height:100%;max-width:100%;width:auto;height:auto;object-fit:contain;filter:saturate(.95)}
@@ -1286,6 +1287,7 @@ var PHOTOS = [
    logo — файл в assets/partners/ (png/svg, лучше на прозрачном фоне). Без logo выводится название текстом.
    url — сайт партнёра, необязательно. */
 var PARTNERS = [
+  { name:'Knauf',       logo:'assets/partners/knauf.svg' },
   { name:'Технониколь', logo:'assets/partners/tehnonikol.png' },
   { name:'Церезит',     logo:'assets/partners/ceresit.png' },
   { name:'Основит',     logo:'assets/partners/osnovit.png' },
