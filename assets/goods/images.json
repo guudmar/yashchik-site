@@ -1,7 +1,10 @@
 {
  "n36a28c6d": {
   "img": "assets/goods/n36a28c6d.webp",
-  "src": "https://kaleta.pl/agregat-tynkarski-typ-kaleta-5s/"
+  "src": "https://kaleta.pl/agregat-tynkarski-typ-kaleta-5s/",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Штукатурная станция Калета 5S (Kaleta 5S)"
  },
  "1277305-MHK": {
   "img": "assets/goods/1277305-MHK.webp",
@@ -38,5 +41,3036 @@
  "08045-10": {
   "img": "assets/goods/08045-10.webp",
   "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/gladilki/nerzhaveyushchie/08045-faie/?ID=1083435"
+ },
+ "n265e4a3e": {
+  "img": "assets/goods/n265e4a3e.webp",
+  "src": "https://tls-profi.ru/catalog/product/sistema_vyravnivaniya_plitki_tls_profi_zazhim_0_5_mm_100_sht_tls22020/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Система выравнивания плитки \"TLS-Profi\", Зажим 0,5мм 100 шт. (TLS22020)"
+ },
+ "ne5bef253": {
+  "img": "assets/goods/ne5bef253.webp",
+  "src": "https://tls-profi.ru/catalog/product/sistema_vyravnivaniya_plitki_tls_profi_zazhim_1_mm_100_sht_tls120171/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Система выравнивания плитки \"TLS-Profi\", Зажим 1 мм 100 шт. (TLSZA022022)"
+ },
+ "n802b563d": {
+  "img": "assets/goods/n802b563d.webp",
+  "src": "https://tls-profi.ru/catalog/product/sistema_vyravnivaniya_plitki_tls_profi_zazhim_1_4_mm_100_sht_tls12016/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Система выравнивания плитки \"TLS-Profi\", Зажим 1,4 мм 100 шт. (TLSZA032022)"
+ },
+ "n265ba018": {
+  "img": "assets/goods/n265ba018.webp",
+  "src": "https://tls-profi.ru/catalog/product/sistema_vyravnivaniya_plitki_tls_profi_zazhim_1_4_mm_500_sht_tls52020/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Система выравнивания плитки \"TLS-Profi\", Зажим 1,4 мм 500 шт (TLSZA122022)"
+ },
+ "ne2b0a7cb": {
+  "img": "assets/goods/ne2b0a7cb.webp",
+  "src": "https://tls-profi.ru/catalog/product/sistema_vyravnivaniya_plitki_tls_profi_zazhim_3_mm_100_sht_tls12019/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Система выравнивания плитки \"TLS-Profi\", Зажим 3мм 100 шт. (TLS12019)"
+ },
+ "nd01fef7e": {
+  "img": "assets/goods/nd01fef7e.webp",
+  "src": "https://tls-profi.ru/catalog/product/mayaki_dlya_nalivnogo_pola_70_mm_tls_profi_20_sht_tlsa12023/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Маяки для наливного пола 70 мм TLS-Profi 20 шт. (TLSZA102023)"
+ },
+ "n3e7acfa3": {
+  "img": "assets/goods/n3e7acfa3.webp",
+  "src": "https://tls-profi.ru/catalog/product/zashchitnaya_podlozhka_pod_klin_tls_profi_100_sht_tlsa32020/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Защитная подложка под клин TLS-Profi, 100 шт.(TLSA32020)"
+ },
+ "n0ad69962": {
+  "img": "assets/goods/n0ad69962.webp",
+  "src": "https://tls-profi.ru/catalog/product/instrument_dlya_sistemy_vyravnivaniya_plitki_tls_profi_plastikovyy_tls52019/",
+  "brand": "tls",
+  "match": "exact",
+  "name": "Инструмент для системы выравнивания плитки \"TLS-Profi\" (Пластиковый)(TLS52019)"
+ },
+ "nfd7c6452": {
+  "img": "assets/goods/nfd7c6452.webp",
+  "src": "https://smirdex.gr/portfolio/510-white-line-velour-paper-rolls/",
+  "brand": "tls",
+  "match": "series",
+  "name": "Абразивная бумага в рулоне на липучке SMIRDEX 510, 115мм×25м (шт.)"
+ },
+ "n1094c1c1": {
+  "img": "assets/goods/n1094c1c1.webp",
+  "src": "https://smirdex.gr/portfolio/750-ceramic-net-velour-discs-construction/",
+  "brand": "tls",
+  "match": "series",
+  "name": "Абразивный круг SMIRDEX NET D=225мм (шт.)"
+ },
+ "n04de2746": {
+  "img": "assets/goods/n04de2746.webp",
+  "src": "https://rusgips.ru/catalog/rovniteli-i-nalivnye-poly/rusgips-4",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Наливной пол № 4 Нивелир торговой марки \"РУСГИПС\", 20 кг"
+ },
+ "n9d796b94": {
+  "img": "assets/goods/n9d796b94.webp",
+  "src": "https://rusgips.ru/catalog/shpaklevki/rusgips-mn-base",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "РусГипс МН BASE полимерная (25 кг)"
+ },
+ "neabbd307": {
+  "img": "assets/goods/neabbd307.webp",
+  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-mn-premium",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Русгипс Премиум штукатурка трещиностойкая 30кг (50)"
+ },
+ "n65ffd5ff": {
+  "img": "assets/goods/n65ffd5ff.webp",
+  "src": "https://rusgips.ru/catalog/shpaklevki/rusgips-21",
+  "brand": "rusgips",
+  "match": "series",
+  "name": "Шпаклевка гипсовая ручного нанесения для внутренних работ , Финишная № 21 торговая марка \"РУСГИПС\","
+ },
+ "n93b9f503": {
+  "img": "assets/goods/n93b9f503.webp",
+  "src": "https://rusgips.ru/catalog/shpaklevki/rusgips-24",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Шпаклевка цементная финишная белая для внутренних и наружных работ №24, т.м. \"РУСГИПС\",25 кг"
+ },
+ "nb2cc1936": {
+  "img": "assets/goods/nb2cc1936.webp",
+  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-16",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "№16 Штукатурка цементная МН РусГипс для нар. и вн. работ водо-морозост.25кг (56)"
+ },
+ "n20746c0b": {
+  "img": "assets/goods/n20746c0b.webp",
+  "src": "https://rusgips.ru/catalog/montazhnye-smesi/rusgips-14",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Клей для монтажа ПГП, ГКЛ,ГВЛ №14 т.м. \"РУСГИПС\" 25 кг"
+ },
+ "n67fb4b17": {
+  "img": "assets/goods/n67fb4b17.webp",
+  "src": "https://www.volma.ru/production/catalog/putty/volma-finish-finish-plaster/",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Шпаклевка \"Волма-финиш\" гипсовая 20 кг. (63)"
+ },
+ "nbcc00e88": {
+  "img": "assets/goods/nbcc00e88.webp",
+  "src": "https://www.volma.ru/production/catalog/plaster/volma-cement-aktiv/",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Штукатурка цементная \"ВОЛМА-Цемент-Актив\" 25 кг."
+ },
+ "n6c9a8742": {
+  "img": "assets/goods/n6c9a8742.webp",
+  "src": "https://www.volma.ru/production/catalog/gkl/fire-resistant-drywall-gypsum-board/",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Гипсокартон огнестойкий 12,5мм×1200×2500 Волма"
+ },
+ "n3dd69fc3": {
+  "img": "assets/goods/n3dd69fc3.webp",
+  "src": "https://www.volma.ru/production/catalog/plaster/volma-gypsum-aktiv-extra/",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Штукатурная гипсовая ВОЛМА-Гипс Актив Экстра МКП (30 кг) 45 шт"
+ },
+ "n142ef37b": {
+  "img": "assets/goods/n142ef37b.webp",
+  "src": "https://kaletashop.pl/pileczka-czyszczaca-kaleta-30-mm-p-169.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "MT0080 / PCZ30 Промывочный шар 30 KALETA"
+ },
+ "n1013c25e": {
+  "img": "assets/goods/n1013c25e.webp",
+  "src": "https://kaletashop.pl/dysza-pistoletu-10-kaleta-p-56.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "PN0023 / DP10 Сопло пульверизатора 10 KALETA"
+ },
+ "n9054c9f3": {
+  "img": "assets/goods/n9054c9f3.webp",
+  "src": "https://kaletashop.pl/dysza-pistoletu-12-kaleta-p-57.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "PN0024 / DP12 Сопло пульверизатора 12 KALETA"
+ },
+ "n8a798a11": {
+  "img": "assets/goods/n8a798a11.webp",
+  "src": "https://kaletashop.pl/dysza-pistoletu-14-kaleta-p-58.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "PN0025 / DP14 Сопло пульверизатора 14 KALETA"
+ },
+ "n380d7ad4": {
+  "img": "assets/goods/n380d7ad4.webp",
+  "src": "https://kaletashop.pl/plaszcz-gumowy-d63-kaleta-stator-do-agregatow-tynkarskich-p-84.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0002 / PGD63 Статор D6-3 (твистер) синий KALETA"
+ },
+ "n39791018": {
+  "img": "assets/goods/n39791018.webp",
+  "src": "https://kaletashop.pl/plaszcz-gumowy-d63-fit-kaleta-do-agregatow-tynkarskich-p-497.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0004 / PGD63 FIT Статор D6-3 FIT KALETA"
+ },
+ "n477dd2b4": {
+  "img": "assets/goods/n477dd2b4.webp",
+  "src": "https://kaletashop.pl/plaszcz-gumowy-d725-fit-kaleta-do-agregatow-tynkarskich-p-622.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0005 / RS0032 Статор шнекового насоса D7-2,5 FIT KALETA"
+ },
+ "n186e29f3": {
+  "img": "assets/goods/n186e29f3.webp",
+  "src": "https://kaletashop.pl/slimak-d63-fit-do-agregatow-na-230-v-do-agregatow-tynkarskich-p-498.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0015 / SK FIT Ротор D6-3 FIT (шнек) KALETA"
+ },
+ "n2cbb2985": {
+  "img": "assets/goods/n2cbb2985.webp",
+  "src": "https://kaletashop.pl/slimak-d725-kaleta-rotor-do-agregatow-tynkarskich-p-345.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0017 / S7KAL Ротор D7-2,5 Kaleta / Калета"
+ },
+ "n91c355de": {
+  "img": "assets/goods/n91c355de.webp",
+  "src": "https://kaletashop.pl/slimak-d815-kaleta-rotor-do-agregatow-tynkarskich-p-87.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0019 / S8KAL Ротор D8-1,5 KALETA"
+ },
+ "nafd0933f": {
+  "img": "assets/goods/nafd0933f.webp",
+  "src": "https://kaletashop.pl/szybkozlaczka-mosiezna-1-krociec-p-37.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0003 / SZ1K Быстросъёмный латунный патрубок 1\" KALETA"
+ },
+ "n0f286649": {
+  "img": "assets/goods/n0f286649.webp",
+  "src": "https://kaletashop.pl/szybkozlaczka-mosiezna-34-gwint-zew-p-41.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0005 / SZ3/4Z Быстросъёмное соединение 3/4\" наружняя резьба (латунь) KALETA"
+ },
+ "nbba4cb13": {
+  "img": "assets/goods/nbba4cb13.webp",
+  "src": "https://kaletashop.pl/szybkozlaczka-mosiezna-34-krociec-p-42.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0006 / SZ3/4K Быстросъёмный латунный патрубок 3/4\" KALETA"
+ },
+ "n1595b395": {
+  "img": "assets/goods/n1595b395.webp",
+  "src": "https://kaletashop.pl/szybkozlaczka-mosiadz-12-krociec-p-35.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0009 / SZ1/2K Быстросъёмны латунный патрубок 1/2\" KALETA"
+ },
+ "n401594e9": {
+  "img": "assets/goods/n401594e9.webp",
+  "src": "https://kaletashop.pl/zlaczka-zatrzaskowa-klamrowa-25-kaleta-p-53.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0021 / ZZK25 Зажимное крепящее соединение 25 KALETA"
+ },
+ "n695eb368": {
+  "img": "assets/goods/n695eb368.webp",
+  "src": "https://kaletashop.pl/gniazdo-zlaczki-zatrzaskowej-klamrowej-25-kaleta-p-494.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0022 / GZZK25 Гнездо крепящего соединения 25 Калета"
+ },
+ "n369baedc": {
+  "img": "assets/goods/n369baedc.webp",
+  "src": "https://kaletashop.pl/trzpien-zlaczki-zatrzaskowej-klamrowej-25-kaleta-p-524.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0023 / TZZK25 Шпилька крепящего соединения 25 Калета"
+ },
+ "n6a39aae7": {
+  "img": "assets/goods/n6a39aae7.webp",
+  "src": "https://kaletashop.pl/uchwyt-gniazda-zlaczki-klamrowej-25-kaleta-lapka-p-504.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ZL0030 / UGZZK25 Ручка гнезда крепящего соединения 25 Kaleta / Калета (зажим)"
+ },
+ "ndf5bfa5e": {
+  "img": "assets/goods/ndf5bfa5e.webp",
+  "src": "https://kaletashop.pl/wklad-filtra-powietrza-p-309.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Вкладыш воздушного фильтра HS-24 KALETA"
+ },
+ "nee6d3d19": {
+  "img": "assets/goods/nee6d3d19.webp",
+  "src": "https://kaletashop.pl/dysza-powietrza-pistoletu-p-78.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Воздушное сопло пульверизатора KALETA"
+ },
+ "n0d120f05": {
+  "img": "assets/goods/n0d120f05.webp",
+  "src": "https://kaletashop.pl/kolpak-szklany-dempan-p-200.html",
+  "brand": "kaleta",
+  "match": "series",
+  "name": "Колпак пластик Dempan KALETA"
+ },
+ "nbf0056fb": {
+  "img": "assets/goods/nbf0056fb.webp",
+  "src": "https://kaletashop.pl/obejma-plastikowa-do-pistoletu-natryskowego-p-27.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Пластмассовая обойма для пульверизатора KALETA"
+ },
+ "na8ba7cee": {
+  "img": "assets/goods/na8ba7cee.webp",
+  "src": "https://kaletashop.pl/pistolet-natryskowy-dlugi-z-gniazdem-zlaczki-klamrowej-kaleta-p-689.html",
+  "brand": "kaleta",
+  "match": "series",
+  "name": "Пульверизатор длинный 100см KALETA"
+ },
+ "n7e607f87": {
+  "img": "assets/goods/n7e607f87.webp",
+  "src": "https://kaletashop.pl/zestaw-naprawczy-hs24-p-311.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Ремонтный набор для компрессора HS-24 KALETA"
+ },
+ "n42e2434f": {
+  "img": "assets/goods/n42e2434f.webp",
+  "src": "https://kaletashop.pl/slimak-d63-kaleta-rotor-do-agregatow-tynkarskich-p-88.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Ротор D6-3 (шнек) KALETA"
+ },
+ "necb48d63": {
+  "img": "assets/goods/necb48d63.webp",
+  "src": "https://kaletashop.pl/slimak-d63-kaleta-rotor-do-agregatow-tynkarskich-p-88.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "ротор шнека D 6-3 Калета"
+ },
+ "nd8b4b9b8": {
+  "img": "assets/goods/nd8b4b9b8.webp",
+  "src": "https://kaletashop.pl/plaszcz-gumowy-d63-kaleta-stator-do-agregatow-tynkarskich-p-84.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "статор шнека D 6-3 Калета"
+ },
+ "ncb0398de": {
+  "img": "assets/goods/ncb0398de.webp",
+  "src": "https://kaletashop.pl/jarzmo-pompy-do-typu-d-i-r-kaleta-do-agregatow-tynkarskich-p-95.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Хомут насоса для типов D и R KALETA"
+ },
+ "n3a5fbaf5": {
+  "img": "assets/goods/n3a5fbaf5.webp",
+  "src": "https://kaletashop.pl/agregat-tynkarski-kaleta-â-4s-230400v-multivoltage-p-629.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Штукатурный агрегат мультивольтажный модель \"Калета 4S\""
+ },
+ "nb83eedac": {
+  "img": "assets/goods/nb83eedac.webp",
+  "src": "https://kaletashop.pl/sprzeglo-30-lacznik-do-agregatow-kaleta-12344230v55s6-p-167.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "MT0038 / SP30 Муфта 30 KALETA"
+ },
+ "n4d77323e": {
+  "img": "assets/goods/n4d77323e.webp",
+  "src": "https://kaletashop.pl/mieszak-kaleta-56-do-wybrania-p-164.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "MT0048 / MA5 Смеситель А-5/6 KALETA"
+ },
+ "nd7f5cdae": {
+  "img": "assets/goods/nd7f5cdae.webp",
+  "src": "https://kaletashop.pl/elektrozawor-24v-do-agregatu-tynkarskiego-kaleta-p-179.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "UW0016 / EZ24 Электроклапан 24V KALETA"
+ },
+ "nbdce71b0": {
+  "img": "assets/goods/nbdce71b0.webp",
+  "src": "https://kaletashop.pl/waz-woda-34-cala-25-mb-p-62.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "WZ0001 / WW3/4 Водяной шланг 3/4 25м Kaleta / Калета"
+ },
+ "n9ce43045": {
+  "img": "assets/goods/n9ce43045.webp",
+  "src": "https://kaletashop.pl/mieszak-mieszadlo-pft-pl-p-163.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Смеситель pl KALETA"
+ },
+ "ne1558d4b": {
+  "img": "assets/goods/ne1558d4b.webp",
+  "src": "https://kaletashop.pl/rurka-przeplywomierza-1001500-lh-kaleta-z-kielichami-wskaznik-poziomu-wody-p-592.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Трубка расходомера 100-1500 L/h со стаканами KALETA"
+ },
+ "ne6774343": {
+  "img": "assets/goods/ne6774343.webp",
+  "src": "https://kaletashop.pl/stycznik-24v-p-228.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "UE0001 / ST24 Контактор 24V KALETA"
+ },
+ "nb4cfd160": {
+  "img": "assets/goods/nb4cfd160.webp",
+  "src": "https://kaletashop.pl/luk-lp-4045-kaleta-p-219.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Выключатель L-P 40-45 NA KALETA"
+ },
+ "n08840438": {
+  "img": "assets/goods/n08840438.webp",
+  "src": "https://kaletashop.pl/koncowka-pistoletu-plastikowa-kaleta-30Âº-lanca-p-55.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Наконечник для пульверизатора Калета 30\" пласт"
+ },
+ "n08840438-2": {
+  "img": "assets/goods/n08840438-2.webp",
+  "src": "https://kaletashop.pl/koncowka-pistoletu-plastikowa-kaleta-30Âº-lanca-p-55.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "Наконечник для пульверизатора Калета 30\" пласт"
+ },
+ "nb243a3f5": {
+  "img": "assets/goods/nb243a3f5.webp",
+  "src": "https://kaletashop.pl/koncowka-pistoletu-plastikowa-kaleta-30Âº-lanca-p-55.html",
+  "brand": "kaleta",
+  "match": "series",
+  "name": "Наконечник дляюпульверизатора 30\" KALETA"
+ },
+ "n4c2ad725": {
+  "img": "assets/goods/n4c2ad725.webp",
+  "src": "https://kaletashop.pl/czyszczak-kaleta-5-6-do-wybrania-p-106.html",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "MT0075 / C5 Очиститель А-5 KALETA"
+ },
+ "nfc6a72ca": {
+  "img": "assets/goods/nfc6a72ca.webp",
+  "src": "https://kaleta.pl/produkty/czesci-i-podzespoly/",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0016 / RS0033 Ротор шнекового насоса D7-2,5 FIT KALETA"
+ },
+ "n9d371981": {
+  "img": "assets/goods/n9d371981.webp",
+  "src": "https://kaleta.pl/produkty/czesci-i-podzespoly/",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0012 / RS0012 Статор шнекового насоса B4-2L Калета"
+ },
+ "nfd840a80": {
+  "img": "assets/goods/nfd840a80.webp",
+  "src": "https://kaleta.pl/produkty/czesci-i-podzespoly/",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0025 / RS0025 Ротор шнекового насоса B4-2L Калета"
+ },
+ "n41e6ec7b": {
+  "img": "assets/goods/n41e6ec7b.webp",
+  "src": "https://kaleta.pl/produkty/czesci-i-podzespoly/",
+  "brand": "kaleta",
+  "match": "exact",
+  "name": "RS0038 / RS0038 Статор D6-3 DOUBLE / ДВОЙНОЙ Kaleta / Калета"
+ },
+ "nd7c2c9c5": {
+  "img": "assets/goods/nd7c2c9c5.webp",
+  "src": "https://osnovit.ru/catalog/gidroizolyatsiya/gidroizolyatsiya-gotovaya-elastichnaya-osnovit-khardskrin-hac64-/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Гидроизоляция эластичная готовая ОСНОВИТ АКВАСКРИН HA64 (4.5кг) Н"
+ },
+ "n3d37bef2": {
+  "img": "assets/goods/n3d37bef2.webp",
+  "src": "https://osnovit.ru/catalog/gruntovki/dipkont-t-53/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (10 л) Н"
+ },
+ "nbc8a0d75": {
+  "img": "assets/goods/nbc8a0d75.webp",
+  "src": "https://osnovit.ru/catalog/gruntovki/dipkont-lp53-5-l/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (5 л) Н"
+ },
+ "nfdacff18": {
+  "img": "assets/goods/nfdacff18.webp",
+  "src": "https://osnovit.ru/catalog/gruntovki/unkont-standart-lp51/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт универсальный ОСНОВИТ УНКОНТ СТАНДАРТ LP51 (10 л)"
+ },
+ "nb056e977": {
+  "img": "assets/goods/nb056e977.webp",
+  "src": "https://osnovit.ru/catalog/gruntovki/grunt-kontsentrat-osnovit-profikont-lp52-1-l/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт-концентрат ОСНОВИТ ПРОФИКОНТ LP52 (1 л) Н"
+ },
+ "nabacaea3": {
+  "img": "assets/goods/nabacaea3.webp",
+  "src": "https://osnovit.ru/catalog/gruntovki/profikont-t-52/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт-концентрат ОСНОВИТ ПРОФИКОНТ LP52 (10 л) Н"
+ },
+ "n6355b1f3": {
+  "img": "assets/goods/n6355b1f3.webp",
+  "src": "https://osnovit.ru/catalog/dekorativnye-shtukaturki/shtukaturka-dekorativnaya-osnovit-ekstervell-shuba-belaya/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Декоративная штукатурка ОСНОВИТ ЭКСТЕРВЭЛЛ OS-1.5 WS фактура шуба белая (25 кг) H (48)"
+ },
+ "n0b8b8709": {
+  "img": "assets/goods/n0b8b8709.webp",
+  "src": "https://osnovit.ru/catalog/dekorativnye-shtukaturki/shtukaturka-dekorativnaya-osnovit-ekstervell-shuba-belaya/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Декоративная штукатурка ОСНОВИТ ЭКСТЕРВЭЛЛ OS-2.0 WS фактура шуба белая (25 кг) H (48)"
+ },
+ "n05801105": {
+  "img": "assets/goods/n05801105.webp",
+  "src": "https://osnovit.ru/catalog/dekorativnye-shtukaturki/shtukaturka-dekorativnaya-osnovit-ekstervell-25-kg-koroed-belaya/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Декоративная штукатурка ОСНОВИТ ЭКСТЕРВЭЛЛ OS-2.5 WK фактура короед белый (25 кг) H (48)"
+ },
+ "na21857d1": {
+  "img": "assets/goods/na21857d1.webp",
+  "src": "https://osnovit.ru/catalog/zatirka-shvov/osnovit-plitseyv-xc35-h-5-kg/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Затирка цементная высокопрочная ОСНОВИТ ПЛИТСЭЙВ XC35 H бежевый 030 (5 кг) (48)"
+ },
+ "n55c4e050": {
+  "img": "assets/goods/n55c4e050.webp",
+  "src": "https://osnovit.ru/catalog/zatirka-shvov/osnovit-plitseyv-xc35-h-5-kg/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Затирка цементная высокопрочная ОСНОВИТ ПЛИТСЭЙВ XC35 H графит 023 (5 кг) (48)"
+ },
+ "n4d2052f2": {
+  "img": "assets/goods/n4d2052f2.webp",
+  "src": "https://osnovit.ru/catalog/montazhnye-klei/selform-ms112-ms112-w/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Клей монтажный ОСНОВИТ СЕЛФОРМ MC112 (20 кг) (72)"
+ },
+ "n68e0807d": {
+  "img": "assets/goods/n68e0807d.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/granipliks-as14/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Клей плиточный гранит 25кг ОСНОВИТ ГРАНИПЛИКС АС14 (56)"
+ },
+ "n30049c4d": {
+  "img": "assets/goods/n30049c4d.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/maksipliks-ac151-s2t-kley-plitochnyy-oblitsovki-sten-pola-iskusstvennym-naturalnym-kamnem-keramogranitom/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Клей плиточный ОСНОВИТ МАКСИПЛИКС АС15 (25 кг) (56)"
+ },
+ "n8ddce9df": {
+  "img": "assets/goods/n8ddce9df.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/starpliks-ac11/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "клей плиточный ОСНОВИТ СТАРПЛИКС AC11 (25 кг) (56)"
+ },
+ "n336d8b21": {
+  "img": "assets/goods/n336d8b21.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/mastpliks-as12-h-N/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Клей усиленный ОСНОВИТ МАСТПЛИКС AC12 H (25 кг) Н (56)"
+ },
+ "n22416fbe": {
+  "img": "assets/goods/n22416fbe.webp",
+  "src": "https://osnovit.ru/catalog/kraski/univita-sas91/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Краска фасадная акриловая ОСНОВИТ УНИВИТА САс91 база А (13 кг) Н"
+ },
+ "n99b751bd": {
+  "img": "assets/goods/n99b751bd.webp",
+  "src": "https://osnovit.ru/catalog/nalivnye-poly/skorlayn-fk45r/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Наливной пол быстротвердеющий ОСНОВИТ СКОРЛАЙН FK45 R (20 кг) (64)"
+ },
+ "n959e4e6d": {
+  "img": "assets/goods/n959e4e6d.webp",
+  "src": "https://osnovit.ru/catalog/nalivnye-poly/skorlayn-fk48-r/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Наливной пол универсальный ОСНОВИТ СКОРЛАЙН FK48 R (20 кг) Н 64 шт"
+ },
+ "n80677652": {
+  "img": "assets/goods/n80677652.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/belpliks-t-17/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Плиточный клей профи мрамор ОСНОВИТ МАКСИПЛИКС AC17 W (25 кг) Н (56)"
+ },
+ "nc2ed5483": {
+  "img": "assets/goods/nc2ed5483.webp",
+  "src": "https://osnovit.ru/catalog/plitochnye-klei/bazpliks-as10-kley-standart-dlya-keramicheskoy-plitki-osnovit/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Плиточный клей стандарт ОСНОВИТ БАЗПЛИКС AC10 (25 кг) Н (56)"
+ },
+ "n83cbf9e1": {
+  "img": "assets/goods/n83cbf9e1.webp",
+  "src": "https://osnovit.ru/catalog/smesi-dlya-pechey-i-kaminov/pechform-mf1300/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Смесь огнеупорная керамическая ОСНОВИТ ПЕЧФОРМ MF1300 (20 кг) (42)"
+ },
+ "nbe19cd18": {
+  "img": "assets/goods/nbe19cd18.webp",
+  "src": "https://osnovit.ru/catalog/styazhki/startolayn-FC-41-H/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Стяжка пола высокопрочная ОСНОВИТ СТАРТОЛАЙН FC41 H (25 кг) (56)"
+ },
+ "nd417438f": {
+  "img": "assets/goods/nd417438f.webp",
+  "src": "https://osnovit.ru/catalog/styazhki/startolayn-FC-40/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Стяжка пола цементная базовая ОСНОВИТ СТАРТОЛАЙН FC40 (25 кг) Н 56 шт"
+ },
+ "n06fb561b": {
+  "img": "assets/goods/n06fb561b.webp",
+  "src": "https://osnovit.ru/catalog/shpaklevki-tsementnye/shpaklevka-tsementnaya-fasadnaya-universalnaya-belaya-osnovit-bazsilk-pc30-mw-n-tolshchina-sloya-1-1/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Шпаклевка фасадная белая ОСНОВИТ БАЗСИЛК PC30 MW (20 кг) H (72)"
+ },
+ "ne04f35cb": {
+  "img": "assets/goods/ne04f35cb.webp",
+  "src": "https://osnovit.ru/catalog/shpaklevki/belsilk-t-32/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Шпаклевка цементная финишная белая ОСНОВИТ БЕЛСИЛК PC32 W (20 кг) Н (64)"
+ },
+ "n8c5aba7a": {
+  "img": "assets/goods/n8c5aba7a.webp",
+  "src": "https://osnovit.ru/catalog/shtukaturki/shtukaturka-universalnaya-vlagostoykaya-tekhno-pk27-m/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Штукатурка универсальная влагостойкая для ручного и мех. нанесения ОСНОВИТ ТЕХНО PK27 M (49)"
+ },
+ "n0d0bbcc1": {
+  "img": "assets/goods/n0d0bbcc1.webp",
+  "src": "https://osnovit.ru/catalog/shtukaturki/osnovit-bigvell-t-22-shtukaturka-fasadnaya-profi/",
+  "brand": "osnovit",
+  "match": "series",
+  "name": "Штукатурка фасадная профи ОСНОВИТ СТАРТВЭЛЛ PC22 (25 кг) Н 56 шт"
+ },
+ "n0c5ea2fe": {
+  "img": "assets/goods/n0c5ea2fe.webp",
+  "src": "https://osnovit.ru/catalog/gidroizolyatsiya/gidroizolyatsionnaya-lenta-armirovannaya-setkoy-v-korobe-osnovit-akvaskrin-hb70-10-m/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Гидроизоляционная лента армированная сеткой в коробе Основит АКВАСКРИН HB70 (10 м)"
+ },
+ "n6fa6cef5": {
+  "img": "assets/goods/n6fa6cef5.webp",
+  "src": "https://osnovit.ru/catalog/bazovye-shtukaturnye-sostavy/kaverpliks-ts117/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Смесь штукатурно-клеевая для теплоизоляции ОСНОВИТ КАВЕРПЛИКС TC117 (25 кг) Н"
+ },
+ "n26a1524f": {
+  "img": "assets/goods/n26a1524f.webp",
+  "src": "https://osnovit.ru/catalog/smesi-dlya-teploizolyatsii/kaverpliks-ts116-shtukaturno-kleevaya-smes-osnovit/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Смесь штукатурно-клеевая для теплоизоляции ОСНОВИТ КАВЕРПЛИКС ТС116 (25 кг) (56)"
+ },
+ "3382-2": {
+  "img": "assets/goods/3382-2.webp",
+  "src": "https://stayer-tools.com/ruchnye-instrumenty/instrumenty-po-kafelyu-i-steklu/krestiki-dlya-kafelnoy-plitki/klinya-dlya-demontazha/3382-12h/?ID=933938",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "STAYER 9 мм, 50 штук, большие клинья для плитки (3382-2)"
+ },
+ "10205": {
+  "img": "assets/goods/10205.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/plastikovyy/10205-6hn/?ID=932223",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "STAYER MAXFlat, 280 мм, суперэластичный пластмассовый, шпатель прижимной для обоев"
+ },
+ "10078-15-10": {
+  "img": "assets/goods/10078-15-10.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-zubchatye/10078-knp/?ID=514624",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР 150мм, зуб 10х10мм, зубчатый пластиковая ручка, нержавеющий, фасадный шпатель"
+ },
+ "10049-35": {
+  "img": "assets/goods/10049-35.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=514656",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР 350 мм, нержавеющий шпатель, Профессионал"
+ },
+ "10049-60": {
+  "img": "assets/goods/10049-60.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=634501",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР 600 мм, нержавеющий шпатель, Профессионал"
+ },
+ "10049-08": {
+  "img": "assets/goods/10049-08.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=514644",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР 80 мм, нержавеющий шпатель, Профессионал"
+ },
+ "34584-100": {
+  "img": "assets/goods/34584-100.webp",
+  "src": "https://zubr.ru/ruchnye-instrumenty/izmeritelnye-instrumenty/urovni/urovni/34584-4dbl/?ID=1008401",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР МАСТЕР, 1000 мм, уровень с усиленным профилем"
+ },
+ "34584-200": {
+  "img": "assets/goods/34584-200.webp",
+  "src": "https://zubr.ru/ruchnye-instrumenty/izmeritelnye-instrumenty/urovni/urovni/34584-4dbl/?ID=1008404",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР МАСТЕР, 2000 мм, уровень с усиленным профилем"
+ },
+ "34584-060": {
+  "img": "assets/goods/34584-060.webp",
+  "src": "https://zubr.ru/ruchnye-instrumenty/izmeritelnye-instrumenty/urovni/urovni/34584-4dbl/?ID=1008399",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР МАСТЕР, 600 мм, уровень с усиленным профилем"
+ },
+ "310116-90-105": {
+  "img": "assets/goods/310116-90-105.webp",
+  "src": "https://zubr.ru/khimiya-krepezh-siz/krepezh/perforirovannyy-krepezh/krepezhnye-ugly/310116-3r15/?ID=526088",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР УКУ-2.0, 90 x 105x 105 x 2 мм, цинк,усиленный крепежный уголок (310116-90-105)"
+ },
+ "n65d05cf1": {
+  "img": "assets/goods/n65d05cf1.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/masterki-kelmy/nerzhaveyushchie/0835-7h/?ID=931922",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Кельма для внешних углов, Professional STAYER 80 х 60 мм, нержавеющее полотно, деревянная рукоятка"
+ },
+ "n6954b003": {
+  "img": "assets/goods/n6954b003.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/masterki-kelmy/nerzhaveyushchie/0836-117/?ID=931924",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Кельма для внутренних углов, Professional STAYER 80х60 мм, нержавеющее полотно, деревянная рукоятка"
+ },
+ "n24af7900": {
+  "img": "assets/goods/n24af7900.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/masterki-kelmy/nerzhaveyushchie/0832-78/?ID=931920",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Кельма лопатка, Professional STAYER 80 мм, нержавеющее полотно, деревянная рукоятка"
+ },
+ "n167c7078": {
+  "img": "assets/goods/n167c7078.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/masterki-kelmy/nerzhaveyushchie/0831-17ap/?ID=931916",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Кельма сердце, Professional STAYER 190 мм, нержавеющее полотно, деревянная рукоятка"
+ },
+ "3380-1": {
+  "img": "assets/goods/3380-1.webp",
+  "src": "https://stayer-tools.com/ruchnye-instrumenty/instrumenty-po-kafelyu-i-steklu/krestiki-dlya-kafelnoy-plitki/krestiki/3380-b1/?ID=933920",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Крестики для плитки STAYER 1 мм, 200 шт"
+ },
+ "3380-2.5": {
+  "img": "assets/goods/3380-2.5.webp",
+  "src": "https://stayer-tools.com/ruchnye-instrumenty/instrumenty-po-kafelyu-i-steklu/krestiki-dlya-kafelnoy-plitki/krestiki/3380-b1/?ID=933926",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Крестики для плитки STAYER 2.5 мм, 200 шт"
+ },
+ "na6c358f5": {
+  "img": "assets/goods/na6c358f5.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/pravila/pravila-shtukaturnye/10745-1q0s/?ID=948394",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Правило штукатурное, Professional STAYER 1.5 м"
+ },
+ "nc0eb4af8": {
+  "img": "assets/goods/nc0eb4af8.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/pravila/pravila-shtukaturnye/10745-1q0s/?ID=948396",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Правило штукатурное, Professional STAYER 2.5 м"
+ },
+ "n794899da": {
+  "img": "assets/goods/n794899da.webp",
+  "src": "https://stayer-tools.com/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/pravila/pravila-shtukaturnye/10745-1q0s/?ID=948392",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Правило штукатурное, Professional, STAYER 1 м,"
+ },
+ "n9de29ac7": {
+  "img": "assets/goods/n9de29ac7.webp",
+  "src": "https://zubr.ru/ruchnye-instrumenty/instrumenty-po-kafelyu-i-steklu/krestiki-dlya-kafelnoy-plitki/krestiki/3387-4a9k/?ID=907742",
+  "brand": "zubr",
+  "match": "series",
+  "name": "Система выравнивания плитки ЗУБР, клин 250 шт 2 мм"
+ },
+ "ndf2ea106": {
+  "img": "assets/goods/ndf2ea106.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06323-f91a/?ID=957173",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР 2 - 5 мм, клиновидный, черный, Профессионал"
+ },
+ "n32610343": {
+  "img": "assets/goods/n32610343.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06320-4jb2/?ID=1067376",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР МП-100 1 мм, заостренный, синий, ПРОФЕССИОНАЛ"
+ },
+ "06320-3": {
+  "img": "assets/goods/06320-3.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06320-4jb2/?ID=957167",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР МП-100, 1 мм, заостренный, красный, Профессионал"
+ },
+ "06320-2": {
+  "img": "assets/goods/06320-2.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06320-4jb2/?ID=900777",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР МП-100, 1 мм, заостренный, черный, Профессионал"
+ },
+ "nab88ea61": {
+  "img": "assets/goods/nab88ea61.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06322-f917/?ID=1067383",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР МП-300 2 мм, заостренный, зеленый, ПРОФЕССИОНАЛ"
+ },
+ "nb0fd8faa": {
+  "img": "assets/goods/nb0fd8faa.webp",
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06322-f917/?ID=1067382",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "Перманентный маркер ЗУБР МП-300 2 мм, заостренный, синий, ПРОФЕССИОНАЛ"
+ },
+ "n7ab5fb2d": {
+  "img": "assets/goods/n7ab5fb2d.webp",
+  "src": "https://www.iek.ru/products/catalog/sistemy_dlya_prokladki_kabelya/truby_plastikovye/truby_gofrirovannye_elasta/truby_gofrirovannye_pvkh/elasta_truba_gofrirovannaya_pvkh_legkaya_d_20mm_s_zondom_seraya_10m_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "ELASTA Труба гофрированная ПВХ d=20мм с зондом (10м) IEK"
+ },
+ "ne23800a9": {
+  "img": "assets/goods/ne23800a9.webp",
+  "src": "https://www.iek.ru/products/catalog/sistemy_dlya_prokladki_kabelya/truby_plastikovye/truby_gofrirovannye_elasta/truby_gofrirovannye_pvkh/elasta_truba_gofrirovannaya_pvkh_legkaya_d_20mm_s_zondom_seraya_50m_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "ELASTA Труба гофрированная ПВХ d=20мм с зондом (50м) IEK"
+ },
+ "ne4909967": {
+  "img": "assets/goods/ne4909967.webp",
+  "src": "https://www.iek.ru/products/catalog/sistemy_dlya_prokladki_kabelya/truby_plastikovye/truby_gofrirovannye_elasta/truby_gofrirovannye_pvkh/elasta_truba_gofrirovannaya_pvkh_legkaya_d_40mm_s_zondom_seraya_15m_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "ELASTA Труба гофрированная ПВХ d=40мм с зондом (15м) IEK"
+ },
+ "n63f34b74": {
+  "img": "assets/goods/n63f34b74.webp",
+  "src": "https://www.iek.ru/products/catalog/izdeliya_elektroustanovochnye_udliniteli_i_silovye_razemy/silovye_razemy/silovye_razemy_magnum/vilki_perenosnye/magnum_vilka_perenosnaya_ssi_025_32a_6ch_200_346_240_415v_3p_pe_n_ip44_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "MAGNUM Вилка переносная ССИ-025 32А-6ч/200/346-240/415В 3P+PE+N IP44 IEK"
+ },
+ "nf1fa5933": {
+  "img": "assets/goods/nf1fa5933.webp",
+  "src": "https://www.iek.ru/products/catalog/izdeliya_elektroustanovochnye_udliniteli_i_silovye_razemy/silovye_razemy/silovye_razemy_magnum/rozetki_perenosnye/magnum_rozetka_perenosnaya_ssi_225_32a_6ch_200_346_240_415v_3p_pe_n_ip44_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "MAGNUM Розетка переносная ССИ-225 32А-6ч/200/346-240/415В 3P+PE+N IP44 IEK"
+ },
+ "n8dda5c05": {
+  "img": "assets/goods/n8dda5c05.webp",
+  "src": "https://www.iek.ru/products/catalog/izdeliya_elektromontazhnye_i_instrumenty/izdeliya_dlya_izolyatsii_krepleniya_i_markirovki/izdeliya_krepezhnye/khomuty/dyubel_khomuty/dyubel_khomut_5kh10mm_dlya_ploskogo_kabelya_neylon_belyy_25sht_upak_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Дюбель-хомут 5х10мм для плоского кабеля нейлон белый (25шт/упак) IEK"
+ },
+ "nd0aa9874": {
+  "img": "assets/goods/nd0aa9874.webp",
+  "src": "https://www.iek.ru/products/catalog/izdeliya_elektromontazhnye_i_instrumenty/izdeliya_dlya_izolyatsii_krepleniya_i_markirovki/izdeliya_krepezhnye/khomuty/dyubel_khomuty/dyubel_khomut_6kh12mm_dlya_ploskogo_kabelya_neylon_belyy_25sht_upak_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Дюбель-хомут 6х12мм для плоского кабеля нейлон белый (25шт/упак) IEK"
+ },
+ "n2fb9f551": {
+  "img": "assets/goods/n2fb9f551.webp",
+  "src": "https://www.iek.ru/products/catalog/izdeliya_elektromontazhnye_i_instrumenty/izdeliya_dlya_izolyatsii_krepleniya_i_markirovki/izdeliya_krepezhnye/khomuty/dyubel_khomuty/dyubel_khomut_6kh14mm_dlya_ploskogo_kabelya_neylon_belyy_25sht_upak_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Дюбель-хомут 6х14мм для плоского кабеля нейлон белый (25шт/упак) IEK"
+ },
+ "n54c29902": {
+  "img": "assets/goods/n54c29902.webp",
+  "src": "https://www.iek.ru/products/catalog/sistemy_dlya_prokladki_kabelya/kabel_kanaly_plastikovye/kabel_kanaly_elecor/kabel_kanaly_magistralnye_belye/kabel_kanal_magistralnyy_25kh16_elekor_50m_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Кабель-канал 25х16 ЭЛЕКОР белый (50м) IEK"
+ },
+ "n583cefcb": {
+  "img": "assets/goods/n583cefcb.webp",
+  "src": "https://www.iek.ru/products/catalog/svetotekhnika/kommercheskoe_osveshchenie/paneli_svetodiodnye/svetodiodnye_paneli_20mm/svetilnik_svetodiodnyy_dvo_6561_p_36vt_4000k_595kh595_prizma_iek",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Светильник светодиодный ДВО 6561-P 36Вт 4000К 595х595х20 призма IEK"
+ },
+ "ne0926381": {
+  "img": "assets/goods/ne0926381.webp",
+  "src": "https://tdme.ru/product/SQ0527-0001",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Клемма соединительная TDM СК-412 2-х проводная 2.5 мм² 100 шт."
+ },
+ "n37d3e02c": {
+  "img": "assets/goods/n37d3e02c.webp",
+  "src": "https://ekfgroup.com/ru/catalog/products/lotok-perforirovannyj-metallicheskij-50-100-3000-0-7mm-24-m-ekf",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Лоток листовой перфорированный 50х100 L3000 0.7мм EKF L5010001"
+ },
+ "nfc03cb47": {
+  "img": "assets/goods/nfc03cb47.webp",
+  "src": "https://tdme.ru/product/SQ0124-0112",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Провод Tdm Electric ПуВнг-LS 1x10 на отрез ГОСТ цвет синий"
+ },
+ "n39a517dc": {
+  "img": "assets/goods/n39a517dc.webp",
+  "src": "https://ekfgroup.com/ru/catalog/products/fotorele-ps-4-10a-2200vt-ip66-ekf-proxima",
+  "brand": "iek",
+  "match": "exact",
+  "name": "Фотореле PS-4 10А 2200Вт IP66 EKF PROxima"
+ },
+ "naa9471e0": {
+  "img": "assets/goods/naa9471e0.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-37/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента двусторонняя ткань 50мм×25м×170мкм UNIBOB, белая, в инд.упаковке"
+ },
+ "n96180fd6": {
+  "img": "assets/goods/n96180fd6.webp",
+  "src": "https://www.unibob.ru/catalog/type-6/page-all/id-86/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента двухсторонняя UNIBOB д/наружных работ 19мм х 5м (пена)"
+ },
+ "n503648d1": {
+  "img": "assets/goods/n503648d1.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-80/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента малярная профессиональная для наружных работ 50мм×25м×135мкм UNIBOB, синяя, в инд.упак"
+ },
+ "n96d6882c": {
+  "img": "assets/goods/n96d6882c.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-80/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента малярная профессиональная для наружных работ 50мм×25м×95мкм UNIBOB, синяя, в инд.упако"
+ },
+ "nedb5b7e6": {
+  "img": "assets/goods/nedb5b7e6.webp",
+  "src": "https://www.unibob.ru/catalog/type-1/page-all/id-58/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Клейкая лента упаковочная 48 мм х 24 м, 45 мкм UNIBOB 600 (прозрачная) (инд.упаковка 4607025339830)"
+ },
+ "nb777a7db": {
+  "img": "assets/goods/nb777a7db.webp",
+  "src": "https://www.unibob.ru/catalog/type-5/page-all/id-18/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента армированная 48мм×40м×170мкм UNIBOB, серебряная"
+ },
+ "n9b23e4b5": {
+  "img": "assets/goods/n9b23e4b5.webp",
+  "src": "https://www.unibob.ru/catalog/type-5/page-all/id-18/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Клейкая лента армированная UNIBOB 48мм х 40м (инд.упаковка 4607025330295)"
+ },
+ "na401b3b0": {
+  "img": "assets/goods/na401b3b0.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-106/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Пленка укрывная с малярной лентой UNIBOB 0,55м х 33м, 10 мкм, прозрачная"
+ },
+ "na85129e2": {
+  "img": "assets/goods/na85129e2.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-106/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Пленка укрывная с малярной лентой UNIBOB 1,4м х 33м, 10 мкм, прозрачная"
+ },
+ "nf2e5850f": {
+  "img": "assets/goods/nf2e5850f.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-106/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Пленка укрывная с малярной лентой UNIBOB 1,8м х 33м, 10 мкм, прозрачная"
+ },
+ "ned3fabf8": {
+  "img": "assets/goods/ned3fabf8.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-106/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Пленка укрывная с малярной лентой UNIBOB 2,7м х 20м, 10 мкм, прозрачная"
+ },
+ "nf84f7464": {
+  "img": "assets/goods/nf84f7464.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-106/",
+  "brand": "unibob",
+  "match": "series",
+  "name": "Пленка укрывная с малярной лентой UNIBOB 3,5×20;10 мкм прозрачная"
+ },
+ "n0ae2fcc0": {
+  "img": "assets/goods/n0ae2fcc0.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-79/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Профессиональная малярная лента для изогнутых поверхностей UNIBOB 25мм х 25м (желтая) (инд.упаковка)"
+ },
+ "51469": {
+  "img": "assets/goods/51469.webp",
+  "src": "https://www.unibob.ru/catalog/type-2/page-all/id-79/",
+  "brand": "unibob",
+  "match": "exact",
+  "name": "Профессиональная малярная лента для изогнутых поверхностей UNIBOB19мм х 25м (желтая) (инд.упаковка)"
+ },
+ "ne1c92f27": {
+  "img": "assets/goods/ne1c92f27.webp",
+  "src": "https://www.danogips.ru/katalog/gidroizolyacziya/gidroizolyaczionnaya_lenta_danogips_gidroflex",
+  "brand": "misc",
+  "match": "exact",
+  "name": "Лента гидроизоляционная DANOGIPS, 10м"
+ },
+ "n908249b6": {
+  "img": "assets/goods/n908249b6.webp",
+  "src": "https://www.danogips.ru/katalog/gotovye_shpatlevki_danogips/super_finish",
+  "brand": "misc",
+  "match": "exact",
+  "name": "Шпаклевка готовая финишная SuperFinish DANOGIPS, 11л/33"
+ },
+ "ncbd0c746": {
+  "img": "assets/goods/ncbd0c746.webp",
+  "src": "https://shop.storch.de/de/das-weisse-quergerillt-g18708.html",
+  "brand": "misc",
+  "match": "series",
+  "name": "491450 STORCH Лента штукатурная ПВХ белая, на шероховатые поверхности, УФ-14 дней, 50мм х 33м (24)"
+ },
+ "na8ea81ff": {
+  "img": "assets/goods/na8ea81ff.webp",
+  "src": "https://shop.storch.de/de/das-orange-g18703.html",
+  "brand": "misc",
+  "match": "series",
+  "name": "491850 STORCH Лента штукатурная ПВХ оранжевая, для гладких поверхностей, УФ-14 дней 50мм х 33м (24)"
+ },
+ "nd2381d78": {
+  "img": "assets/goods/nd2381d78.webp",
+  "src": "https://kudo-paint.ru/products/dekorativnaya-seriya/okraska-dekorativnaya-seriya/emali-alkidnye/emal-universalnaya-ral/",
+  "brand": "misc",
+  "match": "series",
+  "name": "Эмаль-аэрозоль KU-1011 RAL 5005 флкид. глянц. синий 520мл Толь KUDO"
+ },
+ "n66cf1a77": {
+  "img": "assets/goods/n66cf1a77.webp",
+  "src": "https://kudo-paint.ru/products/bytovaya-seriya/gaz-universalnyj-dlya-portativnyh-gazovyh-priborov/",
+  "brand": "misc",
+  "match": "exact",
+  "name": "Газ универсальный металл. баллон 520мл KUDO"
+ },
+ "n954c48f1": {
+  "img": "assets/goods/n954c48f1.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/ankera/knauf-anker-klin-35/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Анкер-клин MAN 6/40 (100) (12/уп) Knauf"
+ },
+ "n91f92a51": {
+  "img": "assets/goods/n91f92a51.webp",
+  "src": "https://knauf.by/catalog/styazhka-smes/gidroizolyatsiya/knauf-flekhendikht-25-and-5kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Гидроизоляция Флехендихт КНАУФ 5 кг"
+ },
+ "540943": {
+  "img": "assets/goods/540943.webp",
+  "src": "https://knauf.by/catalog/gruntovka/mittelgrund/knauf-mittelgrund-10kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Грунтовка 10 кг Миттельгрунд Knauf"
+ },
+ "n1bb6c345": {
+  "img": "assets/goods/n1bb6c345.webp",
+  "src": "https://knauf.by/catalog/gruntovka/tifengrund/knauf-tifengrund-5-10kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Кнауф Грунтовка ТИФЕНГРУНД (F) 10 кг"
+ },
+ "n55ccdba9": {
+  "img": "assets/goods/n55ccdba9.webp",
+  "src": "https://knauf.by/catalog/kraski/knauf-weisswand/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Краска моющаяся 15 кг. вайсванд белый Knauf"
+ },
+ "n0e833052": {
+  "img": "assets/goods/n0e833052.webp",
+  "src": "https://knauf.by/catalog/styazhka-smes/gidroizolyatsiya/knauf-flekhendikhtband-lenta-gidroizolyatsonnaya/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Лента гидроизоляц.PRO КНАУФ 10000мм 960008"
+ },
+ "n66988c57": {
+  "img": "assets/goods/n66988c57.webp",
+  "src": "https://knauf.by/catalog/shpaklyevka/shpaklevka-polimernaya/knauf-rotband-pasta-profi-18kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "РОТБАНД паста профи 18 кг КНАУФ"
+ },
+ "669562": {
+  "img": "assets/goods/669562.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-xtn-38/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез XTN 3,9х38 мм (1000 шт/уп) KNAUF"
+ },
+ "724018": {
+  "img": "assets/goods/724018.webp",
+  "src": "https://knauf.by/catalog/shpaklyevka/shpaklevka-gipsovaya/knauf-unikhard/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Шпатлевка гипсовая высокопрочная безусадочная Кнауф-Унихард 20 кг (60 штук)"
+ },
+ "nf5f12dfb": {
+  "img": "assets/goods/nf5f12dfb.webp",
+  "src": "https://knauf.by/catalog/shtukaturka/shtukaturka-gipsovaya/knauf-rotband/knauf-rotband-30-10-5kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Штукатурка РОТБАНД 30 кг (40 штук)"
+ },
+ "nca5d3c32": {
+  "img": "assets/goods/nca5d3c32.webp",
+  "src": "https://knauf.by/catalog/shtukaturka/shtukaturka-tsementnaya/knauf-unterputts/knauf-unterputts-25kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Штукатурка цементная Кнауф Унтерпутц 25 кг"
+ },
+ "nab52f8f6": {
+  "img": "assets/goods/nab52f8f6.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-superlist/gipsovoloknistyy-knauf-superlist-vlagostoykiy-gvlv/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "×Суперлист-ГВЛ-В1-ФК 12,5 мм влагост Кнауф (40л)"
+ },
+ "n37302cfe": {
+  "img": "assets/goods/n37302cfe.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Гипсокартон Кнауф А ПЛУК 12,5х1200х2500 в м2"
+ },
+ "nc83bd6d9": {
+  "img": "assets/goods/nc83bd6d9.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Гипсокартон КНАУФ ГКЛ (ГСП-А) ПЛУК 2500х1200х12,5"
+ },
+ "nf7d72d19": {
+  "img": "assets/goods/nf7d72d19.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Гипсокартон КНАУФ ГКЛ А ПЛУК 2000х1200х12,5"
+ },
+ "n9fd445a1": {
+  "img": "assets/goods/n9fd445a1.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/ognestoykiy/gipsokartonnyy-knauf-list-ognestoykiy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Гипсокартон огнестойкий КНАУФ ГКЛОгнест (ГСП-DF) ПЛУК 2500×1200×12,5"
+ },
+ "n3d3ce159": {
+  "img": "assets/goods/n3d3ce159.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/vlagostoykiy/gipsokartonnyy-list-vlagostoykiy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "ГКЛВлага (ГСП-H3) КНАУФ 2500х1200х12,5 (56)"
+ },
+ "ncf36aefb": {
+  "img": "assets/goods/ncf36aefb.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/vlagostoykiy/gipsokartonnyy-list-vlagostoykiy/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "ГКЛВлага (Н3) КНАУФ 2000х1200х12,5 (68)"
+ },
+ "nc5fb1a93": {
+  "img": "assets/goods/nc5fb1a93.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/sapfir/gipsokartonnyy-knauf-list-sapfir/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "ГСП-DFH3IR ПЛУК КНАУФ 2000х1200х12,5 (48) Сапфир"
+ },
+ "n8eabc4f3": {
+  "img": "assets/goods/n8eabc4f3.webp",
+  "src": "https://knauf.by/catalog/kley/kley-gipsovyy/knauf-perlfiks-30kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Клей для гипсокартона ПЕРЛФИКС (Кнауф) 30 кг (40 штук)"
+ },
+ "650033": {
+  "img": "assets/goods/650033.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-kurt/knauf-kurt-armiruyushchaya-lenta-25m/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента \"КУРТ\" для швов 25 м Кнауф"
+ },
+ "650031": {
+  "img": "assets/goods/650031.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-kurt/knauf-kurt-armiruyushchaya-lenta-75m/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента \"КУРТ\" для швов 75 м Кнауф"
+ },
+ "214685": {
+  "img": "assets/goods/214685.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-lenta-armiruyushchaya-bumazhnaya/knauf-lenta-armiruyushchaya-bumazhnaya-50m/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента бумаж,перфор 52 мм х 50 м Кнауф"
+ },
+ "94203": {
+  "img": "assets/goods/94203.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-lenta-kromochnaya/knauf-lenta-kromochnaya-fe-8-100-40m/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Лента кромочная д/полов 100х20000мм Кнауф"
+ },
+ "520038": {
+  "img": "assets/goods/520038.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-dikhtungsband/knauf-dikhtungsband-lenta-uplotnitelnaya-30/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента уплотнительная Дихтунгсбанд 30мм 30м (24) Кнауф серый"
+ },
+ "520035": {
+  "img": "assets/goods/520035.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-dikhtungsband/knauf-dikhtungsband-lenta-uplotnitelnaya-50/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента уплотнительная Дихтунгсбанд 50мм 30м (12) Кнауф серый"
+ },
+ "520033": {
+  "img": "assets/goods/520033.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-dikhtungsband/knauf-dikhtungsband-lenta-uplotnitelnaya-70/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента уплотнительная Дихтунгсбанд 70мм 30м (12) Кнауф серый"
+ },
+ "520040": {
+  "img": "assets/goods/520040.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/lenty-stroitelnye-rulonnye-materialy/knauf-dikhtungsband/knauf-dikhtungsband-lenta-uplotnitelnaya/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Лента уплотнительная Дихтунгсбанд 95мм 30м (6) Кнауф серый"
+ },
+ "n2cfa49d1": {
+  "img": "assets/goods/n2cfa49d1.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-ankernyy-podves-s-zazhimom/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Подвес анкерный КНАУФ"
+ },
+ "n675bd3e0": {
+  "img": "assets/goods/n675bd3e0.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-podves-pryamoy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Подвес прямои 120мм для CD 60/27 KNAUF (100)"
+ },
+ "n0940465a": {
+  "img": "assets/goods/n0940465a.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-podves-pryamoy-200/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Подвес прямой 200мм КНАУФ"
+ },
+ "n3b2a7ba6": {
+  "img": "assets/goods/n3b2a7ba6.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-podves-pryamoy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Подвес прямой Knauf 120 мм"
+ },
+ "na204abd6": {
+  "img": "assets/goods/na204abd6.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-podves-pryamoy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Подвес прямой Knauf 120 мм для потолочного профиля 60x27 мм"
+ },
+ "nf9539cf6": {
+  "img": "assets/goods/nf9539cf6.webp",
+  "src": "https://knauf.by/catalog/profili/knauf-profil-napravlyayushchiy-potolochnyy/knauf-profil-napravlyayushchiy-pn-potolochnyy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Профиль 28/27, 3 м, Кнауф (толщина мет 0,,6 мм) 24 шт (960)"
+ },
+ "n103ca1ea": {
+  "img": "assets/goods/n103ca1ea.webp",
+  "src": "https://knauf.by/catalog/profili/knauf-profil-napravlyayushchiy/knauf-profil-napravlyayushchiy-pn/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Профиль 50/40 , 3 м, Кнауф (толщина мет 0,,6 мм)"
+ },
+ "ne172b14b": {
+  "img": "assets/goods/ne172b14b.webp",
+  "src": "https://knauf.by/catalog/profili/knauf-profil-stoechnyy-/knauf-profil-stoechnyy-ps/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Профиль 50/50 , 3 м, Кнауф (толщ мет 0,,6 мм)"
+ },
+ "nac51aeaa": {
+  "img": "assets/goods/nac51aeaa.webp",
+  "src": "https://knauf.by/catalog/profili/knauf-profil-potolochnyy/knauf-profil-potolochnyy-pp/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Профиль 60/27 , 3 м, Кнауф (толщина мет 0,,6 мм) 12 шт (180)"
+ },
+ "n4b514bfc": {
+  "img": "assets/goods/n4b514bfc.webp",
+  "src": "https://knauf.by/catalog/profili/knauf-profil-mayachkovyy-/profil-mayachkovyy-otsinkovannyy-pm/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Профиль-маяк ПМ 20/6/0.4 3000 (Кнауф)"
+ },
+ "606498": {
+  "img": "assets/goods/606498.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-mn-25/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Саморез (шуруп) Кнауф для ГВЛ 28ммх3,9"
+ },
+ "na7356ecd": {
+  "img": "assets/goods/na7356ecd.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-mn-25/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез Кнауф для ГВЛ 25ммх3,9 (1000 шт) 735444"
+ },
+ "na0876cff": {
+  "img": "assets/goods/na0876cff.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/soediniteli/knauf-soedinitel-dvukhurovnevyy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Соединитель двухуровневый КНАУФ"
+ },
+ "n3ac60e11": {
+  "img": "assets/goods/n3ac60e11.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/soediniteli/knauf-soedinitel-odnourovnevyy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Соединитель одноуровневый (краб) КНАУФ"
+ },
+ "n8b8019c0": {
+  "img": "assets/goods/n8b8019c0.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/udliniteli/knauf-tyaga-podvesa-500/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Тяга = 350 мм КНАУФ (100шт) 69245"
+ },
+ "764433": {
+  "img": "assets/goods/764433.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/dyubelya/knauf-dyubel-gvozd/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Дюбель-гвоздь 6 х 40 (100 шт) КНАУФ"
+ },
+ "669563": {
+  "img": "assets/goods/669563.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез (шуруп) Кнауф 25ммх3,5 ч.р (мет) (1000 шт) TN (16п/уп) 669563"
+ },
+ "86449": {
+  "img": "assets/goods/86449.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез (шуруп) Кнауф 25ммх3,5 ч.р (мет) (200 шт) (56п/уп)"
+ },
+ "86450": {
+  "img": "assets/goods/86450.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn-35/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез (шуруп) Кнауф 35ммх3,5 ч.р (мет)"
+ },
+ "669564": {
+  "img": "assets/goods/669564.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn-35/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез (шуруп) Кнауф 35ммх3,5 ч.р (мет) (1000 шт) TN 669564 (12 п/уп)"
+ },
+ "549061": {
+  "img": "assets/goods/549061.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn-35/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез (шуруп) Кнауф 35ммх3,5 ч.р (мет) TN"
+ },
+ "527983": {
+  "img": "assets/goods/527983.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-tn-35/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Саморез (шуруп) Кнауф в лентах TN 35ммх3,5 ч.р (мет)"
+ },
+ "n4299423f": {
+  "img": "assets/goods/n4299423f.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-ln-11/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез Кнауф 11ммх3,5 ч.р (мет)(1000 шт) 428046"
+ },
+ "n5a9c8d40": {
+  "img": "assets/goods/n5a9c8d40.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-s-vysverlivayushchim-kontsom-tb/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Саморез Кнауф ТB 3.5 х 25 мм 3508/669583"
+ },
+ "nf379b1cf": {
+  "img": "assets/goods/nf379b1cf.webp",
+  "src": "https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/soediniteli/soedinitel-profilya-cd-60-27/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Удлинитель СД профиля КНАУФ"
+ },
+ "nd46e8266": {
+  "img": "assets/goods/nd46e8266.webp",
+  "src": "https://knauf.by/catalog/stroitelnaya-khimiya/knauf-ochistitel/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Очиститель монтажной пены КНАУФ"
+ },
+ "nf9ee102e": {
+  "img": "assets/goods/nf9ee102e.webp",
+  "src": "https://knauf.by/catalog/instrumenty/obrabotka-knauf-listov-i-drugoy-produktsii/rubanok-obdirochnyy/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Кнауф Рашпельхобель 261,5мм"
+ },
+ "ne077b264": {
+  "img": "assets/goods/ne077b264.webp",
+  "src": "https://knauf.by/catalog/shtukaturka/shtukaturka-gipsovaya/knauf-mp-75/knauf-mp-75-30kg/",
+  "brand": "knauf",
+  "match": "exact",
+  "name": "Штукатурная гипсовая Кнауф МР-75 (30 кг) 40 шт"
+ },
+ "n17be46f6": {
+  "img": "assets/goods/n17be46f6.webp",
+  "src": "https://www.tn.ru/catalogue/kley-pena/kley_pena_500/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Клей-пена \"ТехноНИКОЛЬ\" №500 PROFESSIONAL универсальная"
+ },
+ "na7ffd67d": {
+  "img": "assets/goods/na7ffd67d.webp",
+  "src": "https://www.tn.ru/catalogue/ochistitel-montazhnoy-peny/ochistitel-montazhnoy-peny-tekhnonikol-master/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Очиститель монтажной пены ТЕХНОНИКОЛЬ MASTER"
+ },
+ "nae8cd482": {
+  "img": "assets/goods/nae8cd482.webp",
+  "src": "https://www.tn.ru/catalogue/ochistitel-montazhnoy-peny/ochistitel_montazhnoj_peny_tehnonikol_professional/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Очиститель монтажный пены ТЕХНОНИКОЛЬ PROFESSIONAL, 12×370 гр."
+ },
+ "na38450f7": {
+  "img": "assets/goods/na38450f7.webp",
+  "src": "https://www.tn.ru/catalogue/professionalnye-montazhnye-peny/professionalnaja_tehnonikol11/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Пена монтажная профессиональная ТЕХНОНИКОЛЬ 65 MAXIMUM всесезонная, 12×990 гр."
+ },
+ "n51c71947": {
+  "img": "assets/goods/n51c71947.webp",
+  "src": "https://www.tn.ru/catalogue/professionalnye-montazhnye-peny/tekhnonikol-65-master-vsesezonnaya/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Пена монтажная ТЕХНОНИКОЛЬ MASTER 65 (всесезонная)"
+ },
+ "n5700c3fd": {
+  "img": "assets/goods/n5700c3fd.webp",
+  "src": "https://www.tn.ru/catalogue/fasadnye-sistemy-sftk/shtukaturno-kleevaya-smes-tekhnonikol-210/",
+  "brand": "tn",
+  "match": "exact",
+  "name": "Штукатурно-клеевая смесь для плит из минеральной ваты ТЕХНОНИКОЛЬ 210"
+ },
+ "n8ea36322": {
+  "img": "assets/goods/n8ea36322.webp",
+  "src": "https://www.penoplex.ru/katalog/penopleks-osnova/",
+  "brand": "tn",
+  "match": "series",
+  "name": "Плиты пенополистирольные Пеноплэкс Основа 100х585х1185 (0,277м3/2,772м2/4л/уп)"
+ },
+ "n806984fa": {
+  "img": "assets/goods/n806984fa.webp",
+  "src": "https://www.penoplex.ru/katalog/penopleks-osnova/",
+  "brand": "tn",
+  "match": "series",
+  "name": "Плиты пенополистирольные Пеноплэкс Основа 20х585х1185 (0,278м3/13,9м2/20л/уп) (упак)"
+ },
+ "n0c155aad": {
+  "img": "assets/goods/n0c155aad.webp",
+  "src": "https://www.penoplex.ru/katalog/penopleks-osnova/",
+  "brand": "tn",
+  "match": "series",
+  "name": "Плиты пенополистирольные Пеноплэкс Основа 30х585х1185 (0,270м3/9,013м2/13л/уп)"
+ },
+ "n27bc73b0": {
+  "img": "assets/goods/n27bc73b0.webp",
+  "src": "https://www.penoplex.ru/katalog/penopleks-osnova/",
+  "brand": "tn",
+  "match": "series",
+  "name": "Плиты пенополистирольные Пеноплэкс Основа 40х585х1185 (0,277м3/6,925м2/10л/уп)"
+ },
+ "n37479af5": {
+  "img": "assets/goods/n37479af5.webp",
+  "src": "https://www.penoplex.ru/katalog/penopleks-osnova/",
+  "brand": "tn",
+  "match": "series",
+  "name": "Плиты пенополистирольные Пеноплэкс Основа 50х585х1185 (0,278м3/5,552м2/8л/уп), упак"
+ },
+ "127830-127831": {
+  "img": "assets/goods/127830-127831.webp",
+  "src": "https://olejnikprofessional.pl/zdzierak-do-posadzek-bez-trzonka.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Скребок для полов с деревянной ручкой 300мм Олейник"
+ },
+ "12391000GB3PG": {
+  "img": "assets/goods/12391000GB3PG.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-zlota-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Gold 1000×0,3мм Олейник"
+ },
+ "1239250GB3PG": {
+  "img": "assets/goods/1239250GB3PG.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-zlota-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Gold 250×0,3мм Олейник"
+ },
+ "1239400GB3PG": {
+  "img": "assets/goods/1239400GB3PG.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-zlota-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Gold 400×0,3мм Олейник"
+ },
+ "1239600GB3PG": {
+  "img": "assets/goods/1239600GB3PG.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-zlota-600mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Gold 600×0,3мм Олейник"
+ },
+ "12391000GB4PS": {
+  "img": "assets/goods/12391000GB4PS.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-srebrna-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Silver 1000×0,4мм Олейник"
+ },
+ "1239250GB4PS": {
+  "img": "assets/goods/1239250GB4PS.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-srebrna-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Silver 250×0,4мм Олейник"
+ },
+ "1239400GB4PS": {
+  "img": "assets/goods/1239400GB4PS.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-srebrna-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Silver 400×0,4мм Олейник"
+ },
+ "1239600GB4PS": {
+  "img": "assets/goods/1239600GB4PS.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-srebrna-600mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Silver 600×0,4мм Олейник"
+ },
+ "1239800GB4PS": {
+  "img": "assets/goods/1239800GB4PS.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-premium-ergoplane-linia-srebrna-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Сменное полотно для шпателя ERGOPLANE Premium Silver 800×0,4мм Олейник"
+ },
+ "126713-2К": {
+  "img": "assets/goods/126713-2К.webp",
+  "src": "https://olejnikprofessional.pl/taca-hawk-z-dwukomponentowym-uchwytem-330x330.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "СОКОЛ малярный, с рифлёной поверхностью, ручка двухкомп., OLEJNIK"
+ },
+ "127128E8-2КO": {
+  "img": "assets/goods/127128E8-2КO.webp",
+  "src": "https://olejnikprofessional.pl/paca-nierdzewna-z-zebem-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка для плитки нерж. 280мм зуб 8x8мм ручка 2-комп. OLEJNIK"
+ },
+ "LAGE2M150": {
+  "img": "assets/goods/LAGE2M150.webp",
+  "src": "https://olejnikprofessional.pl/czerwona-aluminiowa-poziomica-z-oczkiem-i-libella.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Уровень штукатурный красный анодированный 1500мм OLEJNIK"
+ },
+ "LAGE2M60-й": {
+  "img": "assets/goods/LAGE2M60-й.webp",
+  "src": "https://olejnikprofessional.pl/czerwona-aluminiowa-poziomica-z-oczkiem-i-libella.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Уровень штукатурный красный анодированный 600мм OLEJNIK"
+ },
+ "WERGR": {
+  "img": "assets/goods/WERGR.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blade-sets-and-carrying-case-wergr,1222.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Чемодан для инструмента красный (пустой) Олейник"
+ },
+ "nc32f6466": {
+  "img": "assets/goods/nc32f6466.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blade-sets-and-carrying-case-wergm,1224.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Чемодан с набором инструментов Ergolite OLEJNIK"
+ },
+ "12391000-G3": {
+  "img": "assets/goods/12391000-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×1000 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "12391000-G5": {
+  "img": "assets/goods/12391000-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×1000 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "12391250-G3": {
+  "img": "assets/goods/12391250-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×1250 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "12391250-G5": {
+  "img": "assets/goods/12391250-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×1250 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239250-G3": {
+  "img": "assets/goods/1239250-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×250 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239250-G5": {
+  "img": "assets/goods/1239250-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×250 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239400-G3": {
+  "img": "assets/goods/1239400-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×400 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239400-G5": {
+  "img": "assets/goods/1239400-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×400 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239600-G3": {
+  "img": "assets/goods/1239600-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель 0.3×600 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239600-G5": {
+  "img": "assets/goods/1239600-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель 0.5×600 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239800-G3": {
+  "img": "assets/goods/1239800-G3.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-3mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×800 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "1239800-G5": {
+  "img": "assets/goods/1239800-G5.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergoplane-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×800 мм, нерж. ERGOPLANE, с механической заменой рабочей части Олейник"
+ },
+ "12391000G5S": {
+  "img": "assets/goods/12391000G5S.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergosoft-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×1000 мм, пласт. ERGOSOFT, с механической заменой рабочей части Олейник"
+ },
+ "1239250G5S": {
+  "img": "assets/goods/1239250G5S.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergosoft-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×250 мм, пласт. ERGOSOFT, с механической заменой рабочей части Олейник"
+ },
+ "1239400G5S": {
+  "img": "assets/goods/1239400G5S.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergosoft-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×400 мм, пласт. ERGOSOFT, с механической заменой рабочей части Олейник"
+ },
+ "1239600G5S": {
+  "img": "assets/goods/1239600G5S.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergosoft-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель 0.5×600 мм, пласт. ERGOSOFT, с механической заменой рабочей части Олейник"
+ },
+ "1239800G5S": {
+  "img": "assets/goods/1239800G5S.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-ergosoft-600x0-5mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.5×800 мм, пласт. ERGOSOFT, с механической заменой рабочей части Олейник"
+ },
+ "12391000G3G": {
+  "img": "assets/goods/12391000G3G.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-premium-gold-line-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×86×1000мм, алюм. ERGOPLANE, со сменным полотном \"gold\" Олейник"
+ },
+ "1239250G3G": {
+  "img": "assets/goods/1239250G3G.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-premium-gold-line-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×86×250мм, алюм. ERGOPLANE, со сменным полотном \"gold\" Олейник"
+ },
+ "1239400G3G": {
+  "img": "assets/goods/1239400G3G.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-premium-gold-line-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×86×400мм, алюм. ERGOPLANE, со сменным полотном \"gold Олейник"
+ },
+ "1239600G3G": {
+  "img": "assets/goods/1239600G3G.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-powierzchniowa-premium-gold-line-600mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель 0.3×86×600мм, алюм. ERGOPLANE, со сменным полотном \"gold\" Олейник"
+ },
+ "125120-L": {
+  "img": "assets/goods/125120-L.webp",
+  "src": "https://olejnikprofessional.pl/bucket-scoop-leather-handle-alcantara,1153.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель для набора смеси bucket scoop ручка кожа Олейник"
+ },
+ "125120-LSSH": {
+  "img": "assets/goods/125120-LSSH.webp",
+  "src": "https://olejnikprofessional.pl/bucket-scoop-with-hammer-leather-handle-alcantara,1150.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель для набора смеси bucket scoop с хаммером ручка кожа alcantara Олейник"
+ },
+ "necb8cba2": {
+  "img": "assets/goods/necb8cba2.webp",
+  "src": "https://olejnikprofessional.pl/three-component-putty-knives-plastic-handle,1286.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель малярный закал.нерж.сталь 150мм с эргоном.пласт. ручкой, лезвие 1,22-0,4мм OLEJNIK"
+ },
+ "124015-3K": {
+  "img": "assets/goods/124015-3K.webp",
+  "src": "https://olejnikprofessional.pl/three-component-putty-knives-three-component-handle,1285.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель малярный закаленная нерж.сталь 150мм с эргономичной трехкомп. ручк. OLEJNIK"
+ },
+ "nfabee305": {
+  "img": "assets/goods/nfabee305.webp",
+  "src": "https://olejnikprofessional.pl/marble-series-stainless-steel-putty-knives,1281.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель малярный ПРЕМИУМ 100мм ручка искуст.фарфор OLEJNIK / ОЛЕЙНИК"
+ },
+ "nfe0496c1": {
+  "img": "assets/goods/nfe0496c1.webp",
+  "src": "https://olejnikprofessional.pl/wood-series-stainless-steel-putty-knives,1283.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель малярный ПРЕМИУМ 120мм ручка дерево OLEJNIK / ОЛЕЙНИК"
+ },
+ "na588ab66": {
+  "img": "assets/goods/na588ab66.webp",
+  "src": "https://olejnikprofessional.pl/wood-series-stainless-steel-putty-knives,1283.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель малярный ПРЕМИУМ 150мм ручка дерево OLEJNIK / ОЛЕЙНИК"
+ },
+ "n42b9fe39": {
+  "img": "assets/goods/n42b9fe39.webp",
+  "src": "https://olejnikprofessional.pl/wood-series-stainless-steel-putty-knives,1283.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель малярный ПРЕМИУМ 60мм ручка дерево OLEJNIK / ОЛЕЙНИК"
+ },
+ "na962ef33": {
+  "img": "assets/goods/na962ef33.webp",
+  "src": "https://olejnikprofessional.pl/wood-putty-knives-wooden-handle,1284.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель многофункциональный ПРЕМИУМ 10 в 1 ручка дерево OLEJNIK / ОЛЕЙНИК"
+ },
+ "nb6b46024": {
+  "img": "assets/goods/nb6b46024.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blades-1239150g4pc,1215.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель пласт 0.4×1000 мм, ERGOLITE (сменное лезвие) OLEJNIK"
+ },
+ "n3da88b24": {
+  "img": "assets/goods/n3da88b24.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blades-1239150g4pc,1215.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель пласт 0.4×250 мм, ERGOLITE (сменное лезвие) OLEJNIK"
+ },
+ "n276e245f": {
+  "img": "assets/goods/n276e245f.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blades-1239150g4pc,1215.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель пласт 0.4×400 мм, ERGOLITE (сменное лезвие) OLEJNIK"
+ },
+ "1239600G4PС": {
+  "img": "assets/goods/1239600G4PС.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blades-1239150g4pc,1215.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель пласт 0.4×600 мм, ERGOLIGHT (сменное лезвие) OLEJNIK"
+ },
+ "1239800G4PС": {
+  "img": "assets/goods/1239800G4PС.webp",
+  "src": "https://olejnikprofessional.pl/skimming-blades-1239150g4pc,1215.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Шпатель пласт 0.4×800 мм, ERGOLIGHT (сменное лезвие) OLEJNIK"
+ },
+ "1240100-1-Ш": {
+  "img": "assets/goods/1240100-1-Ш.webp",
+  "src": "https://olejnikprofessional.pl/one-piece-stainless-steel-10-in-1-tool-with-a-wide-range-of-applications,1289.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Шпатель цельнометаллический многофункциональный 10 в 1 Олейник"
+ },
+ "250100": {
+  "img": "assets/goods/250100.webp",
+  "src": "https://olejnikprofessional.pl/walek-do-gladzi-230x18mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Валик для шпатлевки 100мм Олейник"
+ },
+ "250180": {
+  "img": "assets/goods/250180.webp",
+  "src": "https://olejnikprofessional.pl/walek-do-gladzi-230x18mm.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Валик для шпатлевки 180мм Олейник"
+ },
+ "250230": {
+  "img": "assets/goods/250230.webp",
+  "src": "https://olejnikprofessional.pl/walek-do-gladzi-230x18mm.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Валик для шпатлевки 230мм Олейник"
+ },
+ "276000": {
+  "img": "assets/goods/276000.webp",
+  "src": "https://olejnikprofessional.pl/corner-mud-roller,1219.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Валик для шпатлевки угловой Олейник"
+ },
+ "350100": {
+  "img": "assets/goods/350100.webp",
+  "src": "https://olejnikprofessional.pl/professional-stainless-steel-mud-pan-with-anti-slip-pad,1296.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Ванночка для шпаклевки из нерж стали 14\" OLEJNIK"
+ },
+ "Z902LBR200": {
+  "img": "assets/goods/Z902LBR200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-oczkiem-i-libella.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Рейка для стяжки c 2 гл. (верт., гориз.) 2000мм OLEJNIK"
+ },
+ "205111-2K": {
+  "img": "assets/goods/205111-2K.webp",
+  "src": "https://olejnikprofessional.pl/paca-z-gumowa-pomaranczowa-gabka-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Терка губчатая для гипсовой штукатурки 250X130X18мм ручка 2-комп.Олейник"
+ },
+ "205111": {
+  "img": "assets/goods/205111.webp",
+  "src": "https://olejnikprofessional.pl/paca-z-gumowa-pomaranczowa-gabka.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Терка губчатая для гипсовой штукатурки 250×130×18мм OLEJNIK"
+ },
+ "027440": {
+  "img": "assets/goods/027440.webp",
+  "src": "https://olejnikprofessional.pl/flooring-trowels-made-of-spring-steel-with-bevelled-front-1-2-mm-wooden-handle,1148.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка для наливных полов 400мм OLEJNIK"
+ },
+ "027460": {
+  "img": "assets/goods/027460.webp",
+  "src": "https://olejnikprofessional.pl/flooring-trowels-made-of-spring-steel-with-bevelled-front-1-2-mm-wooden-handle,1148.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка для наливных полов 600мм OLEJNIK"
+ },
+ "027450-K": {
+  "img": "assets/goods/027450-K.webp",
+  "src": "https://olejnikprofessional.pl/paca-ze-scietym-przodem-i-korkowym-uchwytem-380x90x1-2.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка для наливных полов 500мм OLEJNIK ручка пробка"
+ },
+ "027750MSO-2K": {
+  "img": "assets/goods/027750MSO-2K.webp",
+  "src": "https://olejnikprofessional.pl/paca-zaokraglona-z-dwukomponentowym-uchwytem-280x120x0-7.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка для наливных полов 500мм закругленная Олейник"
+ },
+ "ST14500": {
+  "img": "assets/goods/ST14500.webp",
+  "src": "https://olejnikprofessional.pl/paca-styropianowa-prostokatna.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Терка из пенополистирола 140×500мм Олейник"
+ },
+ "205003-1": {
+  "img": "assets/goods/205003-1.webp",
+  "src": "https://olejnikprofessional.pl/aluminium-float-with-orange-rubber-sponge,1304.html  (EN-версия сайта, cookie sLanguage=en)",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Терка губчатая д/гипсовой штукатурки без стерженя удлинителя OLEJNIK"
+ },
+ "205404": {
+  "img": "assets/goods/205404.webp",
+  "src": "https://olejnikprofessional.pl/kij-teleskopowy.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Удлинитель телескопический 0,95-1,6м OLEJNIK"
+ },
+ "205401": {
+  "img": "assets/goods/205401.webp",
+  "src": "https://olejnikprofessional.pl/kij-teleskopowy.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Удлинитель телескопический 1,2-2,2м OLEJNIK"
+ },
+ "nb57b1e21": {
+  "img": "assets/goods/nb57b1e21.webp",
+  "src": "https://olejnikprofessional.pl/kij-teleskopowy.html",
+  "brand": "olejnik-b",
+  "match": "series",
+  "name": "Удлинитель телескопический закруч. 1,2-2,2м OLEJNIK / ОЛЕЙНИК"
+ },
+ "205401B": {
+  "img": "assets/goods/205401B.webp",
+  "src": "https://olejnikprofessional.pl/blue-telescopic-fibreglass-pole-for-trowels-used-in-mechanised-application,1217.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Удлинитель телескопический закруч. 1,2-2,2м OLEJNIK STANDART"
+ },
+ "205111-G": {
+  "img": "assets/goods/205111-G.webp",
+  "src": "https://olejnikprofessional.pl/pomaranczowa-wymienna-gabka.html",
+  "brand": "olejnik-b",
+  "match": "exact",
+  "name": "Губка для терки сменная 250x130 мм OLEJNIK"
+ },
+ "n2e5be2b5": {
+  "img": "assets/goods/n2e5be2b5.webp",
+  "src": "https://www.ceresit.by/produkt/gruntovki/produkt.html/ceresit-ct-19/SAP_0201SOC014F8.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Грунтовка бетоноконтакт Церезит СТ19, 15 кг"
+ },
+ "n874dd8d5": {
+  "img": "assets/goods/n874dd8d5.webp",
+  "src": "https://www.ceresit.ua/catalog/vnutrisne-ozdoblennja/gruntivky/produkti.html/ceresit-ct-17/SAP_0201JAC014F1.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Грунтовка универсальная Церезит, CT17,10л"
+ },
+ "nff73793e": {
+  "img": "assets/goods/nff73793e.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит антрацит №13 (т.серая) CE33, 2кг"
+ },
+ "naa7a593c": {
+  "img": "assets/goods/naa7a593c.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит Багама беж, CE33, 2кг"
+ },
+ "n0e78eff0": {
+  "img": "assets/goods/n0e78eff0.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит белая 2кг №01 CE33"
+ },
+ "na15529a8": {
+  "img": "assets/goods/na15529a8.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит жасмин 2кг №40 CE33"
+ },
+ "ne4e71c25": {
+  "img": "assets/goods/ne4e71c25.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит карамель CE33, 2кг"
+ },
+ "n9430545a": {
+  "img": "assets/goods/n9430545a.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит св.коричневая № 55 CE33, 2кг"
+ },
+ "n6da87af6": {
+  "img": "assets/goods/n6da87af6.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит серая 2кг №7 CE33"
+ },
+ "n3183da25": {
+  "img": "assets/goods/n3183da25.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка Церезит серебристо-серая №04 CE33, 2кг"
+ },
+ "n3deb538e": {
+  "img": "assets/goods/n3deb538e.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. антрацит, CE40 ВЕДРО 2 кг"
+ },
+ "n08c83187": {
+  "img": "assets/goods/n08c83187.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. бел. мрамор, 2кг CE40"
+ },
+ "n6a5571b7": {
+  "img": "assets/goods/n6a5571b7.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. белая CE40, 2кг"
+ },
+ "n1453eb39": {
+  "img": "assets/goods/n1453eb39.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. графит CE40, 2кг"
+ },
+ "nbf2dcfda": {
+  "img": "assets/goods/nbf2dcfda.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. жасмин №40 CE40, 2 кг"
+ },
+ "nd38c7375": {
+  "img": "assets/goods/nd38c7375.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. карамель №46 CE40, 2 кг"
+ },
+ "nddf24b11": {
+  "img": "assets/goods/nddf24b11.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. манхеттен 2кг №10 CE40"
+ },
+ "n64b67792": {
+  "img": "assets/goods/n64b67792.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Затирка эластич. Церезит водоот. серая CE40, 2кг"
+ },
+ "n928f043c": {
+  "img": "assets/goods/n928f043c.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Церезит CE40/1кг БАГАМА 43"
+ },
+ "nd5673f55": {
+  "img": "assets/goods/nd5673f55.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Церезит CE40/1кг БЕЛАЯ 01"
+ },
+ "ndd02b46b": {
+  "img": "assets/goods/ndd02b46b.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Церезит CE40/1кг ЖАСМИН 40"
+ },
+ "n6ae8b1ee": {
+  "img": "assets/goods/n6ae8b1ee.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Церезит CE40/1кг С-СЕРАЯ 04"
+ },
+ "nd8c74ec5": {
+  "img": "assets/goods/nd8c74ec5.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Церезит CE40/1кг СЕРАЯ 07"
+ },
+ "n9d90cd0c": {
+  "img": "assets/goods/n9d90cd0c.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/klei-dlja-plitki/produkt.html/ceresit-cm-14/SAP_0201SBC013T4.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Клей для керамогранита Церезит СМ14, 25 кг"
+ },
+ "n70bd65ad": {
+  "img": "assets/goods/n70bd65ad.webp",
+  "src": "https://www.ceresit.by/produkt/oblicovka/klei-dlja-plitki/produkt.html/ceresit-cm-16/SAP_0201SBC013T8.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Клей для керамогранита Церезит СМ16, 25кг"
+ },
+ "nd5013564": {
+  "img": "assets/goods/nd5013564.webp",
+  "src": "https://www.ceresit.com/products/tiling/product.html/ceresit-cm-17/SAP_0201SBC013W2.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Клей для крупноформатного керамогранита Церезит СМ17, 25 кг"
+ },
+ "n5681ffc4": {
+  "img": "assets/goods/n5681ffc4.webp",
+  "src": "https://www.ceresit.ua/catalog/pidlogi/materialy-dlja-vlastuvannja-pidloh-stjazky/produkti.html/ceresit-cn-83/SAP_0201TBC014A0.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Раствор ремонтный Церезит д/полов CN83, 25кг"
+ },
+ "n24535ccf": {
+  "img": "assets/goods/n24535ccf.webp",
+  "src": "https://www.ceresit.ua/catalog/pidlogi/materialy-dlja-vlastuvannja-pidloh-stjazky/produkti.html/ceresit-cn-178/SAP_0201TBC013Y4.html",
+  "brand": "ceresit",
+  "match": "exact",
+  "name": "Церезит легковыравнивающая смесь 5-80 мм, CN178, 25 кг"
+ },
+ "n9986fd74": {
+  "img": "assets/goods/n9986fd74.webp",
+  "src": "https://www.ceresit.com/products/tiling/product.html/ceresit-ce-89/SAP_0201SQC013O0.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Эпоксидная затирка Церезит 801 Белый 2,5 кг 3002722"
+ },
+ "n166faade": {
+  "img": "assets/goods/n166faade.webp",
+  "src": "https://www.ceresit.com/products/tiling/product.html/ceresit-ce-89/SAP_0201SQC013O0.html",
+  "brand": "ceresit",
+  "match": "series",
+  "name": "Эпоксидная затирка Церезит 807 Серый 2,5 кг 3002727"
+ },
+ "n6ec04e4c": {
+  "img": "assets/goods/n6ec04e4c.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/bity/bity_magnitnye_s_ogranichitelem_s2_ph2_kh_50mm_2_sht_rage_by_vira/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Бита RAGE by VIRA Магнитная с ограничителем, S2, PH2x50мм, карта"
+ },
+ "n208ec91f": {
+  "img": "assets/goods/n208ec91f.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/bity/bity_magnitnye_s2_ph2_x_50_mm_2_sht_rage_by_vira/",
+  "brand": "vira",
+  "match": "series",
+  "name": "Бита RAGE by VIRA Магнитная, S2, PH2x50мм"
+ },
+ "ndfdc0117": {
+  "img": "assets/goods/ndfdc0117.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/diski_almaznye/disk_almaznyy_sploshnoy_po_steklu_i_keramike_125_mm_vira/",
+  "brand": "vira",
+  "match": "series",
+  "name": "Диск алмазный сплошой по стеклу и керамике 125 мм VIRA"
+ },
+ "743667": {
+  "img": "assets/goods/743667.webp",
+  "src": "https://instrument.ru/krug-otreznoy-po-kamnyu-125-kh-2-5-kh-22-2-mm-sibrtekh-743667/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "КРУГ отрезной по камню, 125 х 2,5 x 22,2 мм, Сибртех"
+ },
+ "743677-2": {
+  "img": "assets/goods/743677-2.webp",
+  "src": "https://instrument.ru/krug-otreznoy-po-kamnyu-150-kh-2-5-kh-22-2-mm-sibrtekh-743677/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "КРУГ отрезной по камню, 150 х 2,5 х 22,2 мм, Сибртех"
+ },
+ "nd6b500f4": {
+  "img": "assets/goods/nd6b500f4.webp",
+  "src": "https://instrument.ru/krug-otreznoy-po-metallu-125-kh-1-0-kh-22-2-mm-84-a-16-b-sibrtekh-743137/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Круг отрезной по металлу, 125 х 1,0 х 22,2 мм, Сибртех"
+ },
+ "n6b840dc8": {
+  "img": "assets/goods/n6b840dc8.webp",
+  "src": "https://instrument.ru/krug-otreznoy-po-metallu-125-kh-1-2-kh-22-2-mm-sibrtekh-743147/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Круг отрезной по металлу, 125 х 1,2 х 22,2 мм, Сибртех"
+ },
+ "743157": {
+  "img": "assets/goods/743157.webp",
+  "src": "https://instrument.ru/krug-otreznoy-po-metallu-125-kh-1-6-kh-22-2-mm-sibrtekh-743157/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Круг отрезной по металлу, 125 х 1,6 х 22,2 мм, Сибртех"
+ },
+ "25245": {
+  "img": "assets/goods/25245.webp",
+  "src": "https://instrument.ru/lom-gvozdoder-900-kh-25-kh-12-mm-sibrtekh-25245/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Лом-гвоздодер, 900X25X12мм Сибртех"
+ },
+ "84807": {
+  "img": "assets/goods/84807.webp",
+  "src": "https://instrument.ru/mikser-iz-otsinkovannoy-stali-d-60-mm-l-400-mm-dlya-peschano-graviynykh-smesey-sibrtekh-84807/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Миксер из оцинкованной стали, D 60 мм, L 400 мм Сибртех"
+ },
+ "88678": {
+  "img": "assets/goods/88678.webp",
+  "src": "https://instrument.ru/pistolet-dlya-montazhnoy-peny-oblegchennyy-plastmassovyy-korpus-sibrtekh-88678/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Пистолет для монтажной пены, облегченный пластмассовый корпус Сибртех 88678"
+ },
+ "n2fa20891": {
+  "img": "assets/goods/n2fa20891.webp",
+  "src": "https://ragetools.ru/catalog/ruchnoy_instrument_nabory_ruchnogo_instrumenta_aksessuary/izmeritelnyy_instrument/ruletka_10_m_kh_25_mm_s_avtostopom_i_magnitnym_zatsepom_vira/",
+  "brand": "vira",
+  "match": "series",
+  "name": "Рулетка 10,0 х 25 мм с автостопом и магнитным зацепом VIRA"
+ },
+ "n64324dca": {
+  "img": "assets/goods/n64324dca.webp",
+  "src": "https://ragetools.ru/catalog/ruchnoy_instrument_nabory_ruchnogo_instrumenta_aksessuary/izmeritelnyy_instrument/ruletka_5m_kh_25_mm_s_avtostopom_i_magnitnym_zatsepom_vira/",
+  "brand": "vira",
+  "match": "series",
+  "name": "Рулетка 5,0 х 25 мм с автостопом и магнитным зацепом VIRA"
+ },
+ "n4e141f7f": {
+  "img": "assets/goods/n4e141f7f.webp",
+  "src": "https://instrument.ru/sverlo-po-keramicheskoy-plitke-10-mm-tsilindricheskiy-khvostovik-matrix-72820/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Сверло по кафелю/стеклу 10 мм MATRIX 72820"
+ },
+ "ne570700f": {
+  "img": "assets/goods/ne570700f.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/abrazivnye_raskhodnye_materialy/chashka_almaznaya_dvukhryadnaya_125_mm_vira/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Чашка алмазная шлифовальная двухрядная 125 мм VIRA"
+ },
+ "85508": {
+  "img": "assets/goods/85508.webp",
+  "src": "https://instrument.ru/shpatelnaya-lopatka-iz-nerzhaveyushchey-stali-80-mm-dvukhkomponentnaya-ruchka-matrix-85508/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Шпательная лопатка из нержавеющей стали, 80 мм, 2-комп. ручка Matrix"
+ },
+ "n77780dd7": {
+  "img": "assets/goods/n77780dd7.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/kordshchetki/shchetka_dlya_dreli_ploskaya_s_khvost_50_mm_vira/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Щетка для дрели плоская с хвостовиком латунированная 50 мм VIRA"
+ },
+ "n1f1848af": {
+  "img": "assets/goods/n1f1848af.webp",
+  "src": "https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/kordshchetki/shchetka_dlya_dreli_ploskaya_s_khvost_75_mm_vira/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Щетка для дрели плоская с хвостовиком латунированная 75 мм VIRA"
+ },
+ "21824": {
+  "img": "assets/goods/21824.webp",
+  "src": "https://instrument.ru/kirka-molotok-pechnika-i-kamenshchika-500-g-fiberglasovaya-obrezinennaya-rukoyatka-385-mm-matrix-21824/",
+  "brand": "vira",
+  "match": "exact",
+  "name": "Кирка-молоток печника и каменщика 500 г, фибергласовая обрезиненная рукоятка 385 мм Matrix"
+ },
+ "205402": {
+  "img": "assets/goods/205402.webp",
+  "src": "https://olejnikprofessional.pl/czerwony-adapter.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Адаптер OLEJNIK"
+ },
+ "ZGP": {
+  "img": "assets/goods/ZGP.webp",
+  "src": "https://olejnikprofessional.pl/zestaw-glazurniczy.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Ведро плиточника 22л с решеткой и роликами Олейник"
+ },
+ "127412457-MHLS": {
+  "img": "assets/goods/127412457-MHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-vintage-279x100x0-4-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка Medium Flex из нерж стали 0,4мм×457 мм на алюм.грифе из кожи HANDLE VINTAGE Олейник"
+ },
+ "126124-МНLSS": {
+  "img": "assets/goods/126124-МНLSS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-polerowana-ze-skorzanym-uchwytem-alcantara-240x130x100x0-65.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка Венецианская трапец. из нерж.стали 0,65x240x130x100 мм ручка кожа alcantara Олейник"
+ },
+ "126124-МНК": {
+  "img": "assets/goods/126124-МНК.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-polerowana-z-korkowym-uchwytem-240x130x100x0-65.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка Венецианская трапец. из нерж.стали 0,65x240x130x100 мм ручка пробка OLEJNIK"
+ },
+ "127712356-MSOHLSS": {
+  "img": "assets/goods/127712356-MSOHLSS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-zaokraglona-ze-skorzanym-uchwytem-alcantara-279x120x0-65.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка д/полов с закругл.торцами, 0,65×120×356мм, ручка кожа alcantara Олейник"
+ },
+ "127712356-MSOHLS": {
+  "img": "assets/goods/127712356-MSOHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-zaokraglona-ze-skorzanym-uchwytem-vintage-279x120x0-65.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка д/полов с закругл.торцами, 0,65×120×356мм, ручка кожа vintage Олейник"
+ },
+ "127712356-MSOHK": {
+  "img": "assets/goods/127712356-MSOHK.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-zaokraglona-z-korkowym-uchwytem-279x120x0-65.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка д/полов с закругл.торцами, 0,65×120×356мм, ручка пробка Олейник"
+ },
+ "1273406-MHLSS": {
+  "img": "assets/goods/1273406-MHLSS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-alcantara-279x100x0-3-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка для гипса закал.нерж. 406мм ручка кожа Олейник"
+ },
+ "1277356-MHK": {
+  "img": "assets/goods/1277356-MHK.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка для гипса нерж. 356мм ручка пробка Олейник"
+ },
+ "127712279-MHK": {
+  "img": "assets/goods/127712279-MHK.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка для гипса нерж.закл. сталь 0,65×120×279мм ручка пробка Олейник"
+ },
+ "127128-SG": {
+  "img": "assets/goods/127128-SG.webp",
+  "src": "https://olejnikprofessional.pl/paca-nierdzewna-z-dwukomponentowym-uchwytem-typu-sg.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка для гипса Профи 280×130 \"ORANGE\" OLEJNIK"
+ },
+ "1273356-MHLSS": {
+  "img": "assets/goods/1273356-MHLSS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-alcantara-279x100x0-3-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка из закалённой нержавеющей стали 356мм ручка кожа Олейник"
+ },
+ "1262200086-MPK-1": {
+  "img": "assets/goods/1262200086-MPK-1.webp",
+  "src": "https://olejnikprofessional.pl/polycarbonate-venetian-trowels-1-mm-cork-handle,1138.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка из поликарбоната венецианская 200X80X1мм ручка пробка Олейник"
+ },
+ "1262240100-MPK-1": {
+  "img": "assets/goods/1262240100-MPK-1.webp",
+  "src": "https://olejnikprofessional.pl/polycarbonate-trapezoid-venetian-trowels-1-mm-cork-handle,1134.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка из поликарбоната венецианская 240X80X100X1мм ручка пробка Олейник"
+ },
+ "1262240086-MPK-3": {
+  "img": "assets/goods/1262240086-MPK-3.webp",
+  "src": "https://olejnikprofessional.pl/polycarbonate-venetian-iron-shape-trowels-1-mm-cork-handle,1146.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка из поликарбоната венецианская 240X86X1мм форма \"утюг\" ручка пробка Олейник"
+ },
+ "127211356-LS": {
+  "img": "assets/goods/127211356-LS.webp",
+  "src": "https://olejnikprofessional.pl/paca-z-poliweglanu-ze-skorzanym-uchwytem-vintage-279x110mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка клеенная из поликарбоната \"Пласт Флекс\" 356×110×1мм ручка кожа OLEJNIK"
+ },
+ "127211457-LS": {
+  "img": "assets/goods/127211457-LS.webp",
+  "src": "https://olejnikprofessional.pl/paca-z-poliweglanu-ze-skorzanym-uchwytem-vintage-279x110mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка клеенная из поликарбоната \"Пласт Флекс\" 457×110×1мм ручка кожа OLEJNIK"
+ },
+ "126520-MH2K-Г": {
+  "img": "assets/goods/126520-MH2K-Г.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-polerowana-z-dwukomponentowym-uchwytem-200x70x80x0-65.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка нерж. венецианская 200X70X80X0,65мм ручка двухкомп. OLEJNIK"
+ },
+ "126520-MHLSS": {
+  "img": "assets/goods/126520-MHLSS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-polerowana-ze-skorzanym-uchwytem-alcantara-200x70x80x0-65.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж. венецианская 200X70X80X0,65мм ручка кожа alcantara Олейник"
+ },
+ "126524-MHLS": {
+  "img": "assets/goods/126524-MHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-polerowana-ze-skorzanym-uchwytem-vintage-200x70x80x0-65.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж. венецианская 240X110X90X0,65мм ручка кожа vintage Олейник"
+ },
+ "1263200086-MHK-1": {
+  "img": "assets/goods/1263200086-MHK-1.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-200x86x0-3-mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка нерж. венецианская трапецевидная 200X86X0,3мм ручка пробка Олейник"
+ },
+ "1263240100-MH2K-2": {
+  "img": "assets/goods/1263240100-MH2K-2.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-dwukomponentowym-uchwytem-240x130x100x0-3mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка нерж. венецианская трапецевидная 240X127X100X0,3мм ручка двухкомп. Олейник"
+ },
+ "1263240100-MHK-1": {
+  "img": "assets/goods/1263240100-MHK-1.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-240x100x80x0-3mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка нерж. венецианская трапецевидная 240X80X100X0,3мм ручка пробка Олейник"
+ },
+ "1263240086-MHK-3": {
+  "img": "assets/goods/1263240086-MHK-3.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-240x86x0-3.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Гладилка нерж. венецианская форма \"Утюг\" 240X86X0,3мм ручка пробка Олейник"
+ },
+ "127412279-MHLS": {
+  "img": "assets/goods/127412279-MHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-vintage-279x100x0-4-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж.закален.сталь, Medium Flex 279X120X0,4мм ручка кожа vintage Олейник"
+ },
+ "127310356-MHLS": {
+  "img": "assets/goods/127310356-MHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-vintage-279x100x0-3-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж.закален.сталь, гриф алюм Super Flex 356X100X0,3мм ручка кожа vintage Олейник"
+ },
+ "127310457-MHLS": {
+  "img": "assets/goods/127310457-MHLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-zlota-ze-skorzanym-uchwytem-vintage-279x100x0-3-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж.закален.сталь, гриф алюм Super Flex 457X100X0,3мм ручка кожа vintage Олейник"
+ },
+ "127150E6": {
+  "img": "assets/goods/127150E6.webp",
+  "src": "https://olejnikprofessional.pl/szwajcarska-paca-nierdzewna-z-zebem-z-drewnianym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж.тип Швейцарская 480×130мм зуб 6мм ручка дерево OLEJNIK"
+ },
+ "127512356-MLS": {
+  "img": "assets/goods/127512356-MLS.webp",
+  "src": "https://olejnikprofessional.pl/paca-srebrna-ze-skorzanym-uchwytem-vintage-279x100x0-5-mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Гладилка нерж.холоднокатанной стали Flex 356X120X0,5мм ручка кожа vintage Олейник"
+ },
+ "12391000-GB3": {
+  "img": "assets/goods/12391000-GB3.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-super-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.3×1000 мм Олейник"
+ },
+ "12391250-GB3": {
+  "img": "assets/goods/12391250-GB3.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-super-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.3×1250 мм Олейник"
+ },
+ "1239400-GB3": {
+  "img": "assets/goods/1239400-GB3.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-super-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.3×400 мм Олейник"
+ },
+ "1239600": {
+  "img": "assets/goods/1239600.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-super-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Запасной резец 0.3×600 мм Олейник"
+ },
+ "1239800-GB3": {
+  "img": "assets/goods/1239800-GB3.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-super-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.3×800 мм Олейник"
+ },
+ "12391000GB5S": {
+  "img": "assets/goods/12391000GB5S.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergosoft-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×1000 мм ERGOSOF Олейник"
+ },
+ "nad4ba561": {
+  "img": "assets/goods/nad4ba561.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×1000 мм Олейник"
+ },
+ "12391250-GB5": {
+  "img": "assets/goods/12391250-GB5.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×1250 мм Олейник"
+ },
+ "1239250GB5S": {
+  "img": "assets/goods/1239250GB5S.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergosoft-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×250 мм ERGOSOFT Олейник"
+ },
+ "1239250-GB5": {
+  "img": "assets/goods/1239250-GB5.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×250 мм Олейник"
+ },
+ "1239400GB5S": {
+  "img": "assets/goods/1239400GB5S.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergosoft-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×400 мм ERGOSOFT Олейник"
+ },
+ "1239400-GB5": {
+  "img": "assets/goods/1239400-GB5.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×400 мм Олейник"
+ },
+ "1239600GB5S": {
+  "img": "assets/goods/1239600GB5S.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergosoft-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Запасной резец 0.5×600 мм ERGOSOFT Олейник"
+ },
+ "1239600-GB5": {
+  "img": "assets/goods/1239600-GB5.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Запасной резец 0.5×600 мм Олейник"
+ },
+ "1239800GB5S": {
+  "img": "assets/goods/1239800GB5S.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergosoft-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×800 мм ERGOSOFT Олейник"
+ },
+ "1239800-GB5": {
+  "img": "assets/goods/1239800-GB5.webp",
+  "src": "https://olejnikprofessional.pl/wymienne-ostrze-ergoplane-flex-600mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Запасной резец 0.5×800 мм Олейник"
+ },
+ "026279F-LSH": {
+  "img": "assets/goods/026279F-LSH.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-kuta-typu-london-ze-skorzanym-uchwytem-vintage-10-.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Кельма большая кованная д/кладки стреловидное полотно типа лондон 279 мм кожа VINTAGE Олейник"
+ },
+ "027279F-2KH": {
+  "img": "assets/goods/027279F-2KH.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-kuta-philadelphia-z-dwukomponentowym-uchwytem-10-.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Кельма большая кованная д/кладки стреловидное полотно типа филадельфия 279 мм двухкомп. Олейник"
+ },
+ "122507-К": {
+  "img": "assets/goods/122507-К.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-do-krawedzi-wewnetrznych-z-korkowym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Кельма д/внутренних углов 75×110мм OLEJNIK ручка пробка"
+ },
+ "122707-2К": {
+  "img": "assets/goods/122707-2К.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-do-dylatacji-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Кельма д/внутрх углов с ножом для заполнения, ручка двухкомп., 0,8х75х100мм Олейник"
+ },
+ "122604-2K": {
+  "img": "assets/goods/122604-2K.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-do-krawedzi-zewnetrznych-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Кельма д/наружных углов 40×80мм ручка 2-х комп. OLEJNIK"
+ },
+ "122607-2": {
+  "img": "assets/goods/122607-2.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-do-krawedzi-zewnetrznych-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Кельма д/наружных углов 75×110мм ручка 2-х комп. OLEJNIK"
+ },
+ "025315F-2KH": {
+  "img": "assets/goods/025315F-2KH.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-kuta-punktowa-z-dwukomponentowym-uchwytem-4-5-.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Кельма заострённая кованная 150 мм двухкомпонентной ручкой Олейник"
+ },
+ "122118-2K": {
+  "img": "assets/goods/122118-2K.webp",
+  "src": "https://olejnikprofessional.pl/kielnia-trapezowa-zgrzewana-z-dwukomponentowym-uchwytem.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Кельма нерж. широкая 180мм ручка 2-комп. OLEJNIK"
+ },
+ "124010-2KP": {
+  "img": "assets/goods/124010-2KP.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Нержавеющий шпатель малярный 100мм ручка 2-комп. OLEJNIK"
+ },
+ "ne927df1c": {
+  "img": "assets/goods/ne927df1c.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Нержавеющий шпатель малярный 100мм ручка 2-комп. OLEJNIK / ОЛЕЙНИК"
+ },
+ "124012-2KP": {
+  "img": "assets/goods/124012-2KP.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 120мм ручка 2-комп. OLEJNIK"
+ },
+ "n57a598c9": {
+  "img": "assets/goods/n57a598c9.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 120мм ручка 2-комп. OLEJNIK / ОЛЕЙНИК"
+ },
+ "124015-2KP": {
+  "img": "assets/goods/124015-2KP.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 150мм ручка 2-комп. OLEJNIK"
+ },
+ "124015-2KB": {
+  "img": "assets/goods/124015-2KB.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-bitem-i-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Нержавеющий шпатель малярный 150мм ручка Bitem OLEJNIK"
+ },
+ "124060-2KP": {
+  "img": "assets/goods/124060-2KP.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 60мм ручка 2-комп. OLEJNIK"
+ },
+ "n187ef09f": {
+  "img": "assets/goods/n187ef09f.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 60мм ручка 2-комп. OLEJNIK / ОЛЕЙНИК"
+ },
+ "124080-2KP": {
+  "img": "assets/goods/124080-2KP.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-malarska-z-dwukomponentowym-uchwytem-100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель малярный 80мм ручка 2-комп. OLEJNIK"
+ },
+ "123917-2K": {
+  "img": "assets/goods/123917-2K.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-fasadowa-waska-z-dwukomponentowym-uchwytem-380x100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель фасадный 170мм OLEJNIK"
+ },
+ "123922-2K": {
+  "img": "assets/goods/123922-2K.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-fasadowa-waska-z-dwukomponentowym-uchwytem-380x100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель фасадный 220мм OLEJNIK"
+ },
+ "123928-2K": {
+  "img": "assets/goods/123928-2K.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-fasadowa-waska-z-dwukomponentowym-uchwytem-380x100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель фасадный 280мм OLEJNIK ручка двухкомп."
+ },
+ "123938-2K": {
+  "img": "assets/goods/123938-2K.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-fasadowa-waska-z-dwukomponentowym-uchwytem-380x100.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Нержавеющий шпатель фасадный 380мм OLEJNIK"
+ },
+ "123948-2K": {
+  "img": "assets/goods/123948-2K.webp",
+  "src": "https://olejnikprofessional.pl/szpachla-fasadowa-waska-z-dwukomponentowym-uchwytem-380x100.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Нержавеющий шпатель фасадный 480мм Олейник"
+ },
+ "ZTEKO60": {
+  "img": "assets/goods/ZTEKO60.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowy-szablon-tynkarski.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Правило угловое 600×600мм OLEJNIK"
+ },
+ "Z902L2R150": {
+  "img": "assets/goods/Z902L2R150.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-oczkiem-i-libella-i-uchwytami.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Правило-уровень c 2 гл. (верт., гориз.) 1500мм OLEJNIK"
+ },
+ "Z902L2R200": {
+  "img": "assets/goods/Z902L2R200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-oczkiem-i-libella-i-uchwytami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень c 2 гл. (верт., гориз.) 2000мм OLEJNIK"
+ },
+ "Z904L2R150": {
+  "img": "assets/goods/Z904L2R150.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-uchwytem-i-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь 1500 OLEJNIK"
+ },
+ "Z904L2R200": {
+  "img": "assets/goods/Z904L2R200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-uchwytem-i-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь 2000 OLEJNIK"
+ },
+ "Z904L2R250": {
+  "img": "assets/goods/Z904L2R250.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-uchwytem-i-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь 2500 OLEJNIK"
+ },
+ "Z904LBR150": {
+  "img": "assets/goods/Z904LBR150.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь, без ручек 1500 OLEJNIK"
+ },
+ "Z904LBR200": {
+  "img": "assets/goods/Z904LBR200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь, без ручек 2000 OLEJNIK"
+ },
+ "Z904LBR200-2": {
+  "img": "assets/goods/Z904LBR200-2.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-murarska-z-czterema-oczkami.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Правило-уровень с 4 гл. 2-вертикаль и 2-горизонталь, без ручек 2000 OLEJNIK / ОЛЕЙНИК"
+ },
+ "ZH100": {
+  "img": "assets/goods/ZH100.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-h-.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Рейка штукатурная тип \"Н\" 1000мм OLEJNIK"
+ },
+ "ZH150": {
+  "img": "assets/goods/ZH150.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-h-.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная тип \"Н\" 1500мм OLEJNIK"
+ },
+ "ZH200": {
+  "img": "assets/goods/ZH200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-h-.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная тип \"Н\" 2000мм OLEJNIK"
+ },
+ "ZH250": {
+  "img": "assets/goods/ZH250.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-h-.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная тип \"Н\" 2500мм OLEJNIK"
+ },
+ "ZTE100": {
+  "img": "assets/goods/ZTE100.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-profil-trapezowy.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Рейка штукатурная трапециевидная 1000мм OLEJNIK"
+ },
+ "ZTE150": {
+  "img": "assets/goods/ZTE150.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-profil-trapezowy.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная трапециевидная 1500мм OLEJNIK"
+ },
+ "ZTE200": {
+  "img": "assets/goods/ZTE200.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-profil-trapezowy.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная трапециевидная 2000мм OLEJNIK"
+ },
+ "ZTE250": {
+  "img": "assets/goods/ZTE250.webp",
+  "src": "https://olejnikprofessional.pl/aluminiowa-lata-tynkarska-profil-trapezowy.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Рейка штукатурная трапециевидная 2500мм OLEJNIK"
+ },
+ "250100R-2K-Р": {
+  "img": "assets/goods/250100R-2K-Р.webp",
+  "src": "https://olejnikprofessional.pl/rekojesc-do-walka-230mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Ручка двухкомпонентная для валика 250100 Олейник"
+ },
+ "250180R-2K": {
+  "img": "assets/goods/250180R-2K.webp",
+  "src": "https://olejnikprofessional.pl/rekojesc-do-walka-230mm.html",
+  "brand": "olejnik-a",
+  "match": "series",
+  "name": "Ручка двухкомпонентная для валика 250180 Олейник"
+ },
+ "250230R-2K": {
+  "img": "assets/goods/250230R-2K.webp",
+  "src": "https://olejnikprofessional.pl/rekojesc-do-walka-230mm.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Ручка двухкомпонентная для валика 250230 Олейник"
+ },
+ "127830": {
+  "img": "assets/goods/127830.webp",
+  "src": "https://olejnikprofessional.pl/zdzierak-do-posadzek-bez-trzonka.html",
+  "brand": "olejnik-a",
+  "match": "exact",
+  "name": "Скребок для полов без деревянной ручки 300мм Олейник"
  }
 }
