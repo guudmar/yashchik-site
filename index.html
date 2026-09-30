@@ -689,6 +689,70 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .done__no{display:inline-block;margin:14px 0 18px;padding:10px 18px;border-radius:99px;background:var(--bg-2);
   border:1px solid var(--line-2);font-family:"Oswald",sans-serif;font-weight:600;font-size:18px;letter-spacing:.06em}
 
+/* ================= КАРТОЧКА ТОВАРА ================= */
+.good{cursor:pointer}
+.good .good__row,.good .good__row *{cursor:auto}
+.good .btn,.good .qty button{cursor:pointer}
+.good__t:focus-visible{outline:3px solid var(--green);outline-offset:2px;border-radius:4px}
+.pd{position:fixed;inset:0;z-index:155;display:flex;align-items:center;justify-content:center;padding:20px}
+.pd[hidden]{display:none}
+.pd__back{position:absolute;inset:0;background:rgba(10,11,12,.6);backdrop-filter:blur(3px);opacity:0;transition:opacity .25s ease}
+.pd.open .pd__back{opacity:1}
+.pd__box{position:relative;z-index:1;width:min(980px,100%);max-height:calc(100vh - 40px);background:#fff;border-radius:16px;
+  overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:1fr 1fr;
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.7);transform:translateY(16px) scale(.98);opacity:0;
+  transition:transform .28s cubic-bezier(.22,.8,.28,1),opacity .22s ease}
+.pd.open .pd__box{transform:none;opacity:1}
+.pd__x{position:absolute;top:12px;right:12px;z-index:3}
+.pd__pic{position:relative;overflow:hidden;background:linear-gradient(160deg,#F7F7F5,#ECEEE9);min-height:440px;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
+.pd__pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:28px;background:#fff}
+.pd__pic svg{width:36%;height:36%;color:var(--green-d);opacity:.9}
+.pd__pic--noimg{cursor:default}
+.pd__zoom{position:absolute;left:14px;bottom:14px;display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:99px;
+  background:rgba(21,23,26,.82);color:#fff;font-size:13px;font-weight:600;pointer-events:none}
+.pd__body{padding:30px 32px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.pd__crumbs{display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted);padding-right:44px}
+.pd__crumbs span{padding:4px 10px;border-radius:99px;background:var(--bg-2);border:1px solid var(--line);white-space:nowrap}
+.pd__t{font-size:22px;line-height:1.25;letter-spacing:-.015em}
+.pd__price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.pd__price b{font-family:"Oswald",sans-serif;font-weight:600;font-size:36px;line-height:1;font-variant-numeric:tabular-nums}
+.pd__price span{font-size:14px;color:var(--muted);font-weight:600}
+.pd__stock{font-weight:700;color:var(--green-d);font-size:15px}
+.pd__stock.low{color:#B7791F}
+.pd__act{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:6px 0 4px}
+.pd__act .btn{padding:14px 24px}
+.pd__incart{font-size:14px;color:var(--muted)}
+.pd__incart a{color:var(--green-d);font-weight:700;cursor:pointer}
+.pd__desc{font-size:15px;line-height:1.55;color:var(--text)}
+.pd__spec{display:grid;grid-template-columns:auto 1fr;gap:7px 18px;font-size:14px;margin:0;padding-top:14px;border-top:1px solid var(--line)}
+.pd__spec dt{color:var(--muted)}
+.pd__spec dd{margin:0;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.pd__spec a{color:var(--green-d);text-decoration:underline;text-underline-offset:2px}
+.pd__note{font-size:12.5px;color:var(--muted);line-height:1.45}
+@media (max-width:820px){
+  .pd{padding:0;align-items:flex-end}
+  .pd__box{grid-template-columns:1fr;width:100%;max-height:100vh;max-height:100dvh;border-radius:16px 16px 0 0}
+  .pd__pic{min-height:0;height:min(78vw,320px)}
+  .pd__pic img{padding:16px}
+  .pd__body{padding:20px 18px calc(24px + env(safe-area-inset-bottom))}
+  .pd__t{font-size:19px}
+  .pd__price b{font-size:30px}
+  .pd__act .btn,.pd__act .qty{flex:1 1 auto}
+}
+/* просмотр фото товара крупно */
+.zoom{position:fixed;inset:0;z-index:175;background:rgba(10,11,12,.95);overflow:auto;cursor:zoom-in;opacity:0;transition:opacity .2s ease;-webkit-overflow-scrolling:touch}
+.zoom[hidden]{display:none}
+.zoom.open{opacity:1}
+.zoom__in{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px}
+.zoom img{display:block;max-width:min(100%,960px);max-height:calc(100vh - 48px);width:auto;height:auto;border-radius:10px;background:#fff;user-select:none}
+.zoom.big{cursor:zoom-out}
+.zoom.big .zoom__in{display:block;padding:0;min-height:0;width:max-content}
+.zoom.big img{max-width:none;max-height:none;width:1600px;border-radius:0}
+.zoom__x{position:fixed;top:16px;right:16px;z-index:2}
+.zoom__hint{position:fixed;left:0;right:0;bottom:16px;z-index:2;text-align:center;font-family:"Oswald",sans-serif;font-size:13px;letter-spacing:.1em;
+  text-transform:uppercase;color:rgba(255,255,255,.5);pointer-events:none}
+.zoom.big .zoom__hint{display:none}
+
 .toast{position:fixed;left:50%;bottom:26px;z-index:160;transform:translate(-50%,24px);opacity:0;
   display:flex;align-items:center;gap:14px;max-width:min(460px,92vw);
   background:var(--ink);color:#fff;border-radius:12px;padding:14px 18px;
@@ -1676,6 +1740,27 @@ var REVIEWS_CONFIG = {
   </aside>
 </div>
 
+<!-- карточка товара -->
+<div class="pd" id="pd" hidden>
+  <div class="pd__back" data-pd-close></div>
+  <div class="pd__box" role="dialog" aria-modal="true" aria-labelledby="pdTitle">
+    <button class="iconbtn pd__x" type="button" data-pd-close aria-label="Закрыть карточку товара">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="pd__pic" id="pdPic"></div>
+    <div class="pd__body" id="pdBody"></div>
+  </div>
+</div>
+
+<!-- фото товара на весь экран -->
+<div class="zoom" id="zoom" hidden role="dialog" aria-modal="true" aria-label="Фото товара крупно">
+  <div class="zoom__in"><img id="zoomImg" src="" alt=""></div>
+  <button class="lb__btn zoom__x" type="button" id="zoomClose" aria-label="Закрыть">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <div class="zoom__hint">Нажмите на фото, чтобы приблизить · Esc — закрыть</div>
+</div>
+
 <div class="toast" id="toast" role="status" aria-live="polite">
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
   <span id="toastText"></span>
@@ -2119,13 +2204,13 @@ var REVIEWS_CONFIG = {
       moreInfo.textContent = 'Показано ' + shown + ' из ' + all.length;
     }
     goodsBox.innerHTML = rows.map(function(g){
-      return '<article class="good">' +
+      return '<article class="good" data-id="' + esc(g.id) + '">' +
         '<div class="good__pic pic--' + g.c + '">' +
           (g.img ? '<img src="' + esc(g.img) + '" alt="" loading="lazy" decoding="async">' : icon(g.c)) +
           (g.t ? '<span class="good__tag' + (g.t === 'под заказ' ? ' slow' : '') + '">' + g.t + '</span>' : '') +
         '</div>' +
         '<div class="good__b">' +
-          '<h3 class="good__t">' + esc(g.n) + '</h3>' +
+          '<h3 class="good__t" tabindex="0" role="button" aria-haspopup="dialog">' + esc(g.n) + '</h3>' +
           '<div class="good__u">за ' + g.u + (typeof g.q === 'number' ? ' · <b class="good__stock">в наличии ' + nf.format(g.q) + ' ' + g.u + '</b>' : '') + '</div>' +
           '<div class="good__row">' +
             (typeof g.p === 'number'
@@ -2174,7 +2259,140 @@ var REVIEWS_CONFIG = {
     badge.hidden = n === 0;
   }
 
-  function sync(){ renderGoods(); renderCart(); write(); }
+  function sync(){ renderGoods(); renderCart(); write(); if (pdId) renderPd(); }
+
+  /* ---------- карточка товара ---------- */
+  var pd = $('pd'), pdPic = $('pdPic'), pdBody = $('pdBody'), pdId = null, pdLast = null,
+      zoom = $('zoom'), zoomImg = $('zoomImg');
+  var CATNAME = {}; CATS.forEach(function(c){ CATNAME[c[0]] = c[1]; });
+  var CATDESC = {
+    instrument:'Ручной и электроинструмент, оснастка и расходники для штукатурных, малярных, плиточных и общестроительных работ.',
+    smesi:'Сухие строительные смеси: штукатурки, шпаклёвки, клеи, наливные полы, грунтовки и гидроизоляция. Расход, время работы и условия нанесения указаны на упаковке производителя.',
+    gkl:'Гипсокартон, профили, подвесы, ленты и комплектующие для каркасно-обшивных конструкций.',
+    krepezh:'Крепёж и метизы: саморезы, дюбели, анкеры, уголки, пластины.',
+    uteplitel:'Тепло-, звуко- и гидроизоляционные материалы, плёнки и мембраны.',
+    blok:'Стеновые материалы: газобетонные блоки, кирпич, перемычки.',
+    potolki:'Подвесные потолки, плинтус и комплектующие к ним.',
+    kraska:'Лакокрасочные материалы: краски, эмали, грунт-эмали, растворители, колеры.',
+    santeh:'Трубы, фитинги, арматура и сантехнические комплектующие.',
+    elektrika:'Кабель, провод, гофра, автоматы, розетки и электроустановочные изделия.',
+    rashod:'Расходные материалы: плёнки, ленты, скотч, мешки, средства защиты.',
+    other:'Прочие товары строймаркета.'
+  };
+  var BRANDS = [[/olejnik|олейник|ergolite|ergolight/i,'Olejnik'],[/knauf|кнауф|ротбанд|фугенф|унифлот|тифенгрунд/i,'Knauf'],
+    [/kaleta|калета/i,'Kaleta'],[/ceresit|церезит/i,'Ceresit'],[/основит/i,'Основит'],[/зубр/i,'Зубр'],[/stayer/i,'Stayer'],
+    [/kraftool/i,'Kraftool'],[/русгипс/i,'Русгипс'],[/волма/i,'Волма'],[/технониколь/i,'ТехноНИКОЛЬ'],[/пеноплэкс|penoplex/i,'Пеноплэкс'],
+    [/\bIEK\b|иэк/i,'IEK'],[/\bEKF\b/i,'EKF'],[/\bTDM\b/i,'TDM Electric'],[/unibob/i,'Unibob'],[/\bvira\b|rage by vira/i,'VIRA'],
+    [/сибртех/i,'Сибртех'],[/\bmatrix\b/i,'Matrix'],[/\bgross\b/i,'Gross'],[/tls-profi|\bTLS\b/i,'TLS-Profi'],[/smirdex/i,'Smirdex'],
+    [/katusha/i,'Katusha'],[/danogips/i,'Danogips'],[/storch/i,'Storch'],[/\bkudo\b/i,'KUDO'],[/akrimax/i,'Akrimax'],[/литокол|litokol/i,'Litokol'],
+    [/bergauf/i,'Bergauf'],[/\bunis\b|юнис/i,'Юнис'],[/старатели/i,'Старатели'],[/хабез/i,'Хабез'],[/азолит/i,'Азолит'],[/лакра/i,'Лакра'],
+    [/isover|изовер/i,'Isover'],[/rockwool|роквул/i,'Rockwool'],[/soudal/i,'Soudal'],[/tytan/i,'Tytan'],[/perfekta/i,'Perfekta'],[/крепс/i,'Крепс'],
+    [/деконика/i,'Деконика'],[/"идеал|идеал\b/i,'Идеал'],[/cutop/i,'Cutop'],[/чеглок/i,'Чеглок'],[/mamedforce/i,'Mamedforce'],[/\bFIT\b/i,'FIT']];
+  function brandOf(g){ for (var i = 0; i < BRANDS.length; i++) if (BRANDS[i][0].test(g.n)) return BRANDS[i][1]; return ''; }
+  function host(u){ try { return new URL(u).hostname.replace(/^www\./, ''); } catch(e){ return u; } }
+
+  function pdControls(g){
+    return cart[g.id]
+      ? stepper(g) + '<span class="pd__incart">В корзине · <a data-pd-cart>открыть корзину</a></span>'
+      : '<button class="btn btn--primary" type="button" data-add="' + esc(g.id) + '">В корзину</button>';
+  }
+  function renderPd(){
+    var g = byId(pdId); if (!g){ closePd(); return; }
+    var brand = brandOf(g), low = typeof g.q === 'number' && g.q <= 3;
+    pdPic.className = 'pd__pic pic--' + g.c + (g.img ? '' : ' pd__pic--noimg');
+    pdPic.innerHTML = (g.img
+      ? '<img src="' + esc(g.img) + '" alt="' + esc(g.n) + '" decoding="async">' +
+        '<span class="pd__zoom"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>Увеличить</span>'
+      : icon(g.c));
+    pdBody.innerHTML =
+      '<div class="pd__crumbs"><span>' + esc(CATNAME[g.c] || 'Товар') + '</span>' + (brand ? '<span>' + esc(brand) + '</span>' : '') + '</div>' +
+      '<h3 class="pd__t" id="pdTitle">' + esc(g.n) + '</h3>' +
+      (typeof g.p === 'number'
+        ? '<div class="pd__price"><b>' + nf.format(g.p) + ' ₽</b><span>за 1 ' + esc(g.u) + '</span></div>'
+        : '<div class="pd__price"><span>Цена по запросу</span></div>') +
+      (typeof g.q === 'number' ? '<div class="pd__stock' + (low ? ' low' : '') + '">' + (low ? 'Осталось ' : 'В наличии ') + nf.format(g.q) + ' ' + esc(g.u) + ' на складе</div>' : '') +
+      '<div class="pd__act" id="pdAct">' + pdControls(g) + '</div>' +
+      '<p class="pd__desc">' + esc(CATDESC[g.c] || '') + (brand ? ' Производитель — ' + esc(brand) + '.' : '') + '</p>' +
+      '<dl class="pd__spec">' +
+        (/^n[0-9a-f]{8}$/.test(g.id) ? '' : '<dt>Артикул</dt><dd>' + esc(g.id) + '</dd>') +
+        '<dt>Раздел</dt><dd>' + esc(CATNAME[g.c] || '—') + '</dd>' +
+        (brand ? '<dt>Производитель</dt><dd>' + esc(brand) + '</dd>' : '') +
+        '<dt>Единица</dt><dd>' + esc(g.u) + '</dd>' +
+        (g.s ? '<dt>Подробнее</dt><dd><a href="' + esc(g.s) + '" target="_blank" rel="noopener nofollow">страница товара на ' + esc(host(g.s)) + '</a></dd>' : '') +
+      '</dl>' +
+      '<p class="pd__note">Цена и остаток — по данным учёта на 21 сентября 2026 г., могут меняться в течение дня. Наличие и итоговую сумму подтверждаем при обработке заявки; заявка не является оплатой.</p>';
+  }
+  function openPd(id, fromHistory){
+    var g = byId(id); if (!g) return;
+    pdId = id; pdLast = document.activeElement;
+    renderPd();
+    pd.hidden = false;
+    requestAnimationFrame(function(){ pd.classList.add('open'); });
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', pdKey);
+    if (!fromHistory){ try { history.pushState({pd:id}, '', '#p=' + encodeURIComponent(id)); } catch(e){} }
+    setTimeout(function(){ var b = pd.querySelector('.pd__x'); if (b) b.focus(); }, 60);
+  }
+  function closePd(fromHistory){
+    if (!pdId) return;
+    pdId = null;
+    pd.classList.remove('open');
+    if (zoom.hidden) document.body.style.overflow = drawer.hidden ? '' : 'hidden';
+    document.removeEventListener('keydown', pdKey);
+    setTimeout(function(){ if (!pdId) pd.hidden = true; }, 260);
+    if (!fromHistory && /^#p=/.test(location.hash)){ try { history.replaceState(null, '', location.pathname + location.search); } catch(e){} }
+    if (pdLast && pdLast.focus && document.contains(pdLast)) pdLast.focus();
+  }
+  function pdKey(e){ if (e.key === 'Escape' && zoom.hidden){ e.preventDefault(); closePd(); } }
+
+  /* ---------- фото крупно ---------- */
+  function openZoom(src, alt){
+    zoomImg.src = src; zoomImg.alt = alt || '';
+    zoom.classList.remove('big'); zoom.hidden = false;
+    requestAnimationFrame(function(){ zoom.classList.add('open'); });
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', zoomKey);
+    $('zoomClose').focus();
+  }
+  function closeZoom(){
+    zoom.classList.remove('open', 'big');
+    document.removeEventListener('keydown', zoomKey);
+    setTimeout(function(){ zoom.hidden = true; if (!pdId && drawer.hidden) document.body.style.overflow = ''; }, 200);
+    var b = pd.querySelector('.pd__x'); if (pdId && b) b.focus();
+  }
+  function zoomKey(e){ if (e.key === 'Escape'){ e.preventDefault(); e.stopPropagation(); closeZoom(); } }
+  zoom.addEventListener('click', function(e){
+    if (e.target.closest('#zoomClose')){ closeZoom(); return; }
+    if (e.target === zoomImg){
+      var big = zoom.classList.toggle('big');
+      if (big){
+        var rx = (e.offsetX || zoomImg.clientWidth / 2) / zoomImg.clientWidth, ry = (e.offsetY || zoomImg.clientHeight / 2) / zoomImg.clientHeight;
+        requestAnimationFrame(function(){
+          zoom.scrollLeft = zoomImg.clientWidth * rx - zoom.clientWidth / 2;
+          zoom.scrollTop  = zoomImg.clientHeight * ry - zoom.clientHeight / 2;
+        });
+      }
+      return;
+    }
+    if (!zoom.classList.contains('big')) closeZoom();
+  });
+
+  pd.addEventListener('click', function(e){
+    if (e.target.closest('[data-pd-close]')){ closePd(); return; }
+    var a = e.target.closest('[data-add]'), i = e.target.closest('[data-inc]'), d = e.target.closest('[data-dec]');
+    if (a){ add(a.getAttribute('data-add')); return; }
+    if (i){ step(i.getAttribute('data-inc'), 1); return; }
+    if (d){ step(d.getAttribute('data-dec'), -1); return; }
+    if (e.target.closest('[data-pd-cart]')){ closePd(); open(); return; }
+    if (e.target.closest('.pd__pic') && !pdPic.classList.contains('pd__pic--noimg')){
+      var g = byId(pdId); if (g && g.img) openZoom(g.img, g.n);
+    }
+  });
+  addEventListener('popstate', function(){
+    var m = /^#p=(.+)$/.exec(location.hash);
+    if (m){ var id = decodeURIComponent(m[1]); if (byId(id)) openPd(id, true); }
+    else if (pdId) closePd(true);
+  });
 
   function limit(g){ return typeof g.q === 'number' && g.q > 0 ? Math.max(1, Math.floor(g.q)) : Infinity; }
   function add(id){
@@ -2243,6 +2461,15 @@ var REVIEWS_CONFIG = {
     if (a) add(a.getAttribute('data-add'));
     else if (i) step(i.getAttribute('data-inc'), 1);
     else if (d) step(d.getAttribute('data-dec'), -1);
+    else if (!e.target.closest('.qty')){
+      var card = e.target.closest('.good[data-id]');
+      if (card) openPd(card.getAttribute('data-id'));
+    }
+  });
+  goodsBox.addEventListener('keydown', function(e){
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('good__t')){
+      e.preventDefault(); var card = e.target.closest('.good[data-id]'); if (card) openPd(card.getAttribute('data-id'));
+    }
   });
   cartList.addEventListener('click', function(e){
     var i = e.target.closest('[data-inc]'), d = e.target.closest('[data-dec]'), x = e.target.closest('[data-del]');
@@ -2315,6 +2542,7 @@ var REVIEWS_CONFIG = {
 
   /* ---------- старт ---------- */
   renderChips(); renderGoods(); renderCart();
+  (function(){ var m = /^#p=(.+)$/.exec(location.hash); if (m){ var id = decodeURIComponent(m[1]); if (byId(id)){ openPd(id, true); var sh = $('shop'); if (sh) sh.scrollIntoView(); } } })();
 })();
 </script>
 
