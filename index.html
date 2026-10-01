@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Строймаркет «Ящик» в Ростове-на-Дону, ул. Шоссейная, 2н: сухие смеси и штукатурка, гипсокартон, утеплитель, крепёж, инструмент, краска. Самовывоз из магазина и доставка по городу и области.">
 <title>Строймаркет Ящик</title>
+<link rel="canonical" href="https://guudmar.github.io/yashchik-site/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Строймаркет «Ящик» — Ростов-на-Дону, ул. Шоссейная, 2н">
+<meta property="og:description" content="Сухие смеси, гипсокартон, крепёж, инструмент, краска, сантехника и электрика. 2 300 позиций в наличии, самовывоз и доставка.">
+<meta property="og:image" content="https://guudmar.github.io/yashchik-site/assets/logo-full.png">
+<meta property="og:locale" content="ru_RU">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HardwareStore","name":"Строймаркет «Ящик»","legalName":"ООО «ЯЩИК»","url":"https://guudmar.github.io/yashchik-site/",
+ "image":"https://guudmar.github.io/yashchik-site/assets/photos/01-fasad.webp","logo":"https://guudmar.github.io/yashchik-site/assets/logo-full.png",
+ "telephone":"+7 918 591-30-33","email":"rndbox@yandex.ru","taxID":"6164142823",
+ "address":{"@type":"PostalAddress","streetAddress":"ул. Шоссейная, 2н","addressLocality":"Ростов-на-Дону","addressRegion":"Ростовская область","addressCountry":"RU"},
+ "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"17:00"},
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"13:00"}],
+ "priceRange":"₽","currenciesAccepted":"RUB","paymentAccepted":"Cash, Credit Card, Invoice",
+ "sameAs":["https://yandex.ru/maps/org/yashchik/168184477881/"]}
+</script>
 <link rel="preload" href="assets/fonts/manrope-800-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/manrope-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css">
@@ -687,6 +703,63 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .done__no{display:inline-block;margin:14px 0 18px;padding:10px 18px;border-radius:99px;background:var(--bg-2);
   border:1px solid var(--line-2);font-family:"Oswald",sans-serif;font-weight:600;font-size:18px;letter-spacing:.06em}
 
+/* ---------- подсказки поиска ---------- */
+.search{position:relative}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:40;background:#fff;border:1px solid var(--line-2);border-radius:12px;
+  box-shadow:var(--shadow);overflow:hidden;max-height:min(420px,60vh);overflow-y:auto}
+.sugg[hidden]{display:none}
+.sugg__i{display:flex;align-items:center;gap:12px;padding:10px 14px;cursor:pointer;text-align:left;width:100%;border:0;background:none;font:inherit;color:inherit}
+.sugg__i+.sugg__i{border-top:1px solid var(--line)}
+.sugg__i:hover,.sugg__i[aria-selected="true"]{background:var(--bg-2)}
+.sugg__pic{width:44px;height:44px;flex:none;border-radius:8px;background:var(--bg-2);display:flex;align-items:center;justify-content:center;color:var(--green-d);overflow:hidden}
+.sugg__pic img{width:100%;height:100%;object-fit:cover}
+.sugg__pic svg{width:22px;height:22px}
+.sugg__t{flex:1;min-width:0;font-size:14.5px;line-height:1.3;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sugg__t small{display:block;font-weight:500;color:var(--muted);font-size:12.5px;margin-top:2px}
+.sugg__p{flex:none;font-family:"Oswald",sans-serif;font-weight:600;font-size:16px;white-space:nowrap}
+.sugg__all{padding:10px 14px;font-size:13.5px;color:var(--green-d);font-weight:700;border-top:1px solid var(--line);background:var(--bg-2);cursor:pointer;border:0;width:100%;text-align:left;font-family:inherit}
+.sugg mark{background:rgba(95,178,53,.22);color:inherit;border-radius:3px}
+
+/* ---------- сопутствующие товары в карточке ---------- */
+.pd__rel{grid-column:1 / -1;border-top:1px solid var(--line);padding:18px 32px 26px}
+.pd__rel h4{font-size:15px;font-weight:800;margin-bottom:12px}
+.rel{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity;scrollbar-width:thin}
+.rel__i{flex:0 0 168px;scroll-snap-align:start;border:1px solid var(--line);border-radius:10px;background:#fff;padding:10px;display:flex;flex-direction:column;gap:6px;cursor:pointer;transition:border-color .15s ease}
+.rel__i:hover{border-color:var(--green)}
+.rel__pic{aspect-ratio:4/3;border-radius:8px;background:var(--bg-2);display:flex;align-items:center;justify-content:center;color:var(--green-d);overflow:hidden}
+.rel__pic img{width:100%;height:100%;object-fit:cover}
+.rel__pic svg{width:34%;height:34%}
+.rel__t{font-size:13px;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:3.9em}
+.rel__row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}
+.rel__p{font-family:"Oswald",sans-serif;font-weight:600;font-size:16px;white-space:nowrap}
+.rel__add{width:34px;height:34px;border-radius:8px;border:0;background:var(--green);color:#fff;font-size:20px;line-height:1;cursor:pointer;flex:none}
+.rel__add:hover{background:var(--green-d)}
+.rel__add.in{background:var(--bg-2);color:var(--green-d);border:1px solid var(--green)}
+@media (max-width:820px){ .pd__rel{padding:16px 18px 22px} .rel__i{flex-basis:150px} }
+
+/* ---------- дата и время получения ---------- */
+.when{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.when select{width:100%;padding:14px 16px;border:1px solid var(--line-2);border-radius:var(--r);background:#fff;font-size:16px;font-family:inherit}
+.when input[type="date"]{min-height:50px}
+@media (max-width:420px){ .when{grid-template-columns:1fr} }
+
+/* ---------- печать корзины ---------- */
+.printbtn{margin-top:9px;border-color:var(--line-2)}
+#printArea{display:none}
+@media print{
+  body > *:not(#printArea){display:none!important}
+  body{padding:0;background:#fff;color:#000}
+  #printArea{display:block;font:13px/1.45 Arial,sans-serif;color:#000;padding:10mm}
+  #printArea h1{font-size:18px;margin:0 0 4px}
+  #printArea .meta{color:#444;margin-bottom:14px}
+  #printArea table{width:100%;border-collapse:collapse}
+  #printArea th,#printArea td{border-bottom:1px solid #999;padding:6px 6px;text-align:left;vertical-align:top}
+  #printArea th{background:#eee;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  #printArea td.n,#printArea th.n{text-align:right;white-space:nowrap}
+  #printArea .tot{font-weight:700;font-size:15px}
+  #printArea .foot{margin-top:16px;color:#444;font-size:12px}
+}
+
 /* ================= КАРТОЧКА ТОВАРА ================= */
 .good{cursor:pointer}
 .good .good__row,.good .good__row *{cursor:auto}
@@ -1156,7 +1229,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
       <div class="search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <label class="skip" for="q">Поиск по товарам</label>
-        <input id="q" type="search" name="search" autocomplete="off" spellcheck="false" placeholder="Цемент, саморезы, гипсокартон…">
+        <input id="q" type="search" name="search" autocomplete="off" spellcheck="false" placeholder="Название или артикул: цемент, саморезы, 1277305…" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
+        <div class="sugg" id="sugg" role="listbox" hidden></div>
       </div>
       <div class="sort">
         <label for="sort">Сортировка</label>
@@ -1669,6 +1743,7 @@ var REVIEWS_CONFIG = {
           <div class="total"><span>Итого</span><b id="sumTotal"></b></div>
         </div>
         <button class="btn btn--primary btn--full" type="button" id="toCheckout">Отправить заявку</button>
+        <button class="btn btn--full printbtn" type="button" id="printCart">Распечатать список</button>
       </div>
     </div>
 
@@ -1701,6 +1776,23 @@ var REVIEWS_CONFIG = {
           <label for="c-addr">Адрес доставки</label>
           <input id="c-addr" name="address" type="text" autocomplete="street-address" placeholder="Улица, дом, этаж">
         </div>
+        <p style="font-weight:700;font-size:14.5px;margin:20px 0 9px">Когда удобно получить</p>
+        <div class="when">
+          <div class="field" style="margin:0">
+            <label for="c-date">Дата</label>
+            <input id="c-date" name="date" type="date">
+          </div>
+          <div class="field" style="margin:0">
+            <label for="c-slot">Время</label>
+            <select id="c-slot" name="slot">
+              <option value="">Любое в рабочие часы</option>
+              <option value="8:00–11:00">8:00–11:00</option>
+              <option value="11:00–14:00">11:00–14:00</option>
+              <option value="14:00–17:00">14:00–17:00</option>
+            </select>
+          </div>
+        </div>
+        <p class="form__note" id="whenNote" style="margin-top:8px">Работаем Пн–Пт 8:00–17:00, Сб 8:00–13:00. Точное время подтвердим по телефону.</p>
         <div class="field" style="margin-top:16px">
           <label for="c-note">Комментарий</label>
           <textarea id="c-note" name="note" style="min-height:84px" placeholder="Во сколько удобно, нужна ли разгрузка, номер объекта"></textarea>
@@ -1746,6 +1838,7 @@ var REVIEWS_CONFIG = {
     </button>
     <div class="pd__pic" id="pdPic"></div>
     <div class="pd__body" id="pdBody"></div>
+    <div class="pd__rel" id="pdRel" hidden></div>
   </div>
 </div>
 
@@ -1757,6 +1850,8 @@ var REVIEWS_CONFIG = {
   </button>
   <div class="zoom__hint">Нажмите на фото, чтобы приблизить · Esc — закрыть</div>
 </div>
+
+<div id="printArea" aria-hidden="true"></div>
 
 <div class="toast" id="toast" role="status" aria-live="polite">
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
@@ -1794,6 +1889,7 @@ var REVIEWS_CONFIG = {
     err.hidden = c.checked;
     if (!c.checked){ c.focus(); return; }
     ok.classList.add('on');
+    if (window.track) track('list_sent');
   });
 
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -2104,6 +2200,17 @@ var REVIEWS_CONFIG = {
 })();
 </script>
 
+<!-- Яндекс.Метрика: впишите номер счётчика в METRIKA_ID — счётчик подключится сам, цели: product_view, add_to_cart, order_sent, list_sent -->
+<script>
+var METRIKA_ID = '';
+function track(goal, params){ try { if (METRIKA_ID && window.ym) ym(Number(METRIKA_ID), 'reachGoal', goal, params || {}); } catch(e){} }
+(function(){
+  if (!METRIKA_ID) return;
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');
+  ym(Number(METRIKA_ID), 'init', {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:false});
+})();
+</script>
 <script src="assets/goods.js"></script>
 <script>
 /* ====== Магазин и корзина ====== */
@@ -2121,7 +2228,7 @@ var REVIEWS_CONFIG = {
     {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг', u:'ведро'}
   ];
   var GOODS = (typeof GOODS_DATA !== 'undefined' && GOODS_DATA.length) ? GOODS_DATA : FALLBACK;
-  GOODS.forEach(function(g, i){ g._i = i; g._s = g.n.toLowerCase().replace(/ё/g, 'е'); });
+  GOODS.forEach(function(g, i){ g._i = i; g._s = (g.n + ' ' + (/^n[0-9a-f]{8}$/.test(g.id) ? '' : g.id)).toLowerCase().replace(/ё/g, 'е'); });
 
   var CATS = [['all','Все товары'],['smesi','Сыпучие смеси и грунтовки'],['krepezh','Метизы и крепежи'],
               ['listovye','Листовые материалы'],['kladka','Кладочные материалы'],['kraska','Краски'],
@@ -2258,6 +2365,124 @@ var REVIEWS_CONFIG = {
 
   function sync(){ renderGoods(); renderCart(); write(); if (pdId) renderPd(); }
 
+  /* ---------- подсказки поиска ---------- */
+  var qEl = $('q'), sugg = $('sugg'), suggItems = [], suggIdx = -1;
+  function suggestions(q){
+    var words = q.toLowerCase().replace(/ё/g, 'е').split(/\s+/).filter(Boolean); if (!words.length) return [];
+    var exact = [], starts = [], rest = [];
+    for (var i = 0; i < GOODS.length && exact.length + starts.length + rest.length < 400; i++){
+      var g = GOODS[i], ok = true;
+      for (var w = 0; w < words.length; w++) if (g._s.indexOf(words[w]) < 0){ ok = false; break; }
+      if (!ok) continue;
+      if (g.id.toLowerCase() === q.toLowerCase()) exact.push(g);
+      else if (g._s.indexOf(words[0]) === 0) starts.push(g);
+      else rest.push(g);
+    }
+    var pref = function(a,b){ return (b.img ? 1 : 0) - (a.img ? 1 : 0); };
+    return exact.concat(starts.sort(pref), rest.sort(pref)).slice(0, 7);
+  }
+  function hl(text, q){
+    var words = q.toLowerCase().replace(/ё/g, 'е').split(/\s+/).filter(Boolean), out = esc(text);
+    words.forEach(function(w){ if (w.length < 2) return;
+      out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>'); });
+    return out;
+  }
+  function renderSugg(){
+    var q = qEl.value.trim();
+    if (q.length < 2){ hideSugg(); return; }
+    suggItems = suggestions(q); suggIdx = -1;
+    if (!suggItems.length){ hideSugg(); return; }
+    var total = list().length;
+    sugg.innerHTML = suggItems.map(function(g, i){
+      return '<button type="button" class="sugg__i" role="option" data-sugg="' + esc(g.id) + '" aria-selected="false">' +
+        '<span class="sugg__pic">' + (g.img ? '<img src="' + esc(g.img) + '" alt="" loading="lazy">' : icon(g.c)) + '</span>' +
+        '<span class="sugg__t">' + hl(g.n, q) + '<small>' + esc(CATNAME[g.c] || '') + (/^n[0-9a-f]{8}$/.test(g.id) ? '' : ' · арт. ' + hl(g.id, q)) +
+          (typeof g.q === 'number' ? ' · ' + nf.format(g.q) + ' ' + esc(g.u) : '') + '</small></span>' +
+        '<span class="sugg__p">' + (typeof g.p === 'number' ? nf.format(g.p) + ' ₽' : 'по запросу') + '</span></button>';
+    }).join('') + '<button type="button" class="sugg__all" data-sugg-all>Показать все результаты (' + total + ')</button>';
+    sugg.hidden = false; qEl.setAttribute('aria-expanded', 'true');
+  }
+  function hideSugg(){ sugg.hidden = true; sugg.innerHTML = ''; suggItems = []; suggIdx = -1; qEl.setAttribute('aria-expanded', 'false'); }
+  function moveSugg(d){
+    var opts = sugg.querySelectorAll('.sugg__i'); if (!opts.length) return;
+    suggIdx = (suggIdx + d + opts.length) % opts.length;
+    opts.forEach(function(o, i){ o.setAttribute('aria-selected', String(i === suggIdx)); });
+    opts[suggIdx].scrollIntoView({ block: 'nearest' });
+  }
+  qEl.addEventListener('input', renderSugg);
+  qEl.addEventListener('focus', renderSugg);
+  qEl.addEventListener('keydown', function(e){
+    if (sugg.hidden) return;
+    if (e.key === 'ArrowDown'){ e.preventDefault(); moveSugg(1); }
+    else if (e.key === 'ArrowUp'){ e.preventDefault(); moveSugg(-1); }
+    else if (e.key === 'Escape'){ hideSugg(); }
+    else if (e.key === 'Enter'){
+      var pick = suggIdx >= 0 ? suggItems[suggIdx] : (suggItems.length && suggItems[0].id.toLowerCase() === qEl.value.trim().toLowerCase() ? suggItems[0] : null);
+      if (pick){ e.preventDefault(); hideSugg(); openPd(pick.id); }
+      else hideSugg();
+    }
+  });
+  sugg.addEventListener('mousedown', function(e){ e.preventDefault(); });   /* не терять фокус поля */
+  sugg.addEventListener('click', function(e){
+    var b = e.target.closest('[data-sugg]'); if (b){ hideSugg(); openPd(b.getAttribute('data-sugg')); return; }
+    if (e.target.closest('[data-sugg-all]')){ hideSugg(); $('goods').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+  document.addEventListener('click', function(e){ if (!e.target.closest('.search')) hideSugg(); });
+
+  /* ---------- печать корзины ---------- */
+  $('printCart').addEventListener('click', function(){
+    var keys = ids(); if (!keys.length) return;
+    var d = new Date(), sum = 0, rows = keys.map(function(k, i){
+      var g = byId(k), line = typeof g.p === 'number' ? g.p * cart[k] : null; if (line !== null) sum += line;
+      return '<tr><td>' + (i + 1) + '</td><td>' + esc(g.n) + (/^n[0-9a-f]{8}$/.test(g.id) ? '' : '<br><small>арт. ' + esc(g.id) + '</small>') + '</td>' +
+        '<td class="n">' + nf.format(cart[k]) + ' ' + esc(g.u) + '</td><td class="n">' + (typeof g.p === 'number' ? nf.format(g.p) + ' ₽' : 'по запросу') + '</td>' +
+        '<td class="n">' + (line !== null ? nf.format(line) + ' ₽' : '—') + '</td></tr>';
+    }).join('');
+    $('printArea').innerHTML = '<h1>Строймаркет «Ящик» — список товаров</h1>' +
+      '<div class="meta">г. Ростов-на-Дону, ул. Шоссейная, 2н · +7 (918) 591-30-33 · rndbox@yandex.ru<br>Составлен ' + d.toLocaleDateString('ru-RU') +
+      ' · цены за единицу по данным учёта на 21.09.2026, итог подтверждается при заказе</div>' +
+      '<table><thead><tr><th>№</th><th>Товар</th><th class="n">Кол-во</th><th class="n">Цена</th><th class="n">Сумма</th></tr></thead><tbody>' + rows + '</tbody>' +
+      '<tfoot><tr><td colspan="4" class="n tot">Итого' + (priced() ? '' : ' (без позиций «по запросу»)') + '</td><td class="n tot">' + nf.format(sum) + ' ₽</td></tr></tfoot></table>' +
+      '<div class="foot">ООО «ЯЩИК», ИНН 6164142823 · самовывоз из магазина бесплатно, доставка по Ростову и области по согласованию · ' + location.origin + location.pathname + '</div>';
+    window.print();
+  });
+
+  /* ---------- сопутствующие товары ---------- */
+  var RELATED = {
+    smesi:      [/миксер|венчик/i, /шпател/i, /правил/i, /ведро|ёмкост|емкост/i, /\bгрунт(?!-эмаль)/i, /маяк|маячк/i, /перчатк/i, /кельм|мастерок/i],
+    krepezh:    [/\bбит[аы]\b|насадк/i, /шуруповерт|шуруповёрт|дрель/i, /сверл|\bбур/i, /уровен/i, /рулетк/i, /просекател|клещи/i, /серпянк|лента армир/i, /перчатк/i],
+    listovye:   [/профил/i, /саморез/i, /серпянк|лента (бумажн|армир)/i, /шпакл|шпатл/i, /\bнож|лезви/i, /подвес/i, /дюбел/i, /грунт/i],
+    kladka:     [/клей|кладочн/i, /кельм|мастерок/i, /уровен/i, /крестик|\bсвп|зажим|клин/i, /затирк/i, /резин\w* молот|киянк/i, /шпател\w* зубчат|гребенк|гребёнк/i, /ведро/i],
+    kraska:     [/валик/i, /кист/i, /ванночк|кювет/i, /малярн\w* лент|лента малярн|крепп/i, /пл[её]нк/i, /растворител|уайт/i, /перчатк/i, /шпател/i],
+    rashod:     [/перчатк/i, /мешк|мешок/i, /\bнож|лезви/i, /скотч|лента/i, /пл[её]нк/i, /респиратор|очки/i, /ведро/i, /маркер|карандаш/i],
+    instrument: [/перчатк/i, /сменн|запасн|лезви/i, /ведро|ёмкост/i, /малярн\w* лент|лента малярн/i, /очки|респиратор/i, /рулетк/i, /уровен/i, /карандаш|маркер/i],
+    santeh:     [/фум|уплотнит|\bлен\b|нить/i, /\bключ/i, /хомут/i, /герметик|силикон/i, /перчатк/i, /\bнож|ножниц/i],
+    elektrika:  [/изолент/i, /клемм|колодк/i, /гофр/i, /дюбел|хомут/i, /отвертк|отвёртк|индикатор/i, /\bнож/i, /стяжк/i, /коробк/i],
+    other:      [/перчатк/i, /\bнож/i, /рулетк/i, /скотч|лента/i, /мешк|мешок/i]
+  };
+  function related(g){
+    var rules = RELATED[g.c] || RELATED.other, out = [], seen = {}; seen[g.id] = 1;
+    rules.forEach(function(rx){
+      var cands = GOODS.filter(function(h){ return !seen[h.id] && rx.test(h.n) && !/услуг|доставк/i.test(h.n); });
+      cands.sort(function(a,b){ return (b.img ? 1 : 0) - (a.img ? 1 : 0) || (b.q || 0) - (a.q || 0); });
+      if (cands.length){ out.push(cands[0]); seen[cands[0].id] = 1; }
+    });
+    return out.slice(0, 8);
+  }
+  function renderRel(g){
+    var rel = related(g), box = $('pdRel');
+    if (!box) return;
+    if (!rel.length){ box.hidden = true; return; }
+    box.hidden = false;
+    box.innerHTML = '<h4>Вам может понадобиться</h4><div class="rel">' + rel.map(function(h){
+      return '<div class="rel__i" data-rel="' + esc(h.id) + '">' +
+        '<div class="rel__pic">' + (h.img ? '<img src="' + esc(h.img) + '" alt="" loading="lazy">' : icon(h.c)) + '</div>' +
+        '<div class="rel__t">' + esc(h.n) + '</div>' +
+        '<div class="rel__row"><span class="rel__p">' + (typeof h.p === 'number' ? nf.format(h.p) + ' ₽' : 'по запросу') + '</span>' +
+        '<button type="button" class="rel__add' + (cart[h.id] ? ' in' : '') + '" data-rel-add="' + esc(h.id) + '" aria-label="' + (cart[h.id] ? 'В корзине' : 'В корзину') + '">' + (cart[h.id] ? '✓' : '+') + '</button></div></div>';
+    }).join('') + '</div>';
+  }
+
   /* ---------- карточка товара ---------- */
   var pd = $('pd'), pdPic = $('pdPic'), pdBody = $('pdBody'), pdId = null, pdLast = null,
       zoom = $('zoom'), zoomImg = $('zoomImg');
@@ -2316,12 +2541,15 @@ var REVIEWS_CONFIG = {
         (g.s ? '<dt>Подробнее</dt><dd><a href="' + esc(g.s) + '" target="_blank" rel="noopener nofollow">страница товара на ' + esc(host(g.s)) + '</a></dd>' : '') +
       '</dl>' +
       '<p class="pd__note">Цена и остаток — по данным учёта на 21 сентября 2026 г., могут меняться в течение дня. Наличие и итоговую сумму подтверждаем при обработке заявки; заявка не является оплатой.</p>';
+    renderRel(g);
+    track('product_view', {id: g.id});
   }
   function openPd(id, fromHistory){
     var g = byId(id); if (!g) return;
     pdId = id; pdLast = document.activeElement;
     renderPd();
     pd.hidden = false;
+    pd.querySelector('.pd__box').scrollTop = 0;
     requestAnimationFrame(function(){ pd.classList.add('open'); });
     document.body.style.overflow = 'hidden';
     document.addEventListener('keydown', pdKey);
@@ -2379,6 +2607,8 @@ var REVIEWS_CONFIG = {
     if (i){ step(i.getAttribute('data-inc'), 1); return; }
     if (d){ step(d.getAttribute('data-dec'), -1); return; }
     if (e.target.closest('[data-pd-cart]')){ closePd(); open(); return; }
+    var ra = e.target.closest('[data-rel-add]'); if (ra){ var rid = ra.getAttribute('data-rel-add'); if (!cart[rid]) add(rid); return; }
+    var ri = e.target.closest('[data-rel]'); if (ri){ openPd(ri.getAttribute('data-rel')); pd.querySelector('.pd__box').scrollTop = 0; return; }
     if (e.target.closest('.pd__pic') && !pdPic.classList.contains('pd__pic--noimg')){
       var g = byId(pdId); if (g && g.img) openZoom(g.img, g.n);
     }
@@ -2394,6 +2624,7 @@ var REVIEWS_CONFIG = {
     var g = byId(id); if (!g) return;
     cart[id] = Math.min((cart[id] || 0) + 1, limit(g));
     sync();
+    track('add_to_cart', {id: id});
     showToast(g.n + ' — в корзине');
   }
   function step(id, d){
@@ -2508,6 +2739,15 @@ var REVIEWS_CONFIG = {
     });
   });
 
+  (function(){ var d = $('c-date'); if (!d) return; var t = new Date(); t.setMinutes(t.getMinutes() - t.getTimezoneOffset()); d.min = t.toISOString().slice(0, 10);
+    d.addEventListener('change', function(){
+      var v = d.value ? new Date(d.value + 'T12:00:00') : null, n = $('whenNote'), slot = $('c-slot');
+      if (!v){ n.textContent = 'Работаем Пн–Пт 8:00–17:00, Сб 8:00–13:00. Точное время подтвердим по телефону.'; return; }
+      var wd = v.getDay();
+      if (wd === 0){ n.textContent = 'В воскресенье магазин не работает — выберите другой день.'; d.value = ''; return; }
+      if (wd === 6){ n.textContent = 'В субботу работаем 8:00–13:00.'; if (slot.value && slot.value !== '8:00–11:00') slot.value = ''; }
+      else n.textContent = 'Пн–Пт работаем 8:00–17:00. Точное время подтвердим по телефону.';
+    }); })();
   paneCheckout.addEventListener('submit', function(e){
     e.preventDefault();
     var consent = $('c-consent'), cerr = $('c-consent-err');
@@ -2529,8 +2769,10 @@ var REVIEWS_CONFIG = {
     var no = 'Я-' + ('0' + d.getDate()).slice(-2) + ('0' + (d.getMonth() + 1)).slice(-2) +
              '-' + String(1000 + Math.floor(Math.random() * 9000));
     $('orderNo').textContent = no;
+    var when = $('c-date').value ? new Date($('c-date').value + 'T12:00:00').toLocaleDateString('ru-RU', {day:'numeric', month:'long'}) + ($('c-slot').value ? ', ' + $('c-slot').value : '') : '';
     $('doneSum').textContent = (priced() ? 'Сумма заказа — ' + nf.format(total) + ' ₽, ' : 'Позиций в заявке — ' + count() + ', ') +
-      (method() === 'pickup' ? 'самовывоз из магазина.' : 'доставка по Ростову.');
+      (method() === 'pickup' ? 'самовывоз из магазина' : 'доставка по Ростову') + (when ? ', ' + when : '') + '.';
+    track('order_sent', {items: count(), sum: total, method: method()});
     cart = {}; sync();
     pane('done');
   });

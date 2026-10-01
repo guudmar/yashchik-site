@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /assets/goods/images.json
+Sitemap: https://guudmar.github.io/yashchik-site/sitemap.xml
