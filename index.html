@@ -146,10 +146,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .about__cap{margin-top:14px;font-size:14px;line-height:1.5;color:var(--muted)}
 
 /* ---------- catalog ---------- */
-.grid-cat{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:44px}
+.grid-cat{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
 .cat{
   background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 20px 20px;
-  display:flex;flex-direction:column;gap:12px;min-height:172px;position:relative;
+  display:flex;flex-direction:column;gap:12px;min-height:150px;position:relative;
   transition:border-color .18s ease,transform .18s ease,box-shadow .18s ease;
 }
 .cat:hover{border-color:var(--green);transform:translateY(-3px);box-shadow:var(--shadow)}
@@ -364,7 +364,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
 /* ---------- responsive ---------- */
 @media (max-width:1080px){
-  .grid-cat{grid-template-columns:repeat(3,1fr)}
+  .grid-cat{grid-template-columns:repeat(2,1fr)}
   .stats{grid-template-columns:repeat(2,1fr)}
   .ftr__top{grid-template-columns:1fr 1fr}
 }
@@ -387,8 +387,8 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
   body{font-size:16px}
   .btn{white-space:normal;text-align:center}
   .wrap{padding:0 18px}
-  .grid-cat{grid-template-columns:repeat(2,1fr);gap:12px}
-  .cat{min-height:150px;padding:18px 16px}
+  .grid-cat{grid-template-columns:1fr;gap:12px}
+  .cat{min-height:0;padding:18px 16px}
   .stats{grid-template-columns:1fr}
   .form__row{grid-template-columns:1fr}
   .ftr__top{grid-template-columns:1fr;gap:26px}
@@ -561,14 +561,12 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .good__pic{position:relative;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(160deg,#F7F7F5,#ECEEE9)}
 .good__pic svg{width:44%;height:44%;color:var(--green-d);opacity:.9}
-.good__pic img{width:100%;height:100%;object-fit:contain;padding:10px;background:#fff}
+.good__pic img{width:100%;height:100%;object-fit:cover;background:#fff}
 .pic--instrument{background:linear-gradient(160deg,#F5F2EB,#E8E2D5)}
-.pic--blok{background:linear-gradient(160deg,#F6EFEA,#EADFD4)}
-.pic--gkl{background:linear-gradient(160deg,#F2F3F4,#E2E5E8)}
+.pic--kladka{background:linear-gradient(160deg,#F6EFEA,#EADFD4)}
+.pic--listovye{background:linear-gradient(160deg,#F2F3F4,#E2E5E8)}
 .pic--krepezh{background:linear-gradient(160deg,#F1F2F3,#E1E3E5)}
-.pic--uteplitel{background:linear-gradient(160deg,#F6F3E9,#ECE5D2)}
 .pic--smesi{background:linear-gradient(160deg,#F3F2ED,#E5E4DC)}
-.pic--potolki{background:linear-gradient(160deg,#F1F4F6,#E0E7EB)}
 .pic--kraska{background:linear-gradient(160deg,#F3F0F4,#E5E0E8)}
 .pic--rashod{background:linear-gradient(160deg,#F2F3F1,#E3E5E0)}
 .pic--santeh{background:linear-gradient(160deg,#EEF4F6,#DCE7EC)}
@@ -705,7 +703,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .pd.open .pd__box{transform:none;opacity:1}
 .pd__x{position:absolute;top:12px;right:12px;z-index:3}
 .pd__pic{position:relative;overflow:hidden;background:linear-gradient(160deg,#F7F7F5,#ECEEE9);min-height:440px;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
-.pd__pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:28px;background:#fff}
+.pd__pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;background:#fff}
 .pd__pic svg{width:36%;height:36%;color:var(--green-d);opacity:.9}
 .pd__pic--noimg{cursor:default}
 .pd__zoom{position:absolute;left:14px;bottom:14px;display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:99px;
@@ -897,64 +895,64 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
         <article class="pg" data-i="0" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Сухие смеси и штукатурка</div>
-            <div class="pg__s">цемент, штукатурка, шпаклёвка</div>
+            <div class="pg__t">Сыпучие смеси и грунтовки</div>
+            <div class="pg__s">штукатурка, шпаклёвка, цемент</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="1" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Газоблок и кирпич</div>
-            <div class="pg__s">D500, D600, кирпич</div>
+            <div class="pg__t">Метизы и крепежи</div>
+            <div class="pg__s">саморезы, анкеры, профиль</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="2" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Инструмент</div>
-            <div class="pg__s">ручной и электро</div>
+            <div class="pg__t">Инструменты для отделки</div>
+            <div class="pg__s">шпатели, правила, валики</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="3" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Краска</div>
-            <div class="pg__s">интерьерная, фасадная</div>
+            <div class="pg__t">Краски</div>
+            <div class="pg__s">эмали, аэрозоли, пены</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="4" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Утеплитель</div>
-            <div class="pg__s">минвата, ЭППС</div>
+            <div class="pg__t">Листовые материалы</div>
+            <div class="pg__s">гипсокартон, ОСБ</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="5" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Потолки</div>
-            <div class="pg__s">Армстронг, плинтус</div>
+            <div class="pg__t">Расходные материалы</div>
+            <div class="pg__s">плёнки, ленты, перчатки</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="6" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Крепёж</div>
-            <div class="pg__s">саморезы, анкеры</div>
+            <div class="pg__t">Кладочные материалы</div>
+            <div class="pg__s">газоблок, кирпич, плитка</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
         <article class="pg" data-i="7" aria-hidden="true">
           <div class="pg__bar"><i class="pg__dot"></i><i class="pg__dot"></i><i class="pg__dot"></i></div>
           <div class="pg__b">
-            <div class="pg__t">Гипсокартон</div>
-            <div class="pg__s">листы, профиль</div>
+            <div class="pg__t">Сантехника и электрика</div>
+            <div class="pg__s">трубы, кабель, автоматы</div>
             <div class="pg__ln"></div><div class="pg__ln"></div><div class="pg__ln s"></div>
           </div>
         </article>
@@ -991,7 +989,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="stage__stats" id="stageStats" aria-hidden="true">
       <div class="wrap">
         <div class="stats">
-          <div class="stat"><div class="stat__n">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
+          <div class="stat"><div class="stat__n">2 300</div><div class="stat__t">позиций на складе — от саморезов до штукатурных станций</div></div>
           <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
           <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
           <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t"><b>Пн–Пт 8:00–17:00,</b> <b>Сб 8:00–13:00,</b> воскресенье — выходной</div></div>
@@ -1008,7 +1006,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 <section class="statband">
   <div class="wrap">
     <div class="stats rv">
-      <div class="stat"><div class="stat__n" data-count="2500" data-suffix="+">2 500+</div><div class="stat__t">позиций на складе — от саморезов до шумоизоляции</div></div>
+      <div class="stat"><div class="stat__n" data-count="2300">2 300</div><div class="stat__t">позиций на складе — от саморезов до штукатурных станций</div></div>
       <div class="stat"><div class="stat__n">Своя</div><div class="stat__t">доставка по Ростову и области</div></div>
       <div class="stat"><div class="stat__n">Опт<span style="color:rgba(255,255,255,.35)">/</span>розница</div><div class="stat__t">один телефон и для бригады, и для дачи</div></div>
       <div class="stat"><div class="stat__n">Пн–Сб</div><div class="stat__t"><b>Пн–Пт 8:00–17:00,</b> <b>Сб 8:00–13:00,</b> воскресенье — выходной</div></div>
@@ -1070,62 +1068,62 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <div class="head rv">
       <p class="eyebrow">Что есть в магазине</p>
       <h2>Каталог</h2>
-      <p class="lead">Основные группы товаров. Если позиции нет в списке — позвоните: почти всё есть на складе или привезём под заказ за 1–2 дня.</p>
+      <p class="lead">Девять разделов, как в нашем вендор-листе. Если позиции нет в списке — позвоните: почти всё есть на складе или привезём под заказ.</p>
     </div>
 
     <div class="grid-cat stagger">
-      <a class="cat" href="#shop" data-cat="instrument">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-instrument"></use></svg>
-        <span class="cat__t">Инструмент</span>
-        <span class="cat__n">Ручной и электро, диски, буры, расходники</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="cat" href="#shop" data-cat="blok">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-blok"></use></svg>
-        <span class="cat__t">Газоблок и кирпич</span>
-        <span class="cat__n">Газоблок D500 и D600, кирпич рядовой и облицовочный</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="cat" href="#shop" data-cat="gkl">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-gkl"></use></svg>
-        <span class="cat__t">Гипсокартон</span>
-        <span class="cat__n">Листы ГКЛ и ГКЛВ, профиль, подвесы, серпянка</span>
+      <a class="cat" href="#shop" data-cat="smesi">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-smesi"></use></svg>
+        <span class="cat__t">Сыпучие смеси и грунтовки</span>
+        <span class="cat__n">Штукатурка, шпаклёвка, наливной пол, стяжка, грунтовки, цемент, песок</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <a class="cat" href="#shop" data-cat="krepezh">
         <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-krepezh"></use></svg>
-        <span class="cat__t">Крепёж</span>
-        <span class="cat__n">Саморезы, анкеры, дюбели, гвозди, уголки</span>
+        <span class="cat__t">Метизы и крепежи</span>
+        <span class="cat__n">Саморезы, дюбель-гвозди, анкеры, профиль для ГКЛ и маячковый</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="uteplitel">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-uteplitel"></use></svg>
-        <span class="cat__t">Утеплитель</span>
-        <span class="cat__n">Минвата, ЭППС, шумоизоляция, плёнки</span>
+      <a class="cat" href="#shop" data-cat="listovye">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-listovye"></use></svg>
+        <span class="cat__t">Листовые материалы</span>
+        <span class="cat__n">Гипсокартон, ОСБ, утеплитель, потолочные плиты</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <a class="cat" href="#shop" data-cat="smesi">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-smesi"></use></svg>
-        <span class="cat__t">Сухие смеси и штукатурка</span>
-        <span class="cat__n">Цемент, штукатурка, шпаклёвка, наливной пол</span>
-        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="cat" href="#shop" data-cat="potolki">
-        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-potolki"></use></svg>
-        <span class="cat__t">Потолки</span>
-        <span class="cat__n">Армстронг, подвесные системы, плинтус, светильники</span>
+      <a class="cat" href="#shop" data-cat="kladka">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-kladka"></use></svg>
+        <span class="cat__t">Кладочные материалы</span>
+        <span class="cat__n">Газобетонный блок, кирпич, плитка</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <a class="cat" href="#shop" data-cat="kraska">
         <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-kraska"></use></svg>
-        <span class="cat__t">Краска</span>
-        <span class="cat__n">Интерьерная, фасадная, эмали, грунты, валики</span>
+        <span class="cat__t">Краски</span>
+        <span class="cat__n">Краски для внутренних и внешних работ, грунт-эмаль, аэрозоли, пены и герметики</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
       <a class="cat" href="#shop" data-cat="rashod">
         <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-rashod"></use></svg>
-        <span class="cat__t">Расходный материал</span>
-        <span class="cat__n">Плёнка, скотч, мешки, перчатки, кисти</span>
+        <span class="cat__t">Расходные материалы</span>
+        <span class="cat__n">Плёнки, мешки, сетки, перчатки, малярные и армированные ленты, вёдра</span>
+        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cat" href="#shop" data-cat="instrument">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-instrument"></use></svg>
+        <span class="cat__t">Инструменты для отделки</span>
+        <span class="cat__n">Шпатели, кельмы, правила, уровни, кисти, валики, тёрки, шлифовка, отрезные круги</span>
+        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cat" href="#shop" data-cat="santeh">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-santeh"></use></svg>
+        <span class="cat__t">Сантехника</span>
+        <span class="cat__n">Трубы, фитинги, краны, арматура и комплектующие</span>
+        <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cat" href="#shop" data-cat="elektrika">
+        <svg class="cat__ic" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#ic-elektrika"></use></svg>
+        <span class="cat__t">Электрика</span>
+        <span class="cat__n">Кабель, гофра, автоматы, розетки и выключатели</span>
         <svg class="cat__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -1134,12 +1132,10 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
   <symbol id="ic-instrument" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0 5 5L15 16l-4 4-3-3 4-4z"/><path d="m5 5 4 4"/></symbol>
-  <symbol id="ic-blok" viewBox="0 0 24 24"><path d="M3 6h18v5H3zM3 13h18v5H3z"/><path d="M10 6v5M17 6v5M6.5 13v5M13.5 13v5"/></symbol>
-  <symbol id="ic-gkl" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="ic-kladka" viewBox="0 0 24 24"><path d="M3 6h18v5H3zM3 13h18v5H3z"/><path d="M10 6v5M17 6v5M6.5 13v5M13.5 13v5"/></symbol>
+  <symbol id="ic-listovye" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/></symbol>
   <symbol id="ic-krepezh" viewBox="0 0 24 24"><path d="M9 3h6v3l-2 2v11l-1 3-1-3V8L9 6z"/><path d="M9.5 9h5M9.5 12h5M9.5 15h5"/></symbol>
-  <symbol id="ic-uteplitel" viewBox="0 0 24 24"><path d="M3 8c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 13c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 18c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/></symbol>
   <symbol id="ic-smesi" viewBox="0 0 24 24"><path d="M7 4h10l2 4v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8z"/><path d="M5 8h14M10 4v4M14 4v4"/></symbol>
-  <symbol id="ic-potolki" viewBox="0 0 24 24"><path d="M12 3v3"/><path d="M4 6h16v12H4z"/><path d="M4 12h16M12 6v12"/></symbol>
   <symbol id="ic-kraska" viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/></symbol>
   <symbol id="ic-rashod" viewBox="0 0 24 24"><path d="M4 9h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M4 9 6 4h12l2 5M12 4v5M9 13h6"/></symbol>
   <symbol id="ic-santeh" viewBox="0 0 24 24"><path d="M4 10h6a3 3 0 0 1 3 3v7"/><path d="M4 7v6M10 4v6M13 13h7v4h-7"/><circle cx="17" cy="20" r="1.2"/></symbol>
@@ -1600,11 +1596,12 @@ var REVIEWS_CONFIG = {
       <div>
         <h4>Каталог</h4>
         <ul>
-          <li><a href="#catalog">Сухие смеси и штукатурка</a></li>
-          <li><a href="#catalog">Гипсокартон</a></li>
-          <li><a href="#catalog">Утеплитель</a></li>
-          <li><a href="#catalog">Крепёж</a></li>
-          <li><a href="#catalog">Инструмент</a></li>
+          <li><a href="#catalog">Сыпучие смеси и грунтовки</a></li>
+          <li><a href="#catalog">Метизы и крепежи</a></li>
+          <li><a href="#catalog">Листовые и кладочные материалы</a></li>
+          <li><a href="#catalog">Краски</a></li>
+          <li><a href="#catalog">Инструменты для отделки</a></li>
+          <li><a href="#catalog">Сантехника и электрика</a></li>
         </ul>
       </div>
       <div>
@@ -2116,9 +2113,9 @@ var REVIEWS_CONFIG = {
   var FALLBACK = [
     {id:'ce500',   c:'smesi',      n:'Цемент ПЦ М500 Д0, 50 кг', u:'мешок', t:'хит'},
     {id:'shtg',    c:'smesi',      n:'Штукатурка гипсовая, 30 кг', u:'мешок', t:'хит'},
-    {id:'gb500',   c:'blok',       n:'Газоблок D500, 600×300×200 мм', u:'шт', t:'хит'},
-    {id:'gkl125',  c:'gkl',        n:'Гипсокартон стеновой 2500×1200×12,5 мм', u:'лист'},
-    {id:'minv100', c:'uteplitel',  n:'Минвата в плитах 100 мм, 0,3 м³', u:'упаковка'},
+    {id:'gb500',   c:'kladka',     n:'Газоблок D500, 600×300×200 мм', u:'шт', t:'хит'},
+    {id:'gkl125',  c:'listovye',     n:'Гипсокартон стеновой 2500×1200×12,5 мм', u:'лист'},
+    {id:'minv100', c:'listovye',   n:'Минвата в плитах 100 мм, 0,3 м³', u:'упаковка'},
     {id:'samm',    c:'krepezh',    n:'Саморез по металлу 3,5×25, 1000 шт', u:'упаковка'},
     {id:'perf',    c:'instrument', n:'Перфоратор SDS-plus, 900 Вт', u:'шт'},
     {id:'krint',   c:'kraska',     n:'Краска интерьерная моющаяся, 14 кг', u:'ведро'}
@@ -2126,15 +2123,15 @@ var REVIEWS_CONFIG = {
   var GOODS = (typeof GOODS_DATA !== 'undefined' && GOODS_DATA.length) ? GOODS_DATA : FALLBACK;
   GOODS.forEach(function(g, i){ g._i = i; g._s = g.n.toLowerCase().replace(/ё/g, 'е'); });
 
-  var CATS = [['all','Все товары'],['instrument','Инструмент'],['smesi','Сухие смеси и штукатурка'],
-              ['gkl','Гипсокартон и профиль'],['krepezh','Крепёж'],['uteplitel','Утеплитель и изоляция'],
-              ['blok','Газоблок и кирпич'],['potolki','Потолки'],['kraska','Краска'],
-              ['santeh','Сантехника'],['elektrika','Электрика'],['rashod','Расходный материал'],['other','Разное']]
+  var CATS = [['all','Все товары'],['smesi','Сыпучие смеси и грунтовки'],['krepezh','Метизы и крепежи'],
+              ['listovye','Листовые материалы'],['kladka','Кладочные материалы'],['kraska','Краски'],
+              ['rashod','Расходные материалы'],['instrument','Инструменты для отделки'],
+              ['santeh','Сантехника'],['elektrika','Электрика'],['other','Прочее']]
     .filter(function(c){ return c[0] === 'all' || GOODS.some(function(g){ return g.c === c[0]; }); });
   var PAGE = 24;   /* карточек на страницу витрины; дальше — «Показать ещё» */
 
   var KEY = 'yashchik-cart-v2';
-  var PRICED = GOODS.every(function(g){ return typeof g.p === 'number'; });   /* показывать ли суммы */
+  function priced(){ return ids().every(function(k){ return typeof byId(k).p === 'number'; }); }   /* суммы — если у всего в корзине есть цена */
   var money = new Intl.NumberFormat('ru-RU', {style:'currency', currency:'RUB', maximumFractionDigits:0});
   var nf = new Intl.NumberFormat('ru-RU');
 
@@ -2189,7 +2186,7 @@ var REVIEWS_CONFIG = {
     var price = function(g){ return typeof g.p === 'number' ? g.p : Infinity; };
     if (state.sort === 'az')         out.sort(function(a,b){ return a.n.localeCompare(b.n, 'ru'); });
     else if (state.sort === 'cheap') out.sort(function(a,b){ return price(a) - price(b) || a._i - b._i; });
-    else if (state.sort === 'dear')  out.sort(function(a,b){ return price(b) - price(a) || a._i - b._i; });
+    else if (state.sort === 'dear')  out.sort(function(a,b){ var pa = isFinite(price(a)) ? price(a) : -1, pb = isFinite(price(b)) ? price(b) : -1; return pb - pa || a._i - b._i; });
     else                             out.sort(function(a,b){ return a._i - b._i; });
     return out;
   }
@@ -2250,9 +2247,9 @@ var REVIEWS_CONFIG = {
       .forEach(function(k){
         if (!$(k[0])) return;
         $(k[0]).textContent = '· ' + label;
-        $(k[1]).textContent = PRICED ? nf.format(g) + ' ₽' : 'по запросу';
+        $(k[1]).textContent = priced() ? nf.format(g) + ' ₽' : 'уточним';
         $(k[2]).textContent = shipText;
-        $(k[3]).textContent = PRICED ? nf.format(g + s) + ' ₽' : 'сообщим по телефону';
+        $(k[3]).textContent = priced() ? nf.format(g + s) + ' ₽' : 'сообщим по телефону';
       });
     if (free){ free.hidden = true; }
     badge.textContent = n;
@@ -2266,17 +2263,15 @@ var REVIEWS_CONFIG = {
       zoom = $('zoom'), zoomImg = $('zoomImg');
   var CATNAME = {}; CATS.forEach(function(c){ CATNAME[c[0]] = c[1]; });
   var CATDESC = {
-    instrument:'Ручной и электроинструмент, оснастка и расходники для штукатурных, малярных, плиточных и общестроительных работ.',
-    smesi:'Сухие строительные смеси: штукатурки, шпаклёвки, клеи, наливные полы, грунтовки и гидроизоляция. Расход, время работы и условия нанесения указаны на упаковке производителя.',
-    gkl:'Гипсокартон, профили, подвесы, ленты и комплектующие для каркасно-обшивных конструкций.',
-    krepezh:'Крепёж и метизы: саморезы, дюбели, анкеры, уголки, пластины.',
-    uteplitel:'Тепло-, звуко- и гидроизоляционные материалы, плёнки и мембраны.',
-    blok:'Стеновые материалы: газобетонные блоки, кирпич, перемычки.',
-    potolki:'Подвесные потолки, плинтус и комплектующие к ним.',
-    kraska:'Лакокрасочные материалы: краски, эмали, грунт-эмали, растворители, колеры.',
-    santeh:'Трубы, фитинги, арматура и сантехнические комплектующие.',
-    elektrika:'Кабель, провод, гофра, автоматы, розетки и электроустановочные изделия.',
-    rashod:'Расходные материалы: плёнки, ленты, скотч, мешки, средства защиты.',
+    smesi:'Сыпучие смеси и грунтовки: штукатурка, шпаклёвка, наливной пол, стяжка, грунтовки, бетоноконтакт, цемент, песок в мешках, цементно-песчаная смесь. Расход и условия нанесения указаны на упаковке производителя.',
+    krepezh:'Метизы и крепежи: шурупы, саморезы, дюбель-гвозди, анкеры, гвозди, шайбы, профиль для гипсокартона и маячковый профиль.',
+    listovye:'Листовые материалы: гипсокартон, ОСБ, утеплитель и изоляция, потолочные плиты.',
+    kladka:'Кладочные материалы: газобетонный блок, кирпич, плитка.',
+    kraska:'Краски для внутренних и внешних работ, грунт-эмали, аэрозольные краски, монтажные пены, герметики и клей-пена.',
+    rashod:'Расходные материалы: строительные плёнки и мешки, фасадные сетки, ветошь, перчатки, малярные, алюминиевые, армированные и сигнальные ленты, стрейч-плёнка, пистолеты для герметика и пены, вёдра и ёмкости.',
+    instrument:'Инструменты для отделки: шпатели, кельмы, правила, уровни, кисти, валики, щётки, тёрки и полутёрки, шлифовальные материалы, отрезные круги.',
+    santeh:'Сантехника: трубы, фитинги, краны, арматура и комплектующие.',
+    elektrika:'Электрика: кабель и провод, гофра, автоматы, розетки, выключатели и электроустановочные изделия.',
     other:'Прочие товары строймаркета.'
   };
   var BRANDS = [[/olejnik|олейник|ergolite|ergolight/i,'Olejnik'],[/knauf|кнауф|ротбанд|фугенф|унифлот|тифенгрунд/i,'Knauf'],
@@ -2534,7 +2529,7 @@ var REVIEWS_CONFIG = {
     var no = 'Я-' + ('0' + d.getDate()).slice(-2) + ('0' + (d.getMonth() + 1)).slice(-2) +
              '-' + String(1000 + Math.floor(Math.random() * 9000));
     $('orderNo').textContent = no;
-    $('doneSum').textContent = (PRICED ? 'Сумма заказа — ' + nf.format(total) + ' ₽, ' : 'Позиций в заявке — ' + count() + ', ') +
+    $('doneSum').textContent = (priced() ? 'Сумма заказа — ' + nf.format(total) + ' ₽, ' : 'Позиций в заявке — ' + count() + ', ') +
       (method() === 'pickup' ? 'самовывоз из магазина.' : 'доставка по Ростову.');
     cart = {}; sync();
     pane('done');

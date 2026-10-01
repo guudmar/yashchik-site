@@ -8,39 +8,66 @@
  },
  "1277305-MHK": {
   "img": "assets/goods/1277305-MHK.webp",
-  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html"
+  "src": "https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html",
+  "brand": "olejnik",
+  "match": "exact",
+  "name": "Гладилка для гипса нерж. 305 мм, ручка пробка"
  },
  "nb4ae5393": {
   "img": "assets/goods/nb4ae5393.webp",
-  "src": "https://osnovit.ru/catalog/gidroizolyatsiya/akvaskrin-ns63-zhestkaya-gidroizolyatsiya-osnovit-/"
+  "src": "https://osnovit.ru/catalog/gidroizolyatsiya/akvaskrin-ns63-zhestkaya-gidroizolyatsiya-osnovit-/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Гидроизоляция жесткая ОСНОВИТ АКВАСКРИН HC63 (20 кг)"
  },
  "ncae4c87a": {
   "img": "assets/goods/ncae4c87a.webp",
-  "src": "https://osnovit.ru/catalog/gruntovki/dipkont-t-53/"
+  "src": "https://osnovit.ru/catalog/gruntovki/dipkont-t-53/",
+  "brand": "osnovit",
+  "match": "exact",
+  "name": "Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (10 л)"
  },
  "ndb89cb1f": {
   "img": "assets/goods/ndb89cb1f.webp",
-  "src": "https://rusgips.ru/catalog/montazhnye-smesi/rusgips-17"
+  "src": "https://rusgips.ru/catalog/montazhnye-smesi/rusgips-17",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Клей монтажный №17 РУСГИПС 25 кг"
  },
  "n61fb6f56": {
   "img": "assets/goods/n61fb6f56.webp",
-  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-6"
+  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-6",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "Штукатурка гипсовая МН РусГипс №6 30кг"
  },
  "nb5eeaa6d": {
   "img": "assets/goods/nb5eeaa6d.webp",
-  "src": "https://www.volma.ru/production/catalog/plaster/volma-sloy/"
+  "src": "https://www.volma.ru/production/catalog/plaster/volma-sloy/",
+  "brand": "volma",
+  "match": "exact",
+  "name": "Штукатурка гипсовая \"Волма-слой\" 30 кг"
  },
  "n4fe2b8ff": {
   "img": "assets/goods/n4fe2b8ff.webp",
-  "src": "https://www.volma.ru/production/catalog/putty/volma-standard-base-gypsum-plaster/"
+  "src": "https://www.volma.ru/production/catalog/putty/volma-standard-base-gypsum-plaster/",
+  "brand": "volma",
+  "match": "exact",
+  "name": "Шпаклевка \"Волма-Стандарт\" гипсовая 20 кг"
  },
  "10049-20": {
   "img": "assets/goods/10049-20.webp",
-  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=644614"
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=644614",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР 200 мм, нержавеющий шпатель, Профессионал"
  },
  "08045-10": {
   "img": "assets/goods/08045-10.webp",
-  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/gladilki/nerzhaveyushchie/08045-faie/?ID=1083435"
+  "src": "https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/gladilki/nerzhaveyushchie/08045-faie/?ID=1083435",
+  "brand": "zubr",
+  "match": "exact",
+  "name": "ЗУБР раздвижная гребенка для плитки 08045-10"
  },
  "n265e4a3e": {
   "img": "assets/goods/n265e4a3e.webp",
@@ -518,26 +545,12 @@
   "match": "exact",
   "name": "Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (10 л) Н"
  },
- "nbc8a0d75": {
-  "img": "assets/goods/nbc8a0d75.webp",
-  "src": "https://osnovit.ru/catalog/gruntovki/dipkont-lp53-5-l/",
-  "brand": "osnovit",
-  "match": "exact",
-  "name": "Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (5 л) Н"
- },
  "nfdacff18": {
   "img": "assets/goods/nfdacff18.webp",
   "src": "https://osnovit.ru/catalog/gruntovki/unkont-standart-lp51/",
   "brand": "osnovit",
   "match": "exact",
   "name": "Грунт универсальный ОСНОВИТ УНКОНТ СТАНДАРТ LP51 (10 л)"
- },
- "nb056e977": {
-  "img": "assets/goods/nb056e977.webp",
-  "src": "https://osnovit.ru/catalog/gruntovki/grunt-kontsentrat-osnovit-profikont-lp52-1-l/",
-  "brand": "osnovit",
-  "match": "exact",
-  "name": "Грунт-концентрат ОСНОВИТ ПРОФИКОНТ LP52 (1 л) Н"
  },
  "nabacaea3": {
   "img": "assets/goods/nabacaea3.webp",
@@ -685,13 +698,6 @@
   "brand": "osnovit",
   "match": "exact",
   "name": "Шпаклевка цементная финишная белая ОСНОВИТ БЕЛСИЛК PC32 W (20 кг) Н (64)"
- },
- "n8c5aba7a": {
-  "img": "assets/goods/n8c5aba7a.webp",
-  "src": "https://osnovit.ru/catalog/shtukaturki/shtukaturka-universalnaya-vlagostoykaya-tekhno-pk27-m/",
-  "brand": "osnovit",
-  "match": "exact",
-  "name": "Штукатурка универсальная влагостойкая для ручного и мех. нанесения ОСНОВИТ ТЕХНО PK27 M (49)"
  },
  "n0d0bbcc1": {
   "img": "assets/goods/n0d0bbcc1.webp",
@@ -1218,13 +1224,6 @@
   "match": "exact",
   "name": "Штукатурка цементная Кнауф Унтерпутц 25 кг"
  },
- "nab52f8f6": {
-  "img": "assets/goods/nab52f8f6.webp",
-  "src": "https://knauf.by/catalog/listovye-materialy/knauf-superlist/gipsovoloknistyy-knauf-superlist-vlagostoykiy-gvlv/",
-  "brand": "knauf",
-  "match": "series",
-  "name": "×Суперлист-ГВЛ-В1-ФК 12,5 мм влагост Кнауф (40л)"
- },
  "n37302cfe": {
   "img": "assets/goods/n37302cfe.webp",
   "src": "https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/",
@@ -1567,13 +1566,6 @@
   "brand": "tn",
   "match": "exact",
   "name": "Пена монтажная ТЕХНОНИКОЛЬ MASTER 65 (всесезонная)"
- },
- "n5700c3fd": {
-  "img": "assets/goods/n5700c3fd.webp",
-  "src": "https://www.tn.ru/catalogue/fasadnye-sistemy-sftk/shtukaturno-kleevaya-smes-tekhnonikol-210/",
-  "brand": "tn",
-  "match": "exact",
-  "name": "Штукатурно-клеевая смесь для плит из минеральной ваты ТЕХНОНИКОЛЬ 210"
  },
  "n8ea36322": {
   "img": "assets/goods/n8ea36322.webp",
@@ -3075,23 +3067,30 @@
  },
  "n351203d4": {
   "img": "assets/goods/n351203d4.webp",
-  "src": "https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована)",
-  "brand": "knauf",
+  "src": "https://knauf.by",
+  "brand": "knauf-parallel",
   "match": "series",
   "name": "Шпатлевка гипсовая универсальная Фуген 25 кг"
  },
  "nc30b1a7a": {
   "img": "assets/goods/nc30b1a7a.webp",
-  "src": "https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована)",
-  "brand": "knauf",
+  "src": "https://knauf.by",
+  "brand": "knauf-parallel",
   "match": "series",
   "name": "Профиль ГКЛ ПП 60 27 0.5 3м"
  },
  "ndd101f4d": {
   "img": "assets/goods/ndd101f4d.webp",
-  "src": "https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована)",
-  "brand": "knauf",
+  "src": "https://knauf.by",
+  "brand": "knauf-parallel",
   "match": "series",
   "name": "Профиль ГКЛ ППН 28 27 0.5 3м"
+ },
+ "n2338a4a5": {
+  "img": "assets/goods/n2338a4a5.webp",
+  "src": "https://knauf.by/catalog/listovye-materialy/knauf-superlist/gipsovoloknistyy-knauf-superlist-vlagostoykiy-gvlv/",
+  "brand": "knauf",
+  "match": "series",
+  "name": "Суперлист-ГВЛ-В1-ФК 12,5 мм влагост Кнауф (40л)"
  }
 }

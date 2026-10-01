@@ -4,15 +4,6 @@
 
 | Файл | Товар | Источник | Страница товара | match |
 |---|---|---|---|---|
-| 08045-10.webp |  |  | https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/gladilki/nerzhaveyushchie/08045-faie/?ID=1083435 | exact |
-| 10049-20.webp |  |  | https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=644614 | exact |
-| 1277305-MHK.webp |  |  | https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html | exact |
-| n4fe2b8ff.webp |  |  | https://www.volma.ru/production/catalog/putty/volma-standard-base-gypsum-plaster/ | exact |
-| n61fb6f56.webp |  |  | https://rusgips.ru/catalog/shtukaturki/rusgips-6 | exact |
-| nb4ae5393.webp |  |  | https://osnovit.ru/catalog/gidroizolyatsiya/akvaskrin-ns63-zhestkaya-gidroizolyatsiya-osnovit-/ | exact |
-| nb5eeaa6d.webp |  |  | https://www.volma.ru/production/catalog/plaster/volma-sloy/ | exact |
-| ncae4c87a.webp |  |  | https://osnovit.ru/catalog/gruntovki/dipkont-t-53/ | exact |
-| ndb89cb1f.webp |  |  | https://rusgips.ru/catalog/montazhnye-smesi/rusgips-17 | exact |
 | n08c83187.webp | Затирка эластич. Церезит водоот. бел. мрамор, 2кг CE40 | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html | series |
 | n0e78eff0.webp | Затирка Церезит белая 2кг №01 CE33 | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html | series |
 | n1453eb39.webp | Затирка эластич. Церезит водоот. графит CE40, 2кг | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html | series |
@@ -43,6 +34,12 @@
 | nddf24b11.webp | Затирка эластич. Церезит водоот. манхеттен 2кг №10 CE40 | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-40/SAP_0201SGC013M9.html | series |
 | ne4e71c25.webp | Затирка Церезит карамель CE33, 2кг | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html | series |
 | nff73793e.webp | Затирка Церезит антрацит №13 (т.серая) CE33, 2кг | ceresit | https://www.ceresit.by/produkt/oblicovka/fugi/produkt.html/ceresit-ce-33/SAP_0201SFC013M4.html | series |
+| 08045-10.webp | ЗУБР раздвижная гребенка для плитки 08045-10 | first10 | https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/gladilki/nerzhaveyushchie/08045-faie/?ID=1083435 | exact |
+| 10049-20.webp | ЗУБР 200 мм, нержавеющий шпатель, Профессионал | first10 | https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=644614 | exact |
+| n61fb6f56.webp | Штукатурка гипсовая МН РусГипс №6 30кг | first10 | https://rusgips.ru/catalog/shtukaturki/rusgips-6 | exact |
+| nb4ae5393.webp | Гидроизоляция жесткая ОСНОВИТ АКВАСКРИН HC63 (20 кг) | first10 | https://osnovit.ru/catalog/gidroizolyatsiya/akvaskrin-ns63-zhestkaya-gidroizolyatsiya-osnovit-/ | exact |
+| ncae4c87a.webp | Грунт глубокого проникновения ОСНОВИТ ДИПКОНТ LP53 (10 л) | first10 | https://osnovit.ru/catalog/gruntovki/dipkont-t-53/ | exact |
+| ndb89cb1f.webp | Клей монтажный №17 РУСГИПС 25 кг | first10 | https://rusgips.ru/catalog/montazhnye-smesi/rusgips-17 | exact |
 | n2fb9f551.webp | Дюбель-хомут 6х14мм для плоского кабеля нейлон белый (25шт/упак) IEK | iek | https://www.iek.ru/products/catalog/izdeliya_elektromontazhnye_i_instrumenty/izdeliya_dlya_izolyatsii_krepleniya_i_markirovki/izdeliya_krepezhnye/khomuty/dyubel_khomuty/dyubel_khomut_6kh14mm_dlya_ploskogo_kabelya_neylon_belyy_25sht_upak_iek | exact |
 | n37d3e02c.webp | Лоток листовой перфорированный 50х100 L3000 0.7мм EKF L5010001 | iek | https://ekfgroup.com/ru/catalog/products/lotok-perforirovannyj-metallicheskij-50-100-3000-0-7mm-24-m-ekf | exact |
 | n39a517dc.webp | Фотореле PS-4 10А 2200Вт IP66 EKF PROxima | iek | https://ekfgroup.com/ru/catalog/products/fotorele-ps-4-10a-2200vt-ip66-ekf-proxima | exact |
@@ -127,7 +124,6 @@
 | n103ca1ea.webp | Профиль 50/40 , 3 м, Кнауф (толщина мет 0,,6 мм) | knauf | https://knauf.by/catalog/profili/knauf-profil-napravlyayushchiy/knauf-profil-napravlyayushchiy-pn/ | exact |
 | n1bb6c345.webp | Кнауф Грунтовка ТИФЕНГРУНД (F) 10 кг | knauf | https://knauf.by/catalog/gruntovka/tifengrund/knauf-tifengrund-5-10kg/ | exact |
 | n2cfa49d1.webp | Подвес анкерный КНАУФ | knauf | https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-ankernyy-podves-s-zazhimom/ | exact |
-| n351203d4.webp | Шпатлевка гипсовая универсальная Фуген 25 кг | knauf | https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована) | series |
 | n37302cfe.webp | Гипсокартон Кнауф А ПЛУК 12,5х1200х2500 в м2 | knauf | https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/ | series |
 | n3ac60e11.webp | Соединитель одноуровневый (краб) КНАУФ | knauf | https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/soediniteli/knauf-soedinitel-odnourovnevyy/ | exact |
 | n3b2a7ba6.webp | Подвес прямой Knauf 120 мм | knauf | https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/podvesy/knauf-podves-pryamoy/ | exact |
@@ -148,13 +144,11 @@
 | na7356ecd.webp | Саморез Кнауф для ГВЛ 25ммх3,9 (1000 шт) 735444 | knauf | https://knauf.by/catalog/komplektuyushchie/krepyezhnye-izdeliya/shurupy/knauf-shurup-samonarezayushchiy-prokalyvayushchiy-mn-25/ | exact |
 | nab52f8f6.webp | ×Суперлист-ГВЛ-В1-ФК 12,5 мм влагост Кнауф (40л) | knauf | https://knauf.by/catalog/listovye-materialy/knauf-superlist/gipsovoloknistyy-knauf-superlist-vlagostoykiy-gvlv/ | series |
 | nac51aeaa.webp | Профиль 60/27 , 3 м, Кнауф (толщина мет 0,,6 мм) 12 шт (180) | knauf | https://knauf.by/catalog/profili/knauf-profil-potolochnyy/knauf-profil-potolochnyy-pp/ | exact |
-| nc30b1a7a.webp | Профиль ГКЛ ПП 60 27 0.5 3м | knauf | https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована) | series |
 | nc5fb1a93.webp | ГСП-DFH3IR ПЛУК КНАУФ 2000х1200х12,5 (48) Сапфир | knauf | https://knauf.by/catalog/listovye-materialy/knauf-listy/sapfir/gipsokartonnyy-knauf-list-sapfir/ | series |
 | nc83bd6d9.webp | Гипсокартон КНАУФ ГКЛ (ГСП-А) ПЛУК 2500х1200х12,5 | knauf | https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/ | series |
 | nca5d3c32.webp | Штукатурка цементная Кнауф Унтерпутц 25 кг | knauf | https://knauf.by/catalog/shtukaturka/shtukaturka-tsementnaya/knauf-unterputts/knauf-unterputts-25kg/ | exact |
 | ncf36aefb.webp | ГКЛВлага (Н3) КНАУФ 2000х1200х12,5 (68) | knauf | https://knauf.by/catalog/listovye-materialy/knauf-listy/vlagostoykiy/gipsokartonnyy-list-vlagostoykiy/ | series |
 | nd46e8266.webp | Очиститель монтажной пены КНАУФ | knauf | https://knauf.by/catalog/stroitelnaya-khimiya/knauf-ochistitel/ | exact |
-| ndd101f4d.webp | Профиль ГКЛ ППН 28 27 0.5 3м | knauf | https://knauf.by (фото добавлено в параллельной сессии, страница товара не зафиксирована) | series |
 | ne077b264.webp | Штукатурная гипсовая Кнауф МР-75 (30 кг) 40 шт | knauf | https://knauf.by/catalog/shtukaturka/shtukaturka-gipsovaya/knauf-mp-75/knauf-mp-75-30kg/ | exact |
 | ne172b14b.webp | Профиль 50/50 , 3 м, Кнауф (толщ мет 0,,6 мм) | knauf | https://knauf.by/catalog/profili/knauf-profil-stoechnyy-/knauf-profil-stoechnyy-ps/ | exact |
 | nf379b1cf.webp | Удлинитель СД профиля КНАУФ | knauf | https://knauf.by/catalog/komplektuyushchie/podvesy-soediniteli-udliniteli/soediniteli/soedinitel-profilya-cd-60-27/ | exact |
@@ -162,12 +156,16 @@
 | nf7d72d19.webp | Гипсокартон КНАУФ ГКЛ А ПЛУК 2000х1200х12,5 | knauf | https://knauf.by/catalog/listovye-materialy/knauf-listy/standartnyy/gipsokartonnyy-knauf-list-standartnyy/ | series |
 | nf9539cf6.webp | Профиль 28/27, 3 м, Кнауф (толщина мет 0,,6 мм) 24 шт (960) | knauf | https://knauf.by/catalog/profili/knauf-profil-napravlyayushchiy-potolochnyy/knauf-profil-napravlyayushchiy-pn-potolochnyy/ | exact |
 | nf9ee102e.webp | Кнауф Рашпельхобель 261,5мм | knauf | https://knauf.by/catalog/instrumenty/obrabotka-knauf-listov-i-drugoy-produktsii/rubanok-obdirochnyy/ | exact |
+| n351203d4.webp | Шпатлевка гипсовая универсальная Фуген 25 кг | knauf-parallel | https://knauf.by | series |
+| nc30b1a7a.webp | Профиль ГКЛ ПП 60 27 0.5 3м | knauf-parallel | https://knauf.by | series |
+| ndd101f4d.webp | Профиль ГКЛ ППН 28 27 0.5 3м | knauf-parallel | https://knauf.by | series |
 | n66cf1a77.webp | Газ универсальный металл. баллон 520мл KUDO | misc | https://kudo-paint.ru/products/bytovaya-seriya/gaz-universalnyj-dlya-portativnyh-gazovyh-priborov/ | exact |
 | n908249b6.webp | Шпаклевка готовая финишная SuperFinish DANOGIPS, 11л/33 | misc | https://www.danogips.ru/katalog/gotovye_shpatlevki_danogips/super_finish | exact |
 | na8ea81ff.webp | 491850 STORCH Лента штукатурная ПВХ оранжевая, для гладких поверхностей, УФ-14 дней 50мм х 33м (24) | misc | https://shop.storch.de/de/das-orange-g18703.html | series |
 | ncbd0c746.webp | 491450 STORCH Лента штукатурная ПВХ белая, на шероховатые поверхности, УФ-14 дней, 50мм х 33м (24) | misc | https://shop.storch.de/de/das-weisse-quergerillt-g18708.html | series |
 | nd2381d78.webp | Эмаль-аэрозоль KU-1011 RAL 5005 флкид. глянц. синий 520мл Толь KUDO | misc | https://kudo-paint.ru/products/dekorativnaya-seriya/okraska-dekorativnaya-seriya/emali-alkidnye/emal-universalnaya-ral/ | series |
 | ne1c92f27.webp | Лента гидроизоляционная DANOGIPS, 10м | misc | https://www.danogips.ru/katalog/gidroizolyacziya/gidroizolyaczionnaya_lenta_danogips_gidroflex | exact |
+| 1277305-MHK.webp | Гладилка для гипса нерж. 305 мм, ручка пробка | olejnik | https://olejnikprofessional.pl/paca-zlota-z-korkowym-uchwytem-203x86x0-65-mm.html | exact |
 | 025315F-2KH.webp | Кельма заострённая кованная 150 мм двухкомпонентной ручкой Олейник | olejnik-a | https://olejnikprofessional.pl/kielnia-kuta-punktowa-z-dwukomponentowym-uchwytem-4-5-.html | exact |
 | 026279F-LSH.webp | Кельма большая кованная д/кладки стреловидное полотно типа лондон 279 мм кожа VINTAGE Олейник | olejnik-a | https://olejnikprofessional.pl/kielnia-kuta-typu-london-ze-skorzanym-uchwytem-vintage-10-.html | exact |
 | 027279F-2KH.webp | Кельма большая кованная д/кладки стреловидное полотно типа филадельфия 279 мм двухкомп. Олейник | olejnik-a | https://olejnikprofessional.pl/kielnia-kuta-philadelphia-z-dwukomponentowym-uchwytem-10-.html | exact |
@@ -424,6 +422,8 @@
 | nd6b500f4.webp | Круг отрезной по металлу, 125 х 1,0 х 22,2 мм, Сибртех | vira | https://instrument.ru/krug-otreznoy-po-metallu-125-kh-1-0-kh-22-2-mm-84-a-16-b-sibrtekh-743137/ | exact |
 | ndfdc0117.webp | Диск алмазный сплошой по стеклу и керамике 125 мм VIRA | vira | https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/diski_almaznye/disk_almaznyy_sploshnoy_po_steklu_i_keramike_125_mm_vira/ | series |
 | ne570700f.webp | Чашка алмазная шлифовальная двухрядная 125 мм VIRA | vira | https://ragetools.ru/catalog/osnastka_i_prinadlezhnosti_d_elektroinstrumenta/abrazivnye_raskhodnye_materialy/chashka_almaznaya_dvukhryadnaya_125_mm_vira/ | exact |
+| n4fe2b8ff.webp | Шпаклевка "Волма-Стандарт" гипсовая 20 кг | volma | https://www.volma.ru/production/catalog/putty/volma-standard-base-gypsum-plaster/ | exact |
+| nb5eeaa6d.webp | Штукатурка гипсовая "Волма-слой" 30 кг | volma | https://www.volma.ru/production/catalog/plaster/volma-sloy/ | exact |
 | 06320-2.webp | Перманентный маркер ЗУБР МП-100, 1 мм, заостренный, черный, Профессионал | zubr | https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06320-4jb2/?ID=900777 | exact |
 | 06320-3.webp | Перманентный маркер ЗУБР МП-100, 1 мм, заостренный, красный, Профессионал | zubr | https://zubr.ru/malyarno-shtukaturnye-instrumenty/prinadlezhnosti-dlya-malyarno-shtukaturnykh-rabot/razmetochnye-instrumenty/markery/06320-4jb2/?ID=957167 | exact |
 | 10049-08.webp | ЗУБР 80 мм, нержавеющий шпатель, Профессионал | zubr | https://zubr.ru/malyarno-shtukaturnye-instrumenty/shtukaturnyy-instrument/shpateli/shpateli-metallicheskie/10049-kgk/?ID=514644 | exact |
