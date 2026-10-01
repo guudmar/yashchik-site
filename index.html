@@ -703,6 +703,39 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
 .done__no{display:inline-block;margin:14px 0 18px;padding:10px 18px;border-radius:99px;background:var(--bg-2);
   border:1px solid var(--line-2);font-family:"Oswald",sans-serif;font-weight:600;font-size:18px;letter-spacing:.06em}
 
+/* ---------- калькулятор расхода ---------- */
+.calc{display:grid;grid-template-columns:260px 1fr;gap:22px;margin-top:36px;align-items:start}
+.calc__tabs{display:flex;flex-direction:column;gap:6px}
+.calc__tab{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--r);background:#fff;cursor:pointer;
+  font:inherit;font-weight:700;font-size:14.5px;text-align:left;color:inherit;transition:border-color .15s ease,background-color .15s ease}
+.calc__tab svg{width:22px;height:22px;flex:none;color:var(--green-d)}
+.calc__tab:hover{border-color:var(--green)}
+.calc__tab[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.calc__tab[aria-selected="true"] svg{color:var(--green-l)}
+.calc__panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:clamp(20px,3vw,30px);box-shadow:var(--shadow)}
+.calc__panel h3{font-size:20px;margin-bottom:6px}
+.calc__hint{font-size:14px;color:var(--muted);margin-bottom:18px;line-height:1.5}
+.calc__form{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.calc__form .field{margin:0}
+.calc__form input,.calc__form select{width:100%;padding:13px 14px;border:1px solid var(--line-2);border-radius:var(--r);background:#fff;font-size:16px;font-family:inherit}
+.calc__form input:focus,.calc__form select:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(95,178,53,.18)}
+.calc__form label{display:block;font-weight:700;font-size:13.5px;margin-bottom:6px}
+.calc__res{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}
+.calc__res h4{font-size:14px;font-family:"Oswald",sans-serif;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--green-d);margin-bottom:10px}
+.calc__rows{display:flex;flex-direction:column;gap:8px}
+.calc__row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:10px 12px;border-radius:10px;background:var(--bg-2)}
+.calc__row b{font-family:"Oswald",sans-serif;font-weight:600;font-size:22px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.calc__row b small{font-family:"Manrope",sans-serif;font-weight:600;font-size:13px;color:var(--muted);margin-left:4px}
+.calc__row span{font-size:14.5px}
+.calc__row span em{display:block;font-style:normal;color:var(--muted);font-size:12.5px}
+.calc__act{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.calc__note{margin-top:14px;font-size:12.5px;color:var(--muted);line-height:1.5}
+@media (max-width:900px){
+  .calc{grid-template-columns:1fr}
+  .calc__tabs{flex-direction:row;overflow-x:auto;padding-bottom:6px;gap:8px}
+  .calc__tab{flex:none;padding:10px 14px}
+}
+
 /* ---------- подсказки поиска ---------- */
 .search{position:relative}
 .sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:40;background:#fff;border:1px solid var(--line-2);border-radius:12px;
@@ -928,6 +961,7 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     <nav class="nav" id="nav">
       <a href="#catalog">Каталог</a>
       <a href="#shop">Магазин</a>
+      <a href="#calc">Калькулятор</a>
       <a href="#delivery">Доставка</a>
       <a href="#b2b">Оптом</a>
       <a href="#partners">Бренды</a>
@@ -1258,6 +1292,21 @@ h3{font-size:21px;letter-spacing:-.01em;line-height:1.25}
     </p>
 
     <p class="shop__note">Цены за единицу и остатки — по данным учёта на 21 сентября 2026 г., могут меняться в течение дня; наличие и итоговую сумму подтверждаем при обработке заявки. Нет нужной позиции? <a href="#order" style="color:var(--green-d);font-weight:700">Пришлите список</a> — посчитаем и привезём под заказ.</p>
+  </div>
+</section>
+
+<!-- ========== КАЛЬКУЛЯТОР РАСХОДА ========== -->
+<section class="section" id="calc">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">Посчитать перед покупкой</p>
+      <h2>Калькулятор расхода материалов</h2>
+      <p class="lead">Введите площадь и толщину слоя — покажем, сколько мешков, листов или банок нужно, с запасом на подрезку. Нормы взяты из типовых инструкций производителей; точный расход смотрите на упаковке.</p>
+    </div>
+    <div class="calc rv">
+      <div class="calc__tabs" id="calcTabs" role="tablist" aria-label="Тип материала"></div>
+      <div class="calc__panel" id="calcPanel" role="tabpanel"></div>
+    </div>
   </div>
 </section>
 
@@ -1683,6 +1732,7 @@ var REVIEWS_CONFIG = {
         <ul>
           <li><a href="#shop">Собрать заявку</a></li>
           <li><a href="#order">Заказ по списку</a></li>
+          <li><a href="#calc">Калькулятор расхода</a></li>
           <li><a href="#delivery">Доставка и самовывоз</a></li>
           <li><a href="#b2b">Оптом и юрлицам</a></li>
           <li><a href="#partners">Бренды</a></li>
@@ -2209,6 +2259,112 @@ function track(goal, params){ try { if (METRIKA_ID && window.ym) ym(Number(METRI
   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();
   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');
   ym(Number(METRIKA_ID), 'init', {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:false});
+})();
+</script>
+<script>
+/* ====== Калькулятор расхода материалов ======
+   Нормы — типовые из инструкций производителей (Knauf, Ceresit, Волма, Старатели). Расход на упаковке конкретного товара имеет приоритет. */
+(function(){
+  var tabs = document.getElementById('calcTabs'), panel = document.getElementById('calcPanel');
+  if (!tabs || !panel) return;
+  var nf = new Intl.NumberFormat('ru-RU', {maximumFractionDigits: 1});
+  var IC = {
+    smesi:'<path d="M7 4h10l2 4v11a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8z"/><path d="M5 8h14M10 4v4M14 4v4"/>',
+    tile:'<path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z"/>',
+    floor:'<path d="M3 15h18v4H3z"/><path d="M5 15V9l7-4 7 4v6"/>',
+    gkl:'<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>',
+    blok:'<path d="M3 6h18v5H3zM3 13h18v5H3z"/><path d="M10 6v5M17 6v5M6.5 13v5M13.5 13v5"/>',
+    paint:'<rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-6v3"/><rect x="11" y="15" width="4" height="6" rx="1.2"/>',
+    warm:'<path d="M3 8c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 13c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/><path d="M3 18c2-2.4 4-2.4 6 0s4 2.4 6 0 4-2.4 6 0"/>'
+  };
+  function f(id, label, def, attrs){ return {id:id, label:label, def:def, attrs:attrs || 'type="number" min="0" step="0.1" inputmode="decimal"'}; }
+  function sel(id, label, opts, def){ return {id:id, label:label, opts:opts, def:def}; }
+  var reserve = sel('res', 'Запас', [['0','без запаса'],['5','+5 %'],['10','+10 %'],['15','+15 %']], '10');
+  function packs(kg, pack){ return Math.ceil(kg / pack); }
+  function R(label, val, unit, em){ return {label:label, val:val, unit:unit, em:em}; }
+  function r1(x){ return nf.format(Math.ceil(x * 10) / 10); }
+
+  var CALCS = [
+    { id:'plaster', ic:'smesi', name:'Штукатурка', title:'Гипсовая и цементная штукатурка',
+      hint:'Норма: гипсовая ≈ 8,5 кг на м² при слое 10 мм (Ротбанд, Волма-Слой), цементная ≈ 17 кг на м² при 10 мм.',
+      fields:[f('area','Площадь стен, м²',30), f('thick','Средняя толщина слоя, мм',10,'type="number" min="3" max="50" step="1" inputmode="numeric"'),
+              sel('kind','Тип',[['8.5','Гипсовая (8,5 кг/м² на 10 мм)'],['17','Цементная (17 кг/м² на 10 мм)']],'8.5'), sel('pack','Фасовка',[['30','30 кг'],['25','25 кг'],['20','20 кг']],'30'), reserve],
+      calc:function(v){ var kg = v.area * v.thick / 10 * v.kind * (1 + v.res / 100); return [R('Смеси всего', nf.format(Math.ceil(kg)), 'кг'), R('Мешков по ' + v.pack + ' кг', packs(kg, v.pack), 'шт', 'округлено вверх'), R('Грунтовка под штукатурку', r1(v.area * 0.15), 'л', '≈ 0,15 л/м²')]; },
+      shop:'штукатурка' },
+    { id:'putty', ic:'smesi', name:'Шпаклёвка', title:'Шпаклёвка стен и потолка',
+      hint:'Норма: стартовая ≈ 1,2 кг на м² на 1 мм слоя, финишная ≈ 1,0 кг на м² на 1 мм. Обычно финишный слой 1–2 мм.',
+      fields:[f('area','Площадь, м²',30), f('thick','Толщина слоя, мм',2,'type="number" min="0.5" max="10" step="0.5" inputmode="decimal"'),
+              sel('kind','Тип',[['1.0','Финишная (1,0 кг/м²·мм)'],['1.2','Стартовая (1,2 кг/м²·мм)'],['1.6','Полимерная готовая (1,6 кг/м²·мм)']],'1.0'), sel('pack','Фасовка',[['25','25 кг'],['20','20 кг'],['18','18 кг'],['5','5 кг']],'25'), reserve],
+      calc:function(v){ var kg = v.area * v.thick * v.kind * (1 + v.res / 100); return [R('Шпаклёвки всего', nf.format(Math.ceil(kg)), 'кг'), R('Упаковок по ' + v.pack + ' кг', packs(kg, v.pack), 'шт'), R('Грунтовка', r1(v.area * 0.1), 'л', '≈ 0,1 л/м² на слой')]; },
+      shop:'шпаклевка' },
+    { id:'tile', ic:'tile', name:'Плиточный клей', title:'Клей для плитки и керамогранита',
+      hint:'Расход зависит от зуба шпателя: 6 мм ≈ 2,7 кг/м², 8 мм ≈ 3,4, 10 мм ≈ 4,2, 12 мм ≈ 5 (данные Ceresit CM 11). Затирка — ориентировочно по размеру плитки и шву.',
+      fields:[f('area','Площадь облицовки, м²',12), sel('tooth','Зуб шпателя',[['2.7','6 мм (плитка до 20×20)'],['3.4','8 мм (до 30×30)'],['4.2','10 мм (до 60×60)'],['5','12 мм (крупный формат)']],'3.4'),
+              sel('pack','Фасовка клея',[['25','25 кг'],['20','20 кг']],'25'), sel('grout','Затирка, шов',[['0.4','2 мм, плитка 30×30'],['0.6','3 мм, плитка 30×30'],['0.9','3 мм, плитка 10×10'],['0.3','2 мм, плитка 60×60']],'0.6'), reserve],
+      calc:function(v){ var kg = v.area * v.tooth * (1 + v.res / 100), gr = v.area * v.grout * (1 + v.res / 100); return [R('Клея всего', nf.format(Math.ceil(kg)), 'кг'), R('Мешков по ' + v.pack + ' кг', packs(kg, v.pack), 'шт'), R('Затирки', r1(gr), 'кг', 'упаковок по 2 кг: ' + Math.ceil(gr / 2)), R('Крестиков или зажимов СВП', nf.format(Math.ceil(v.area * 4 / 0.09)), 'шт', 'ориентир для плитки 30×30')]; },
+      shop:'клей плиточный' },
+    { id:'floor', ic:'floor', name:'Наливной пол и стяжка', title:'Наливной пол и цементная стяжка',
+      hint:'Норма: наливной пол ≈ 1,6 кг на м² на 1 мм; пескобетон М300 для стяжки ≈ 2 кг на м² на 1 мм (20 кг на м² при 10 мм).',
+      fields:[f('area','Площадь пола, м²',20), f('thick','Толщина слоя, мм',5,'type="number" min="1" max="100" step="1" inputmode="numeric"'),
+              sel('kind','Материал',[['1.6','Наливной пол (1,6 кг/м²·мм)'],['2','Пескобетон/стяжка (2 кг/м²·мм)']],'1.6'), sel('pack','Фасовка',[['20','20 кг'],['25','25 кг'],['40','40 кг'],['50','50 кг']],'20'), reserve],
+      calc:function(v){ var kg = v.area * v.thick * v.kind * (1 + v.res / 100); return [R('Смеси всего', nf.format(Math.ceil(kg)), 'кг'), R('Мешков по ' + v.pack + ' кг', packs(kg, v.pack), 'шт'), R('Грунтовка глубокого проникновения', r1(v.area * 0.2), 'л', '≈ 0,2 л/м² по бетону'), R('Демпферная лента', nf.format(Math.ceil(Math.sqrt(v.area) * 4 * 1.1)), 'м', 'по периметру, ориентир')]; },
+      shop:'наливной пол' },
+    { id:'gkl', ic:'gkl', name:'Гипсокартон', title:'Обшивка стен гипсокартоном',
+      hint:'Нормы Knauf на 1 м² облицовки в один слой: лист 1,05 м², ПН 0,7 м, ПП 2 м, подвес 1,3 шт, саморезы 17 шт, лента 1,2 м, шпаклёвка для швов 0,3 кг.',
+      fields:[f('area','Площадь стен за вычетом проёмов, м²',30), sel('sheet','Лист',[['3','2500×1200 (3 м²)'],['2.4','2000×1200 (2,4 м²)'],['1.8','1500×1200 (1,8 м²)']],'3'),
+              sel('layers','Слоёв обшивки',[['1','один'],['2','два']],'1'), reserve],
+      calc:function(v){ var k = 1 + v.res / 100, a = v.area; return [R('Листов ГКЛ', Math.ceil(a * 1.05 * v.layers * k / v.sheet), 'шт'), R('Профиль направляющий ПН 28×27', nf.format(Math.ceil(a * 0.7 * k)), 'м', 'по 3 м: ' + Math.ceil(a * 0.7 * k / 3) + ' шт'), R('Профиль потолочный ПП 60×27', nf.format(Math.ceil(a * 2 * k)), 'м', 'по 3 м: ' + Math.ceil(a * 2 * k / 3) + ' шт'), R('Подвесы прямые', Math.ceil(a * 1.3 * k), 'шт'), R('Саморезы TN 25', Math.ceil(a * 17 * v.layers * k), 'шт', 'для второго слоя — TN 35'), R('Дюбель-гвозди 6×40', Math.ceil(a * 1.6 * k), 'шт'), R('Лента армирующая', nf.format(Math.ceil(a * 1.2 * k)), 'м'), R('Шпаклёвка для швов', r1(a * 0.3 * k), 'кг', 'Фугенфюллер или Унифлот'), R('Грунтовка', r1(a * 0.1), 'л')]; },
+      shop:'гипсокартон' },
+    { id:'block', ic:'blok', name:'Газоблок', title:'Кладка из газобетонных блоков',
+      hint:'Блок 600×250 мм по лицевой стороне — 6,7 шт на м² стены; клей ≈ 25 кг на 1 м³ кладки при шве 2–3 мм (один мешок на куб). Арматура d8 — два прутка через каждые четыре ряда.',
+      fields:[f('len','Длина стен, м',20), f('h','Высота, м',2.8), f('open','Площадь проёмов, м²',4), sel('th','Толщина блока',[['0.2','200 мм'],['0.25','250 мм'],['0.3','300 мм'],['0.375','375 мм'],['0.4','400 мм']],'0.3'), reserve],
+      calc:function(v){ var k = 1 + v.res / 100, area = Math.max(0, v.len * v.h - v.open), vol = area * v.th; return [R('Площадь кладки', nf.format(Math.round(area * 10) / 10), 'м²'), R('Блоков 600×250×' + Math.round(v.th * 1000), Math.ceil(area / 0.15 * k), 'шт', 'объём ' + nf.format(Math.ceil(vol * k * 100) / 100) + ' м³'), R('Клей для блоков', packs(vol * 25 * k, 25), 'мешков', 'по 25 кг, ≈ 25 кг/м³'), R('Арматура d8', nf.format(Math.ceil(v.len * 2 * Math.ceil(v.h / 0.25 / 4) * k)), 'м', 'два прутка каждый 4-й ряд')]; },
+      shop:'газоблок' },
+    { id:'paint', ic:'paint', name:'Краска и грунт', title:'Краска для стен и потолка',
+      hint:'Средний расход водно-дисперсионной краски 0,1–0,15 л на м² в один слой; обычно нужно два слоя. Под краску — грунтовка 0,1 л/м².',
+      fields:[f('area','Площадь, м²',40), sel('layers','Слоёв',[['1','один'],['2','два'],['3','три']],'2'), f('rate','Расход на упаковке, л/м²',0.12,'type="number" min="0.05" max="0.5" step="0.01" inputmode="decimal"'),
+              sel('pack','Фасовка',[['2.5','2,5 л'],['5','5 л'],['9','9 л'],['10','10 л'],['14','14 л']],'9'), reserve],
+      calc:function(v){ var l = v.area * v.layers * v.rate * (1 + v.res / 100); return [R('Краски всего', r1(l), 'л'), R('Банок по ' + v.pack + ' л', packs(l, v.pack), 'шт'), R('Грунтовка', r1(v.area * 0.1), 'л'), R('Малярная лента', nf.format(Math.ceil(Math.sqrt(v.area) * 4 * 1.5)), 'м', 'ориентир по периметру и проёмам')]; },
+      shop:'краска' },
+    { id:'warm', ic:'warm', name:'Утеплитель', title:'Утеплитель в плитах',
+      hint:'Считаем по площади: сколько упаковок закрыть площадь при заданной толщине. Площадь в упаковке смотрите на этикетке (у минваты 100 мм обычно 2,88–3,6 м², у ЭППС 50 мм — 4–5 м²).',
+      fields:[f('area','Площадь утепления, м²',50), sel('thick','Толщина слоя',[['50','50 мм'],['100','100 мм'],['150','150 мм (50+100)'],['200','200 мм (100+100)']],'100'), f('pack','Площадь в упаковке, м²',3.6), reserve],
+      calc:function(v){ var k = 1 + v.res / 100, layers = v.thick >= 150 ? 2 : 1; return [R('Упаковок', Math.ceil(v.area * layers * k / v.pack), 'шт', layers > 1 ? 'в два слоя' : 'в один слой'), R('Объём', nf.format(Math.ceil(v.area * v.thick / 1000 * k * 100) / 100), 'м³'), R('Дюбели тарельчатые', Math.ceil(v.area * 5 * k), 'шт', 'для фасада, 5 шт/м²'), R('Пароизоляция или мембрана', nf.format(Math.ceil(v.area * 1.15)), 'м²', 'с нахлёстом 15 %')]; },
+      shop:'утеплитель' }
+  ];
+
+  var cur = CALCS[0].id;
+  function current(){ return CALCS.filter(function(x){ return x.id === cur; })[0]; }
+  function render(){
+    tabs.innerHTML = CALCS.map(function(c){
+      return '<button class="calc__tab" type="button" role="tab" data-calc="' + c.id + '" aria-selected="' + (c.id === cur) + '">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + IC[c.ic] + '</svg>' + c.name + '</button>';
+    }).join('');
+    var c = current();
+    panel.innerHTML = '<h3>' + c.title + '</h3><p class="calc__hint">' + c.hint + '</p><div class="calc__form">' + c.fields.map(function(fl){
+      var id = 'calc-' + c.id + '-' + fl.id;
+      if (fl.opts) return '<div class="field"><label for="' + id + '">' + fl.label + '</label><select id="' + id + '" data-f="' + fl.id + '">' + fl.opts.map(function(o){ return '<option value="' + o[0] + '"' + (o[0] === fl.def ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select></div>';
+      return '<div class="field"><label for="' + id + '">' + fl.label + '</label><input id="' + id + '" data-f="' + fl.id + '" ' + fl.attrs + ' value="' + fl.def + '"></div>';
+    }).join('') + '</div><div class="calc__res"><h4>Понадобится</h4><div class="calc__rows" id="calcRows"></div>' +
+    '<div class="calc__act"><a class="btn btn--primary" href="#shop" data-shop="' + c.shop + '">Подобрать в магазине</a><a class="btn btn--dark" href="#order">Прислать расчёт — соберём</a></div>' +
+    '<p class="calc__note">Расчёт ориентировочный: реальный расход зависит от основания, толщины слоя и аккуратности работы. Точные нормы указаны на упаковке производителя, при заявке менеджер поможет уточнить количество.</p></div>';
+    compute();
+  }
+  function compute(){
+    var c = current(), v = {};
+    panel.querySelectorAll('[data-f]').forEach(function(el){ v[el.getAttribute('data-f')] = parseFloat(String(el.value).replace(',', '.')) || 0; });
+    document.getElementById('calcRows').innerHTML = c.calc(v).map(function(r){
+      return '<div class="calc__row"><span>' + r.label + (r.em ? '<em>' + r.em + '</em>' : '') + '</span><b>' + r.val + '<small>' + r.unit + '</small></b></div>';
+    }).join('');
+  }
+  tabs.addEventListener('click', function(e){ var b = e.target.closest('[data-calc]'); if (!b) return; cur = b.getAttribute('data-calc'); render(); });
+  panel.addEventListener('input', compute); panel.addEventListener('change', compute);
+  panel.addEventListener('click', function(e){
+    var a = e.target.closest('[data-shop]'); if (!a) return;
+    var q = document.getElementById('q'); if (q){ q.value = a.getAttribute('data-shop'); q.dispatchEvent(new Event('input')); }
+    if (window.track) track('calc_to_shop', {calc: cur});
+  });
+  render();
 })();
 </script>
 <script src="assets/goods.js"></script>
