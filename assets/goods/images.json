@@ -174,13 +174,6 @@
   "match": "exact",
   "name": "Шпаклевка цементная финишная белая для внутренних и наружных работ №24, т.м. \"РУСГИПС\",25 кг"
  },
- "nb2cc1936": {
-  "img": "assets/goods/nb2cc1936.webp",
-  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-16",
-  "brand": "rusgips",
-  "match": "exact",
-  "name": "№16 Штукатурка цементная МН РусГипс для нар. и вн. работ водо-морозост.25кг (56)"
- },
  "n20746c0b": {
   "img": "assets/goods/n20746c0b.webp",
   "src": "https://rusgips.ru/catalog/montazhnye-smesi/rusgips-14",
@@ -3092,5 +3085,12 @@
   "brand": "knauf",
   "match": "series",
   "name": "Суперлист-ГВЛ-В1-ФК 12,5 мм влагост Кнауф (40л)"
+ },
+ "n4225455a": {
+  "img": "assets/goods/n4225455a.webp",
+  "src": "https://rusgips.ru/catalog/shtukaturki/rusgips-16",
+  "brand": "rusgips",
+  "match": "exact",
+  "name": "№16 Штукатурка цементная МН РусГипс для нар. и вн. работ водо-морозост.25кг (56)"
  }
 }

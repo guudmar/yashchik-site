@@ -2,6 +2,7 @@
    Поля: id — артикул (или код по названию), c — раздел, n — название, p — цена ₽ за единицу (конечная оценка / остаток), u — единица, q — остаток, img — фото, s — страница товара на сайте производителя.
    Файл заменяется целиком при обновлении прайса: scratchpad/extract2.py → classify2.py → build_goods.py. Разделы: smesi, krepezh, listovye, kladka, kraska, rashod, instrument, santeh, elektrika, other */
 var GOODS_DATA = [
+{"id":"n4225455a","c":"smesi","n":"16 Штукатурка цементная МН РусГипс для нар. и вн. работ водо-морозост.25кг (56)","u":"шт","q":3858,"p":364,"img":"assets/goods/n4225455a.webp","s":"https://rusgips.ru/catalog/shtukaturki/rusgips-16"},
 {"id":"nb4ae5393","c":"smesi","n":"Гидроизоляция жесткая ОСНОВИТ АКВАСКРИН HC63 (20кг) (48)","u":"шт","q":229,"p":962,"img":"assets/goods/nb4ae5393.webp","s":"https://osnovit.ru/catalog/gidroizolyatsiya/akvaskrin-ns63-zhestkaya-gidroizolyatsiya-osnovit-/"},
 {"id":"n91f92a51","c":"smesi","n":"Гидроизоляция Флехендихт КНАУФ 5 кг","u":"шт","q":2,"p":2457,"img":"assets/goods/n91f92a51.webp","s":"https://knauf.by/catalog/styazhka-smes/gidroizolyatsiya/knauf-flekhendikht-25-and-5kg/"},
 {"id":"nd7c2c9c5","c":"smesi","n":"Гидроизоляция эластичная готовая ОСНОВИТ АКВАСКРИН HA64 (4.5кг) Н","u":"шт","q":39,"p":2172,"img":"assets/goods/nd7c2c9c5.webp","s":"https://osnovit.ru/catalog/gidroizolyatsiya/gidroizolyatsiya-gotovaya-elastichnaya-osnovit-khardskrin-hac64-/"},
@@ -444,7 +445,6 @@ var GOODS_DATA = [
 {"id":"205401B","c":"elektrika","n":"Удлинитель телескопический закруч. 1,2-2,2м OLEJNIK STANDART","u":"шт","q":4,"p":858,"img":"assets/goods/205401B.webp","s":"https://olejnikprofessional.pl/blue-telescopic-fibreglass-pole-for-trowels-used-in-mechanised-application,1217.html"},
 {"id":"n39a517dc","c":"elektrika","n":"Фотореле PS-4 10А 2200Вт IP66 EKF PROxima","u":"шт","q":2,"p":891,"img":"assets/goods/n39a517dc.webp","s":"https://ekfgroup.com/ru/catalog/products/fotorele-ps-4-10a-2200vt-ip66-ekf-proxima"},
 {"id":"n2fa1c506","c":"smesi","n":"\"Клей СЕЙНАЛИМ MODA 9 л","u":"шт","q":9,"p":2526},
-{"id":"n4225455a","c":"smesi","n":"16 Штукатурка цементная МН РусГипс для нар. и вн. работ водо-морозост.25кг (56)","u":"шт","q":3858,"p":364},
 {"id":"n28923443","c":"smesi","n":"CT17 Concentrate Грунтовка всесезон., 10 л ЦЕРЕЗИТ","u":"шт","q":4,"p":5511},
 {"id":"n28cb4c2a","c":"smesi","n":"EkoGrunt Грунтовка универсальная 10л","u":"шт","q":7,"p":359},
 {"id":"nc34dcbfc","c":"smesi","n":"EkoGrunt Грунтовка универсальная 5л","u":"шт","q":1,"p":208},
